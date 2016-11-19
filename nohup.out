@@ -1,0 +1,159 @@
+Connection
+Connection
+
+command from user:apple
+ball
+Connection
+
+command from user:apple
+ball
+Connection
+
+command from user:a
+Connection
+
+command from user:apple
+ball
+Connection
+Connection
+
+command from user:tets
+
+command from user:apple
+ball
+
+command from user:test
+Connection
+
+command from user:tsy
+
+command from user:apple
+ball
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:apple
+ball
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:ls
+[ 'jarvis_socket_server.js',
+  'mongodb.js',
+  'nohup.out',
+  'test.html',
+  'test.js',
+  'ui_cmd.html' ]
+
+command from user:mkdir
+undefined
+
+command from user:ls
+[ 'jarvis_socket_server.js',
+  'mongodb.js',
+  'nohup.out',
+  'songla',
+  'test.html',
+  'test.js',
+  'ui_cmd.html' ]
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:apple
+ball
+
+command from user:ls
+[ 'jarvis_socket_server.js',
+  'mongodb.js',
+  'nohup.out',
+  'songla',
+  'test.html',
+  'test.js',
+  'ui_cmd.html' ]
+
+command from user:rm
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:ls
+[ 'jarvis_socket_server.js',
+  'mongodb.js',
+  'nohup.out',
+  'songla',
+  'test.html',
+  'test.js',
+  'ui_cmd.html' ]
+
+command from user:apple
+ball
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:apple
+ball
+
+command from user:ls
+[ 'jarvis_socket_server.js',
+  'mongodb.js',
+  'nohup.out',
+  'songla',
+  'test.html',
+  'test.js',
+  'ui_cmd.html' ]
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:ls
+[ 'jarvis_socket_server.js',
+  'mongodb.js',
+  'nohup.out',
+  'songla',
+  'test.html',
+  'test.js',
+  'ui_cmd.html' ]
+Connection
