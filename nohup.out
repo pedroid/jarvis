@@ -157,3 +157,1249 @@ command from user:ls
   'test.js',
   'ui_cmd.html' ]
 Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:apple
+ball
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'a', 'p', 'p', 'l', 'e' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+
+command from user:a
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'a' ]
+Tokens:
+VAR
+
+command from user:apple
+ball
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'a', 'p', 'p', 'l', 'e' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+
+command from user:apple
+ball
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'a', 'p', 'p', 'l', 'e' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+Connection
+
+command from user:apple
+ball
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'a', 'p', 'p', 'l', 'e' ]
+Tokens:
+VAR
+
+command from user:apple
+ball
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'a', 'p', 'p', 'l', 'e' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  '.ui_cmd.html.swp',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+Connection
+
+command from user:apple
+ball
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'a', 'p', 'p', 'l', 'e' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  '.ui_cmd.html.swp',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  '.ui_cmd.html.swp',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  '.ui_cmd.html.swp',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+Connection
+
+command from user:apple
+ball
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'a', 'p', 'p', 'l', 'e' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  '.ui_cmd.html.swp',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  '.ui_cmd.html.swp',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  '.ui_cmd.html.swp',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+
+command from user:apple
+ball
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'a', 'p', 'p', 'l', 'e' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ball
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'b', 'a', 'l', 'l' ]
+Tokens:
+VAR
+Connection
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:apple
+ball
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'a', 'p', 'p', 'l', 'e' ]
+Tokens:
+VAR
+Connection
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:apple
+ball
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'a', 'p', 'p', 'l', 'e' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+Connection
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'blog',
+  'compiler.js',
+  'flex',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'tmp.html',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection

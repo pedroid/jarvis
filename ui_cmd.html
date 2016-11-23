@@ -50,12 +50,20 @@ function setCaretToPos (input, pos) {
           //}i);
 
 	  if(e.charCode==13){ //enter(i.e. return)
-		console.log($('#text').val().split('\n'));
 		num_input_element = $('#text').val().split('\n').length;
 		if(num_input_element==1){
+			if($('#text').val()=='markdown'){
+				window.location.replace("/markdown/markdown.html");
+			}
 			socket.emit('user_command',{'command':$('#text').val()});
 		}else{
+			var cmd = $('#text').val().split('\n')[1];
+			if(cmd=='markdown'){
+				window.location.replace("/markdown/markdown.html");
+				
+			}
 			socket.emit('user_command',{'command':$('#text').val().split('\n')[1]});
+			
 		}
 		$('#text').val('');
 	   }
