@@ -73,6 +73,18 @@ servo_io.sockets.on('connection', function(socket) {
 			socket.emit('server_response',{'response_content':tmp});
 			console.log(tmp);
 			break;
+		case('edit'):
+			fs.readFile('blog/index.html', 'utf8', function(err, contents) {
+				if(contents){
+    					//console.log(contents);
+					socket.emit('server_response',{'response_content':contents});
+				}else{
+					console.log('file not exist');
+				}
+			});
+			//socket.emit('server_response',{'response_content':contents});
+			
+			break;
 			
 		default: //nothing
 			socket.emit('server_response',{'response_content':"the command is NOT support."});
