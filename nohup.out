@@ -76,3 +76,67 @@ VAR
 Connection
 Connection
 Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+data:<p>Type <strong>Markdown</strong> here.</p>
+
+<h1>this is a pen</h1>
+
+<p>haha</p>
+Connection
+Connection
+Connection

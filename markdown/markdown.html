@@ -41,14 +41,18 @@
 
 	  if(e.charCode==13){ //enter(i.e. return)
 		num_input_element = $('#text').val().split('\n').length;
+		console.log($('#text-input').val());
 		if(num_input_element==1){
 			if($('#text').val()=='save'){
-				socket.emit('user_command',{'command':$('#text').val()});
+				socket.emit('markdown',{
+					'content':$('#preview').html(),
+					'filename':'test'
+				});
 			}
 		}else{
 			var cmd = $('#text').val().split('\n')[1];
 			if(cmd=='save'){
-				socket.emit('user_command',{'command':$('#text').val().split('\n')[1]});
+				socket.emit('user_command',{'command':$('#preview').html().split('\n')[1]});
 				
 			}
 			

@@ -44,7 +44,13 @@ servo_io.sockets.on('connection', function(socket) {
     socket.emit('date', {'date': new Date()});
   }, 1000);
 
-
+  socket.on('markdown', function(data){
+	console.log('data:'+data.content);
+	console.log('filename:'+data.filename);
+	fs.writeFile('blog/test.html', data.content, function(err){
+		
+	});
+  });
 
 var authenticate = false;
   // 接收來自於瀏覽器的資料
