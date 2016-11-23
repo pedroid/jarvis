@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src="js/jquery-1.11.2.min.js"></script>		
 		<script src="markdown.min.js"></script>
-		<script>
-			$(document).ready(function(){ $('.header').load("nav.html"); });
-		</script>
 	</head>
   <body>    
-  <div class="header"></div>
+  <div class="header">
+	<ul>
+		<li><a href="../ui_cmd.html">Home</a></li>
+	</ul>
+
+</div>
     <textarea id="text-input" oninput="this.editor.update()"
               rows="6" cols="60">Type **Markdown** here.</textarea>
     <div id="preview"> </div>

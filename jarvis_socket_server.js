@@ -8,10 +8,10 @@ var message_content;
 var server = http.createServer(function(request, response){
 	console.log('Connection');
 	var path = url.parse(request.url).pathname;
-
+	var landing_message;
 	switch(path){
 		case '/':
-			response.writeHead(200, {'Content-Type':'text/html'});
+			response.writeHead(200, {'Content-Type':'text/html'});			
 			response.write('hello world');
 			response.end();
 		default:
