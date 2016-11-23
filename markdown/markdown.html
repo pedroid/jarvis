@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<script src="markdown.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	</head>
   <body>    
   <div class="header">
@@ -13,6 +15,51 @@
     <textarea id="text-input" oninput="this.editor.update()"
               rows="6" cols="60">Type **Markdown** here.</textarea>
     <div id="preview"> </div>
+    <script>
+      var socket = io.connect();
+
+      socket.on('date', function(data) {
+        $('#date').text(data.date);
+      });
+      socket.on('server_response', function(rawdata){
+		$('#div_response').text(rawdata.response_content);
+	});
+
+      socket.on('server_brd_message', function(rawdata){
+		$('#broadcast_message').text(rawdata.message_content);
+	});
+
+      $(document).ready(function(){
+	$('#text').focus(function(){
+		$('#text').val("");
+	});
+	$('#text').val("input your command here\n");
+        $('#text').keypress(function(e){
+          //socket.emit('client_data', {
+          //  'letter': String.fromCharCode(e.charCode)
+          //}i);
+
+	  if(e.charCode==13){ //enter(i.e. return)
+		num_input_element = $('#text').val().split('\n').length;
+		if(num_input_element==1){
+			if($('#text').val()=='markdown'){
+				window.location.replace("/markdown/markdown.html");
+			}
+			socket.emit('user_command',{'command':$('#text').val()});
+		}else{
+			var cmd = $('#text').val().split('\n')[1];
+			if(cmd=='markdown'){
+				window.location.replace("/markdown/markdown.html");
+				
+			}
+			socket.emit('user_command',{'command':$('#text').val().split('\n')[1]});
+			
+		}
+		$('#text').val('');
+	   }
+        });
+      });
+    </script>
     
     <script>
       function Editor(input, preview) {
@@ -26,6 +73,8 @@
       var $$ = function (id) { return document.getElementById(id); };
       new Editor($$("text-input"), $$("preview"));
     </script>
+    <p>cmd</p>
+    <textarea id="text" rows="1" cols="50"></textarea>
 	
   </body>
 </html>
