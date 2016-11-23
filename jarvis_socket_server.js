@@ -46,7 +46,7 @@ servo_io.sockets.on('connection', function(socket) {
 
 
 
-
+var authenticate = false;
   // 接收來自於瀏覽器的資料
   socket.on('client_data', function(data) {
     //process.stdout.write(data.letter);
@@ -72,6 +72,13 @@ servo_io.sockets.on('connection', function(socket) {
 			var tmp = fs.mkdir('songla');
 			socket.emit('server_response',{'response_content':tmp});
 			console.log(tmp);
+			break;
+		case('ruby'):
+			authenticate = true;
+			socket.emit('server_authenticate',{'authenticate':authenticate});
+			break;
+		case('save'):
+			
 			break;
 		case('edit'):
 			fs.readFile('blog/index.html', 'utf8', function(err, contents) {

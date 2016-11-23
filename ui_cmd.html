@@ -38,6 +38,11 @@ function setCaretToPos (input, pos) {
       socket.on('server_brd_message', function(rawdata){
 		$('#broadcast_message').text(rawdata.message_content);
 	});
+      socket.on('server_authenticate', function(rawdata){
+		if(rawdata.authenticate){
+			console.log('user is authenticate');
+		}
+	});
 
       $(document).ready(function(){
 	$('#text').focus(function(){

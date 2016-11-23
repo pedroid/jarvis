@@ -42,17 +42,15 @@
 	  if(e.charCode==13){ //enter(i.e. return)
 		num_input_element = $('#text').val().split('\n').length;
 		if(num_input_element==1){
-			if($('#text').val()=='markdown'){
-				window.location.replace("/markdown/markdown.html");
+			if($('#text').val()=='save'){
+				socket.emit('user_command',{'command':$('#text').val()});
 			}
-			socket.emit('user_command',{'command':$('#text').val()});
 		}else{
 			var cmd = $('#text').val().split('\n')[1];
-			if(cmd=='markdown'){
-				window.location.replace("/markdown/markdown.html");
+			if(cmd=='save'){
+				socket.emit('user_command',{'command':$('#text').val().split('\n')[1]});
 				
 			}
-			socket.emit('user_command',{'command':$('#text').val().split('\n')[1]});
 			
 		}
 		$('#text').val('');
