@@ -45,11 +45,20 @@ servo_io.sockets.on('connection', function(socket) {
   }, 1000);
 
   socket.on('markdown', function(data){
-	console.log('data:'+data.content);
-	console.log('filename:'+data.filename);
-	fs.writeFile('blog/test.html', data.content, function(err){
-		
-	});
+	switch(data.type){
+		case('cmd'):
+			if(data.command == 'save'){
+				console.log('html_data:'+data.html_content);
+				console.log('markdown_data:'+data.markdown_content);
+				console.log('filename:'+data.filename);
+				fs.writeFile('blog/'+data.filename+'.html', data.html_content, function(err){}	);
+				fs.writeFile('blog/'+data.filename+'.markdown', data.markdown_content, function(err){});
+			}
+			if(data.command == 'edit'){
+				
+			}
+			break;
+	}
   });
 
 var authenticate = false;

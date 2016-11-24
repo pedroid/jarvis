@@ -12,10 +12,12 @@
 	</ul>
 
 </div>
+	<div id="title">[Filename]</div>
     <textarea id="text-input" oninput="this.editor.update()"
               rows="6" cols="60">Type **Markdown** here.</textarea>
     <div id="preview"> </div>
     <script>
+      var filename;
       var socket = io.connect();
 
       socket.on('date', function(data) {
@@ -41,22 +43,59 @@
 
 	  if(e.charCode==13){ //enter(i.e. return)
 		num_input_element = $('#text').val().split('\n').length;
-		console.log($('#text-input').val());
+//		console.log($('#text-input').val());
+		var cmd;
 		if(num_input_element==1){
-			if($('#text').val()=='save'){
-				socket.emit('markdown',{
-					'content':$('#preview').html(),
-					'filename':'test'
-				});
-			}
+			cmd = $('#text').val();
 		}else{
-			var cmd = $('#text').val().split('\n')[1];
-			if(cmd=='save'){
-				socket.emit('user_command',{'command':$('#preview').html().split('\n')[1]});
-				
-			}
+			cmd = $('#text').val().split('\n')[1];
 			
 		}
+		switch(cmd.split(' ')[0]){
+			case('save'):{
+//				console.log($('#text-input').html());
+				if(filename){			
+					socket.emit('markdown',{
+						'type':'cmd',
+						'command':'save',
+						'markdown_content':$('#text-input').html(),
+						'html_content':$('#preview').html(),
+						'filename':filename
+					});
+					console.log('file saved');
+					$('#response').html('file saved');
+				}else{
+					console.log('please select a file to edit');
+					$('#response').html('please select a file to edit');
+					break;
+				}
+				break;
+			}
+			case('ls'):{
+//				console.log('ls');
+				break;
+			}
+			case('new'):{
+				if(cmd.split(' ')[1]){					
+					argv = cmd.split(' ')[1];
+					filename = argv;
+					$('#title').html(filename+'.markdown');
+					
+				}else{
+					console.log('please enter the filename as argument[1]');
+					$('#response').html('please enter the filename as argument[1]');
+				}
+				break;
+
+//				console.log('argv:'+argv);
+			}
+			case('clear'):{
+				filename='';
+				$('#title').html('[filename]');
+				break;
+			}
+		}
+
 		$('#text').val('');
 	   }
         });
@@ -76,7 +115,8 @@
       new Editor($$("text-input"), $$("preview"));
     </script>
     <p>cmd</p>
-    <textarea id="text" rows="1" cols="50"></textarea>
 	
+    <textarea id="text" rows="1" cols="50"></textarea>
+<div id='response'></div>	
   </body>
 </html>
