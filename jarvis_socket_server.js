@@ -35,8 +35,11 @@ server.listen(9090)
 var servo_io = io.listen(server)
 
 var Clients = [];
-
-
+var path = require('path');
+var root = path.dirname(require.main.filename)+'/';
+var markdown_root = root+'blog/';
+var current_path = markdown_root;
+//console.log(current_path);
 servo_io.sockets.on('connection', function(socket) {
   Clients.push(socket);
 
@@ -48,15 +51,94 @@ servo_io.sockets.on('connection', function(socket) {
 	switch(data.type){
 		case('cmd'):
 			if(data.command == 'save'){
-				console.log('html_data:'+data.html_content);
-				console.log('markdown_data:'+data.markdown_content);
-				console.log('filename:'+data.filename);
-				fs.writeFile('blog/'+data.filename+'.html', data.html_content, function(err){}	);
-				fs.writeFile('blog/'+data.filename+'.markdown', data.markdown_content, function(err){});
+//				console.log('html_data:'+data.html_content);
+//				console.log('markdown_data:'+data.markdown_content);
+//				console.log('filename:'+data.filename);
+				//console.log('path: '+data.path);
+//				if(!fs.existsSync('blog/'+data.path)){
+//					fs.mkdirSync('blog/'+data.path);
+//				}
+//				console.log('pwd:'+current_path);
+//				console.log('re:'+current_path.slice(markdown_root.length));
+				relative_pwd = current_path.slice(markdown_root.length);
+				fs.writeFile('blog/'+ relative_pwd +data.filename+'.html', data.html_content, function(err){}	);
+				fs.writeFile('blog/'+ relative_pwd +data.filename+'.markdown', data.markdown_content, function(err){}	);
+				socket.emit('server_response',{'response_content':'blog/'+relative_pwd + data.filename+' .html/markdown has been created.'});
+				socket.emit('markdown',{'command':'link',
+							'link':'http://yushengc.twbbs.org:9090/blog/'+relative_pwd+data.filename+'.html'});				
+				//fs.writeFile('blog/'+data.path+data.filename+'.markdown', data.markdown_content, function(err){});
+				break;
 			}
+			if(data.command == 'mkdir'){
+				//console.log('mkdir path:'+data.path);	
+//				console.log('current_path:'+current_path.slice(root.length));
+				var dir_to_create = current_path.slice(root.length)+data.path;
+//				console.log('dir_to_create:'+dir_to_create);
+				if(!fs.existsSync(dir_to_create)){
+					fs.mkdirSync(dir_to_create);
+					console.log(dir_to_create+' has been created.');
+					socket.emit('server_response',{'response_content':dir_to_create+' has been created.'});
+				}else{
+					socket.emit('server_response',{'response_content':'the directory is already existed.'});
+				}
+				break;
+			}
+			
 			if(data.command == 'edit'){
-				
+				break;
 			}
+			/*
+			if(data.command == 'pwd'){				
+				//var path = require('path');
+				//var appDir = path.dirname(require.main.filename);
+				console.log('current_path:'+current_path);
+				console.log('markdown_root:'+markdown_root);
+				console.log(current_path.slice(markdown_root.length));
+				var residue_path = current_path.slice(markdown_root.length);
+				if(residue_path){
+					socket.emit('server_response',{'response_content':residue_path});
+				}else{
+					socket.emit('server_response',{'response_content':'/'});
+				}
+			}
+			*/
+			if(data.command == 'ls'){
+//				console.log('path: '+data.path);
+//				var tmp = fs.
+				var path = 'blog/';
+				if(data.path){
+					path+= data.path;
+				}
+				try{
+					var tmp = fs.readdirSync(current_path);
+					socket.emit('server_response',{'response_content':tmp});
+				}catch(err){
+					console.log(err);
+					socket.emit('server_response',{'response_content':err});
+				}
+				break;
+			}
+			if(data.command == 'cd'){
+				//console.log('path: '+data.path);
+				var dir = data.path;
+				if(dir=='..'){
+
+				}else{
+					var new_path = current_path + dir + '/';
+					console.log('current_path:'+current_path);
+					if(!fs.existsSync(new_path)){						
+						socket.emit('server_response',{'response_content':'directory not exist'});
+					}else{
+						current_path = new_path;
+						socket.emit('markdown',{
+							'command':'dir',
+							'dir':current_path.slice(markdown_root.length)
+						});
+					}
+				}
+				break;
+			}
+			socket.emit('server_response',{'response_content':'command not support'});
 			break;
 	}
   });
