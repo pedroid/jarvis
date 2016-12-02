@@ -345,3 +345,422 @@ Connection
 Connection
 Connection
 Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+blog/recipe has been created.
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+Connection
+current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
+blog/recipe/recipe has been created.
+current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/recipe/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/recipe/recipe/',
+  syscall: 'readdir' }
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/recipe/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/recipe/recipe/',
+  syscall: 'readdir' }
+current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/recipe/
+Missing error handler on `socket`.
+Error: ENOENT, no such file or directory 'blog/recipe/recipe/tmp'
+    at Object.fs.mkdirSync (fs.js:647:18)
+    at Socket.<anonymous> (/home/ubuntu/nodejs/jarvis/jarvis_socket_server.js:78:9)
+    at Socket.EventEmitter.emit (events.js:95:17)
+    at Socket.onevent (/home/ubuntu/nodejs/node_modules/socket.io/lib/socket.js:335:8)
+    at Socket.onpacket (/home/ubuntu/nodejs/node_modules/socket.io/lib/socket.js:295:12)
+    at Client.ondecoded (/home/ubuntu/nodejs/node_modules/socket.io/lib/client.js:193:14)
+    at Decoder.Emitter.emit (/home/ubuntu/nodejs/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
+    at Decoder.add (/home/ubuntu/nodejs/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
+    at Client.ondata (/home/ubuntu/nodejs/node_modules/socket.io/lib/client.js:175:18)
+    at Socket.EventEmitter.emit (events.js:95:17)
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:electronics
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/electronics/
+ls:/home/ubuntu/nodejs/jarvis/blog/electronics/
+filename:LM317.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/electronics/
+path:blog/electronics/LM317.markdown
+data[喬治查爾斯電子電路網](http://gc.digitw.com/)
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/electronics/
+ls:/home/ubuntu/nodejs/jarvis/blog/electronics/
+dir to move:..
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:markdown_blog.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/markdown_blog.markdown
+data#A Blog platform with markdown WYSIWYG interface based on websocket
+##feature
+1. based on websocket.
+2. user can use command line to do file system operation
+3. hosted on server (ex. Amazon EC2)
+
+##architecture
+##discussion
+##todo
+1. picture and video embeded issues.
+2. auto-save 
+Connection
+Connection
+Connection
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'MapsWithPhotos',
+  'RepeatedCodeInverse',
+  'blog',
+  'compiler.js',
+  'exec.js',
+  'flex',
+  'fs_rm.js',
+  'index.html',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'readfile.js',
+  'run.sh',
+  'showdown',
+  'songla',
+  'stop.sh',
+  'test.html',
+  'test.js',
+  'todo',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'wysiwyg.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+dir to move:computer_science
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:..
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection

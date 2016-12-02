@@ -6,32 +6,124 @@ var io = require('socket.io')
 var compiler = require('./compiler.js')
 var hp = 0;
 var message_content;
-var server = http.createServer(function(request, response){
-	console.log('Connection');
-	var path = url.parse(request.url).pathname;
-	var landing_message;
-	switch(path){
-		case '/':
-			response.writeHead(200, {'Content-Type':'text/html'});			
-			response.write('hello world');
-			response.end();
-		default:
-			fs.readFile(__dirname + path, function(error, data) {
-		        if (error){
+var app = express();
+var server = http.createServer(app);
+var qs = require('querystring');
+var util = require('util');
+format = function() {
+    return util.format.apply(null, arguments);
+};
+app.get('/users/:userID/books/:bookID',function(req, res){
+	res.send(req.params)
+})
+
+app.get('/', function(req, res){
+	res.send('Hello World!');
+})
+app.get('/ui_cmd.html', function(request, response){
+
+	fs.readFile('ui_cmd.html', function(error, data) {
+     	   if (error){
 		          response.writeHead(404,{'Content-Type':'text/html'});
-		          response.write("opps this doesn't exist - 404");
-		        } else {
+	        	  response.write("opps this doesn't exist - 404");
+           } else {
 		          response.writeHead(200, {"Content-Type": "text/html"});
 		          response.write(data, "utf8");
-		        }
-		        response.end();
-	 	     });
-   		   break;
+       	   }
+        response.end();
+     });
 
 
-	}
+});
+app.get('/form/test.html', function(request, response){
+	fs.readFile('form/test.html', function(error, data){
+		if(error){
 
-})
+		          response.writeHead(404,{'Content-Type':'text/html'});
+	        	  response.write("opps this doesn't exist - 404");
+		}else{
+		          response.writeHead(200, {"Content-Type": "text/html"});
+		          response.write(data, "utf8");
+
+		}
+		response.end();
+	});
+});
+
+app.get('/form/get.html', function(request, response){
+	fs.readFile('form/get.html', function(error, data) {
+     	   if (error){
+		          response.writeHead(404,{'Content-Type':'text/html'});
+	        	  response.write("opps this doesn't exist - 404");
+           } else {
+		          response.writeHead(200, {"Content-Type": "text/html"});
+		          response.write(data, "utf8");
+       	   }
+        	response.end();
+     	});
+
+});
+
+app.get('/form/post.html', function(request, response){
+	fs.readFile('form/post.html', function(error, data) {
+     	   if (error){
+		          response.writeHead(404,{'Content-Type':'text/html'});
+	        	  response.write("opps this doesn't exist - 404");
+           } else {
+		          response.writeHead(200, {"Content-Type": "text/html"});
+		          response.write(data, "utf8");
+       	   }
+        response.end();
+
+	});
+});
+
+app.get('/form/signup_get', function(request, response){
+//	res.send('Hello World!');
+	response.writeHead(200, {"Content-Type":"text/html"});
+	var path=url.parse(request.url),
+		parameter=qs.parse(path.query);
+		console.log(parameter);
+		response.end();
+
+});
+app.post('/form/signup_post', function(request, response){
+	formData='';
+	request.on("data", function(data){
+		//var post = qs.parse(data);
+		formData+= data;
+		//console.log(post);
+//		return formData+= data;
+	});
+	request.on("end", function(){
+		response.writeHead(200, {"Content-Type":"text/html"});
+		post = qs.parse(formData);
+		user = post.user;
+		response.write("user="+user+"<br/>");
+		response.end();
+	});
+
+});
+app.post('/form/forfun', function(request, response){
+	console.log('form/forfun');
+	formData='';
+	request.on("data", function(data){
+		//var post = qs.parse(data);
+		formData+= data;
+		//console.log(post);
+//		return formData+= data;
+		console.log('data:'+data);
+	});
+	request.on("end", function(){
+		response.writeHead(200, {"Content-Type":"text/html"});
+		post = qs.parse(formData);
+		user = post.user;
+		response.write("user="+user+"<br/>");
+		response.end();
+	});
+
+});
+
 server.listen(9090)
 var servo_io = io.listen(server)
 

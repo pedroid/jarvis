@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src="markdown.min.js"></script>
+		<script src="markdown.js"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	</head>
@@ -29,15 +29,50 @@
 			case 'dir':
 				$('#path').text('~/'+data.dir+'$');		
 				break;				
+			case 'edit':
+				console.log(data.data);
+				$('#text-input').val(data.data);
+          			$('#preview').html(markdown.toHTML(data.data));
 		}
 	});
       socket.on('date', function(data) {
         $('#date').text(data.date);
       });
       socket.on('server_response', function(rawdata){
-		$('#div_response').text(rawdata.response_content);
+		if(rawdata.cmd == 'ls'){
+			var dir_content = "";
+			for(each_dir_index in rawdata.response_content){
+				var each_dir = rawdata.response_content[each_dir_index];
+				if(each_dir.length >1){
+//					console.log(each_dir);
+					if(each_dir.split('.')[each_dir.split('.').length-1] == 'html'){
+//						console.log('html');
+						dir_content+= '<a href="'+ rawdata.path + each_dir+'" target="_blank">'+each_dir+'</a></br>';
+					}else if(each_dir.split('.')[each_dir.split('.').length-1] == 'markdown'){
+						//console.log(each_dir);
+						//dir_content+= '<a href="javascript:emit_edit('+'\'each_dir\''+')">'+each_dir+'</a></br>';
+						dir_content+= '<a href="javascript:emit_edit('+'\''+each_dir+'\''+')">'+each_dir+'</a></br>';
+				
+					}else{
+//						console.log('not html');
+						dir_content+= each_dir+'</br>';
+					}				
+				}
+			}
+			//console.log(rawdata.response_content.length);
+			$('#div_response').html(dir_content);
+		}else{
+			$('#div_response').html(rawdata.response_content);
+		}
 	});
-
+	function emit_edit(filename){
+	//	console.log(filename);
+		socket.emit('markdown',{
+			'type':'cmd',
+			'command':'edit',
+			'filename':filename
+		});
+	}
       socket.on('server_brd_message', function(rawdata){
 		$('#broadcast_message').text(rawdata.message_content);
 	});
@@ -69,11 +104,12 @@
 					socket.emit('markdown',{
 						'type':'cmd',
 						'command':'save',
-						'markdown_content':$('#text-input').html(),
+						'markdown_content':$('#text-input').val(),
 						'html_content':$('#preview').html(),
 						'path':current_dir,
 						'filename':filename
 					});
+					console.log('markdown content:'+$('#text-input').val());
 					console.log('file saved');
 					$('#client_response').html('file saved');
 				}else{
@@ -110,6 +146,7 @@
 
 			}
 			case('cd'):{
+				console.log('cmd:'+cmd);
 				if(cmd.split(' ')[1]){
 					argv = cmd.split(' ')[1];
 					socket.emit('markdown',{
@@ -153,11 +190,25 @@
 				*/
 				break;
 			}
+			case('rm'):{
+				if(cmd.split(' ')[1]){
+					argv = cmd.split(' ')[1];
+					filename = argv;
+					socket.emit('markdown',{
+						'type':'cmd',
+						'command':'rm',
+						'filename':argv
+					});
+				}else{
+					$('#client_response').html('please enter the filename as argument[1]');
+
+				}
+			}
 			case('new'):{
 				if(cmd.split(' ')[1]){					
 					argv = cmd.split(' ')[1];
 					filename = argv;
-					$('#title').html('/'+current_dir+filename+'.markdown');
+					$('#title').html(current_dir+filename+'.markdown');
 					
 				}else{
 					console.log('please enter the filename as argument[1]');
