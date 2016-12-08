@@ -10,13 +10,48 @@ var app = express();
 var server = http.createServer(app);
 var qs = require('querystring');
 var util = require('util');
+app.use(express.static(__dirname+'/public'));
+app.set('view engine', 'ejs');
 format = function() {
     return util.format.apply(null, arguments);
 };
+app.use(express.static('public'));
+app.use('/blog',express.static('blog'));
 app.get('/users/:userID/books/:bookID',function(req, res){
 	res.send(req.params)
 })
+app.get('/blog/:article/:assets',function(req, response){
+	//response.send(req.params);
+	console.log('blog/'+req.params['article']+'/'+req.params['assets']);
+	fs.readFile('blog/'+req.params['article']+'/'+req.params['assets'], function(error, data){
 
+     	   if (error){
+		          response.writeHead(404,{'Content-Type':'text/html'});
+	        	  response.write("opps this doesn't exist - 404");
+           } else {
+		          response.writeHead(200, {"Content-Type": "text/html"});
+		          response.write(data, "utf8");
+       	   }
+	response.end();
+		
+	});
+
+});
+app.get('/blog/:article',function(req, response){
+//	console.log('test');
+	//res.send(req.params);
+	fs.readFile('blog/'+req.params['article'], function(error, data){
+     	   if (error){
+		          response.writeHead(404,{'Content-Type':'text/html'});
+	        	  response.write("opps this doesn't exist - 404");
+           } else {
+		          response.writeHead(200, {"Content-Type": "text/html"});
+		          response.write(data, "utf8");
+       	   }
+	response.end();
+		
+	});
+});
 app.get('/', function(req, res){
 	res.send('Hello World!');
 })
@@ -35,6 +70,36 @@ app.get('/ui_cmd.html', function(request, response){
 
 
 });
+
+app.get('/youtube.html', function(request, response){
+	fs.readFile('youtube.html', function(error, data){
+		if(error){
+
+		          response.writeHead(404,{'Content-Type':'text/html'});
+	        	  response.write("opps this doesn't exist - 404");
+		}else{
+		          response.writeHead(200, {"Content-Type": "text/html"});
+		          response.write(data, "utf8");
+
+		}
+		response.end();
+	});
+});
+app.get('/markdown/markdown.html', function(request, response){
+	fs.readFile('markdown/markdown.html', function(error, data){
+		if(error){
+
+		          response.writeHead(404,{'Content-Type':'text/html'});
+	        	  response.write("opps this doesn't exist - 404");
+		}else{
+		          response.writeHead(200, {"Content-Type": "text/html"});
+		          response.write(data, "utf8");
+
+		}
+		response.end();
+	});
+});
+
 app.get('/form/test.html', function(request, response){
 	fs.readFile('form/test.html', function(error, data){
 		if(error){
@@ -87,7 +152,29 @@ app.get('/form/signup_get', function(request, response){
 		response.end();
 
 });
+
+app.get('/songla.html',function(req, res){
+	relative_path = current_path.slice(root.length);
+	fs.readFile(relative_path+'test.data', 'utf8', function (err, data){
+		if(err){
+			return console.log(err);
+		}
+		res.render(
+			'blog.ejs', 	
+			{blog_content: "<h1>test</h1>"}
+		);
+	});
+});
+app.get('/forfun.html',function(req, res){
+	res.render(
+		'index.ejs', 
+		{quotes: 111}
+	);
+});
 app.post('/form/signup_post', function(request, response){
+	
+	//response.render('pages/test');
+	
 	formData='';
 	request.on("data", function(data){
 		//var post = qs.parse(data);
@@ -102,7 +189,7 @@ app.post('/form/signup_post', function(request, response){
 		response.write("user="+user+"<br/>");
 		response.end();
 	});
-
+	
 });
 app.post('/form/forfun', function(request, response){
 	console.log('form/forfun');
@@ -158,7 +245,24 @@ servo_io.sockets.on('connection', function(socket) {
 			}
 			if(data.command == 'save'){
 				relative_pwd = current_path.slice(markdown_root.length);
-				fs.writeFile('blog/'+ relative_pwd +data.filename+'.html', data.html_content, function(err){}	);
+				var public_html_content = "<!DOCTYPE html>";
+				public_html_content += "<html>\n";
+				public_html_content += "<head>\n";
+    				public_html_content += "<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>\n"
+				public_html_content += "<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>\n"
+				public_html_content += "</head>\n";
+				public_html_content += "<body>\n";
+				public_html_content += "<div class='container'>\n";
+				public_html_content += "<div class='row'>\n";
+				public_html_content += "<div class='col-lg-12 bg-warning'>\n";
+				public_html_content += data.html_content;
+				public_html_content += "</div>\n";
+				public_html_content += "</div>\n";
+				public_html_content += "</div>\n";
+				public_html_content += "<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js'></script>\n"
+				public_html_content += "</body>\n";
+				public_html_content += "</html>\n";
+				fs.writeFile('blog/'+ relative_pwd +data.filename+'.html', public_html_content, function(err){}	);
 				fs.writeFile('blog/'+ relative_pwd +data.filename+'.markdown', data.markdown_content, function(err){}	);
 				socket.emit('server_response',{'response_content':'blog/'+relative_pwd + data.filename+' .html/markdown has been created.'});
 				socket.emit('markdown',{'command':'link',

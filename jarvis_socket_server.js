@@ -10,28 +10,41 @@ var server = http.createServer(function(request, response){
 	console.log('Connection');
 	var path = url.parse(request.url).pathname;
 	var landing_message;
-	switch(path){
-		case '/':
-			response.writeHead(200, {'Content-Type':'text/html'});			
-			response.write('hello world');
-			response.end();
-		default:
+	console.log(path);
+//	var is_match = path.match(/^\/[a-z._]+/);//'/*.html':
+	var is_html = path.match(/.html$/);
+	
+
+	if(is_html){
 			fs.readFile(__dirname + path, function(error, data) {
-		        if (error){
-		          response.writeHead(404,{'Content-Type':'text/html'});
-		          response.write("opps this doesn't exist - 404");
-		        } else {
-		          response.writeHead(200, {"Content-Type": "text/html"});
-		          response.write(data, "utf8");
-		        }
-		        response.end();
-	 	     });
-   		   break;
-
-
+			        if (error){
+			          response.writeHead(404,{'Content-Type':'text/html'});
+		        	  response.write("opps this doesn't exist - 404");
+			        } else {
+			          response.writeHead(200, {"Content-Type": "text/html"});
+				  response.write("testing header");
+		        	  response.write(data, "utf8");
+			        }
+			        response.end();
+	
+			});
+	}else{
+		
+			fs.readFile(__dirname + path, function(error, data) {
+			        if (error){
+			          response.writeHead(404,{'Content-Type':'text/html'});
+		        	  response.write("opps this doesn't exist - 404");
+			        } else {
+			          response.writeHead(200, {"Content-Type": "text/html"});
+		        	  response.write(data, "utf8");
+			        }
+			        response.end();
+	
+			});
 	}
+}
 
-})
+)
 server.listen(9090)
 var servo_io = io.listen(server)
 

@@ -764,3 +764,743 @@ Connection
 Connection
 Connection
 Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/
+rm /home/ubuntu/nodejs/jarvis/blog/forfun.markdown
+rm /home/ubuntu/nodejs/jarvis/blog/forfun.html
+ls:/home/ubuntu/nodejs/jarvis/blog/
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:food
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+Connection
+Connection
+Connection
+Connection
+dir to move:recipe
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/recipe/
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+filename:beef_noodle.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
+path:blog/recipe/beef_noodle.markdown
+data#牛肉麵
+
+##備料
+
+1. 蔥(2-3)、薑(5)、蒜(5)、辣椒(2)、蕃茄(3)、白蘿蔔(3)、洋蔥(2)、紅蘿蔔(三分之二)、香菜
+2. 牛肉(牛肋條)川燙去腥味，再浸常溫水，讓肉變Q
+3. 調味料：醬油、冰糖、辣豆拌醬、蕃茄醬
+4. 香料：白胡椒、迷迭香
+##步驟
+
+1. 豬油加蔥薑蒜拌炒，加入豆拌醬3匙、醬油1杯、紅酒或米酒少許、蕃茄醬少許，冰糖三分之二匙，放入牛肉拌煮
+2. 放入壓力鍋，水蓋過肉(如使用一般鍋煮，水要再多一些)，加入白胡椒、迷迭香
+3. 壓力鍋蓋鍋，加熱直到水氣出氣發出"逼"的聲音，關小火等候20分鐘，爾後再關火等候10分鐘
+4. 開鍋試味道，若太淡，加入海鹽(不以加醬油來增醎)
+5. 加入紅蘿蔔、白蘿蔔、蕃茄
+6. 蓋壓力鍋後煮10分鐘，並等候排氣
+7. 另起一鍋煮白麵條，加少許的鹽
+8. 麵條跟牛肉湯汁合併即完成，若牛肉湯太醎可以加熱水
+9. 若沒有壓力鍋，當牛肉煮滾後轉小火40分鐘，蘿蔔放入後煮20分鐘
+
+Connection
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+Connection
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+filename:beef_noodle.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
+path:blog/recipe/beef_noodle.markdown
+data#牛肉麵
+@u2b https://www.youtube.com/embed/cyeuDeM4UUg @u2bee
+##備料
+
+1. 蔥(2-3)、薑(5)、蒜(5)、辣椒(2)、蕃茄(3)、白蘿蔔(3)、洋蔥(2)、紅蘿蔔(三分之二)、香菜
+2. 牛肉(牛肋條)川燙去腥味，再浸常溫水，讓肉變Q
+3. 調味料：醬油、冰糖、辣豆拌醬、蕃茄醬
+4. 香料：白胡椒、迷迭香
+##步驟
+
+1. 豬油加蔥薑蒜拌炒，加入豆拌醬3匙、醬油1杯、紅酒或米酒少許、蕃茄醬少許，冰糖三分之二匙，放入牛肉拌煮
+2. 放入壓力鍋，水蓋過肉(如使用一般鍋煮，水要再多一些)，加入白胡椒、迷迭香
+3. 壓力鍋蓋鍋，加熱直到水氣出氣發出"逼"的聲音，關小火等候20分鐘，爾後再關火等候10分鐘
+4. 開鍋試味道，若太淡，加入海鹽(不以加醬油來增醎)
+5. 加入紅蘿蔔、白蘿蔔、蕃茄
+6. 蓋壓力鍋後煮10分鐘，並等候排氣
+7. 另起一鍋煮白麵條，加少許的鹽
+8. 麵條跟牛肉湯汁合併即完成，若牛肉湯太醎可以加熱水
+9. 若沒有壓力鍋，當牛肉煮滾後轉小火40分鐘，蘿蔔放入後煮20分鐘
+
+Connection
+Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+filename:beef_noodle.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
+path:blog/recipe/beef_noodle.markdown
+data#牛肉麵
+@u2b https://www.youtube.com/embed/cyeuDeM4UUg @u2bee
+##備料 
+
+1. 蔥(2-3)、薑(5)、蒜(5)、辣椒(2)、蕃茄(3)、白蘿蔔(3)、洋蔥(2)、紅蘿蔔(三分之二)、香菜
+2. 牛肉(牛肋條)川燙去腥味，再浸常溫水，讓肉變Q
+3. 調味料：醬油、冰糖、辣豆拌醬、蕃茄醬
+4. 香料：白胡椒、迷迭香
+##步驟
+
+1. 豬油加蔥薑蒜拌炒，加入豆拌醬3匙、醬油1杯、紅酒或米酒少許、蕃茄醬少許，冰糖三分之二匙，放入牛肉拌煮
+2. 放入壓力鍋，水蓋過肉(如使用一般鍋煮，水要再多一些)，加入白胡椒、迷迭香
+3. 壓力鍋蓋鍋，加熱直到水氣出氣發出"逼"的聲音，關小火等候20分鐘，爾後再關火等候10分鐘
+4. 開鍋試味道，若太淡，加入海鹽(不以加醬油來增醎)
+5. 加入紅蘿蔔、白蘿蔔、蕃茄
+6. 蓋壓力鍋後煮10分鐘，並等候排氣
+7. 另起一鍋煮白麵條，加少許的鹽
+8. 麵條跟牛肉湯汁合併即完成，若牛肉湯太醎可以加熱水
+9. 若沒有壓力鍋，當牛肉煮滾後轉小火40分鐘，蘿蔔放入後煮20分鐘
+
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+Connection
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+Connection
+Connection
+dir to move:computer_science
+pwd:/home/ubuntu/nodejs/jarvis/blog/recipe/
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+dir to move:../computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/',
+  '/home/ubuntu/nodejs/jarvis/blog/recipe/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/recipe/../computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/../computer_science/
+Connection
+Connection
+/ui_cmd.html
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+Connection
+/markdown/markdown.html
+Connection
+/markdown/markdown.js
+Connection
+/markdown/html_advance.js
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:nodejs_webservice.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/nodejs_webservice.markdown
+data#從零打造一個web service
+
+Connection
+/blog/computer_science/nodejs_webservice.html
+Connection
+/blog/computer_science/nodejs_webservice.html
+Connection
+/blog/computer_science/nodejs_webservice.html
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module '/home/ubuntu/nodejs/jarvis/express_harvis.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+dir to move:computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:bootstrap3.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/bootstrap3.markdown
+data#Bootstrap 3
+##What is Bootstrap?
+a front end framework for making responsive design easy
+###responsive design (RWD)
+當網頁由不同解析度大小的瀏覽器觀看時，頁面的Layout也有所不同。
+
+###Front-end framework
+前端framework 代表程式設計師可以專心在屬性與外觀之間的關聯，不用去煩惱要怎麼將各種屬性套用在程式碼中，深陷於屬性、程式碼與外觀之間複雜的三角關係。
+
+Framework的使用學習曲線通常都是先陡後平緩的。先是學習Framework的使用方法，然後熟練了之後就可以將心思放在更重要的事情上，比如程式的內容。
+##Install
+
+
+###CDN (Content delivery network)
+
+todo
+
+
+##所謂花錢買Bootstrap template，我們到底買了什麼？
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'MapsWithPhotos',
+  'RepeatedCodeInverse',
+  'blog',
+  'compiler.js',
+  'demo_jarvis.html',
+  'exec.js',
+  'express_jarvis.js',
+  'flex',
+  'form',
+  'form.html',
+  'index.html',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'public',
+  'readfile.js',
+  'run.sh',
+  'share',
+  'showdown',
+  'stop.sh',
+  'templates.erb',
+  'test.html',
+  'test.js',
+  'todo',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'views',
+  'wysiwyg.html',
+  'youtube.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+
+command from user:markdowm
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'm' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:JSDC_2016_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/JSDC_2016_notes.markdown
+data#JSDC 2016 筆記
+[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
+##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
+##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
+##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
+##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
+##16 Data Visualization performance optimization by Jim Chang (吉姆)
+##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
+##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
+##22 Lightning Talk
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+blog/computer_science/JSDC_2016_notes.html
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:JSDC_2016_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/JSDC_2016_notes.markdown
+data#JSDC 2016 筆記
+[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
+##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
+##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
+##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
+##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
+##16 Data Visualization performance optimization by Jim Chang (吉姆)
+##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
+##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
+##22 Lightning Talk
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:JSDC_2016_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/JSDC_2016_notes.markdown
+data#JSDC 2016 筆記
+[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
+##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
+##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
+##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
+##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
+##16 Data Visualization performance optimization by Jim Chang (吉姆)
+##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
+##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
+##22 Lightning Talk
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:JSDC_2016_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/JSDC_2016_notes.markdown
+data#JSDC 2016 筆記
+[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
+##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
+##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
+##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
+##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
+##16 Data Visualization performance optimization by Jim Chang (吉姆)
+##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
+##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
+##22 Lightning Talk
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:JSDC_2016_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/JSDC_2016_notes.markdown
+data#JSDC 2016 筆記
+[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
+##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
+##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
+##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
+##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
+##16 Data Visualization performance optimization by Jim Chang (吉姆)
+##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
+##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
+##22 Lightning Talk
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:JSDC_2016_notes
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/JSDC_2016_notes
+{ [Error: ENOENT, open 'blog/computer_science/JSDC_2016_notes']
+  errno: 34,
+  code: 'ENOENT',
+  path: 'blog/computer_science/JSDC_2016_notes' }
+filename:JSDC_2016_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/JSDC_2016_notes.markdown
+data#JSDC 2016 筆記
+[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
+##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
+##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
+##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
+##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
+##16 Data Visualization performance optimization by Jim Chang (吉姆)
+##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
+##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
+##22 Lightning Talk
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:arrow_function.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/arrow_function.markdown
+data#Arrow function
+[reference](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+##feature
+擁有更短的語法以及詞彙上綁定 this 變數，所有的箭頭函數都是無名函數 (anonymous function).
+
+##ES6
+
+##Usasge explaination with example
+在Javascript 語法上如果要定義一個function，傳統的方法是
+
+@code
+
+var adder = function(a,b){ 
+
+return a+b; 
+
+}
+
+@codee
+
+然後用adder(3,2)就可以得到5。
+如果用Arror function的描述方式就可以得到一個較精簡的寫法：
+
+@code
+var adder = (a,b)=>a+b;
+@codee
+
+只用了一行就完成了。
+blog/images/food.jpg
+blog/images/something.jpg
+blog/recipe/beef_noodle.html
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:bootstrap3.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/bootstrap3.markdown
+data#Bootstrap 3
+##What is Bootstrap?
+a front end framework for making responsive design easy
+###responsive design (RWD)
+當網頁由不同解析度大小的瀏覽器觀看時，頁面的Layout也有所不同。
+
+###Front-end framework
+前端framework 代表程式設計師可以專心在屬性與外觀之間的關聯，不用去煩惱要怎麼將各種屬性套用在程式碼中，深陷於屬性、程式碼與外觀之間複雜的三角關係。
+
+Framework的使用學習曲線通常都是先陡後平緩的。先是學習Framework的使用方法，然後熟練了之後就可以將心思放在更重要的事情上，比如程式的內容。
+##Install
+
+
+###CDN (Content delivery network)
+
+todo
+
+
+##所謂花錢買Bootstrap template，我們到底買了什麼？
+blog/computer_science/bootstrap3.html
+blog/computer_science/bootstrap3.markdown.html
+blog/computer_science/bootstrap3.markdown.html
+blog/images/food.jpg
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+blog/computer_science/jarvis.html
+blog/computer_science/jarvis.html
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:bootstrap3.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/bootstrap3.markdown
+data#Bootstrap 3
+##What is Bootstrap?
+a front end framework for making responsive design easy
+###responsive design (RWD)
+當網頁由不同解析度大小的瀏覽器觀看時，頁面的Layout也有所不同。
+
+###Front-end framework
+前端framework 代表程式設計師可以專心在屬性與外觀之間的關聯，不用去煩惱要怎麼將各種屬性套用在程式碼中，深陷於屬性、程式碼與外觀之間複雜的三角關係。
+
+Framework的使用學習曲線通常都是先陡後平緩的。先是學習Framework的使用方法，然後熟練了之後就可以將心思放在更重要的事情上，比如程式的內容。
+##Install
+
+
+###CDN (Content delivery network)
+
+todo
+
+
+##所謂花錢買Bootstrap template，我們到底買了什麼？
+filename:markdown_blog.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/markdown_blog.markdown
+data#A Blog backend platform with markdown WYSIWYG interface based on websocket
+##feature
+1. based on websocket.
+2. user can use command line to do file system operation
+3. hosted on server-side (ex. Amazon EC2)
+
+##how to use
+1. git clone 
+
+##architecture
+##discussion
+
+##demo
+
+##todo
+1. picture and video embeded issues.
+2. auto-save 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:bootstrap3
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/bootstrap3
+{ [Error: ENOENT, open 'blog/computer_science/bootstrap3']
+  errno: 34,
+  code: 'ENOENT',
+  path: 'blog/computer_science/bootstrap3' }
+filename:bootstrap3
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/bootstrap3
+{ [Error: ENOENT, open 'blog/computer_science/bootstrap3']
+  errno: 34,
+  code: 'ENOENT',
+  path: 'blog/computer_science/bootstrap3' }
+filename:bootstrap3
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/bootstrap3
+{ [Error: ENOENT, open 'blog/computer_science/bootstrap3']
+  errno: 34,
+  code: 'ENOENT',
+  path: 'blog/computer_science/bootstrap3' }
+filename:bootstrap3
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/bootstrap3
+{ [Error: ENOENT, open 'blog/computer_science/bootstrap3']
+  errno: 34,
+  code: 'ENOENT',
+  path: 'blog/computer_science/bootstrap3' }
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:bootstrap3.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/bootstrap3.markdown
+data#Bootstrap 3
+##What is Bootstrap?
+a front end framework for making responsive design easy
+###responsive design (RWD)
+當網頁由不同解析度大小的瀏覽器觀看時，頁面的Layout也有所不同。
+
+###Front-end framework
+前端framework 代表程式設計師可以專心在屬性與外觀之間的關聯，不用去煩惱要怎麼將各種屬性套用在程式碼中，深陷於屬性、程式碼與外觀之間複雜的三角關係。
+
+Framework的使用學習曲線通常都是先陡後平緩的。先是學習Framework的使用方法，然後熟練了之後就可以將心思放在更重要的事情上，比如程式的內容。
+##Install
+
+
+###CDN (Content delivery network)
+
+todo
+
+
+##所謂花錢買Bootstrap template，我們到底買了什麼？
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+blog/computer_science/bootstrap3.html
+blog/computer_science/bootstrap3.html
+blog/computer_science/bootstrap3.html
+blog/travel/index.html

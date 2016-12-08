@@ -2,21 +2,48 @@
 <html>
 	<head>
 		<script src="markdown.js"></script>
+	<script src = "html_advance.js"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	</head>
   <body>    
-  <div class="header">
-	<ul>
-		<li><a href="../ui_cmd.html">Home</a></li>
-	</ul>
-
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 bg-warning">
+		<ul>
+			<li><a href="../ui_cmd.html">Home</a></li>
+		</ul>
+	</div>
+	<div class="col-lg-12" id="preview_link"></div>
+	<div class="col-lg-12" id="title">[Filename]</div>
+	<div class="col-lg-6" id="title">
+	    <textarea id="text-input" oninput="this.editor.update()"
+               style="width:100%" rows="30">Type **Markdown** here.</textarea>
+	</div>
+    	<div class="col-lg-6" id="preview"> </div>
+	<div class="col-lg-12">
+		<p>cmd</p>
+		<div id='path'>~/$</div>	
+		
+    		<textarea id="text" rows="1" style="width:100%"></textarea>
+	</div>
+	<div class="col-lg-12 bg-info">
+		<p>client response:</p>
+		<div id='client_response'></div>	
+		    <p>server response:</p>
+	    <div id="div_response"></div>
 </div>
-	<div id="preview_link"></div>
-	<div id="title">[Filename]</div>
-    <textarea id="text-input" oninput="this.editor.update()"
-              rows="6" cols="60">Type **Markdown** here.</textarea>
-    <div id="preview"> </div>
+
+	</div>	
+</div>
+
+
+
+
     <script>
       var filename;
       var socket = io.connect();
@@ -30,7 +57,7 @@
 				$('#path').text('~/'+data.dir+'$');		
 				break;				
 			case 'edit':
-				console.log(data.data);
+//				console.log(data.data);
 				$('#text-input').val(data.data);
           			$('#preview').html(markdown.toHTML(data.data));
 		}
@@ -51,8 +78,10 @@
 					}else if(each_dir.split('.')[each_dir.split('.').length-1] == 'markdown'){
 						//console.log(each_dir);
 						//dir_content+= '<a href="javascript:emit_edit('+'\'each_dir\''+')">'+each_dir+'</a></br>';
-						dir_content+= '<a href="javascript:emit_edit('+'\''+each_dir+'\''+')">'+each_dir+'</a></br>';
+						dir_content+= '<a href="javascript:emit_edit('+'\''+each_dir.split('.')[0]+'\''+')">'+each_dir+'</a></br>';
 				
+					}else if(each_dir.split('.').length==1){//directory
+						dir_content+= '<a href="javascript:emit_directory('+'\''+each_dir+'\''+')">'+each_dir+'</a></br>';
 					}else{
 //						console.log('not html');
 						dir_content+= each_dir+'</br>';
@@ -65,13 +94,16 @@
 			$('#div_response').html(rawdata.response_content);
 		}
 	});
-	function emit_edit(filename){
+	function emit_edit(file_name){
 	//	console.log(filename);
+		filename = file_name;
+		console.log(filename);
 		socket.emit('markdown',{
 			'type':'cmd',
 			'command':'edit',
-			'filename':filename
+			'filename':filename+'.markdown'
 		});
+		$('#title').html(current_dir+filename+'.markdown');
 	}
       socket.on('server_brd_message', function(rawdata){
 		$('#broadcast_message').text(rawdata.message_content);
@@ -105,6 +137,7 @@
 						'type':'cmd',
 						'command':'save',
 						'markdown_content':$('#text-input').val(),
+//						'html_content':$('#preview').html().html_advance(),
 						'html_content':$('#preview').html(),
 						'path':current_dir,
 						'filename':filename
@@ -127,6 +160,25 @@
 					'command':'ls',
 					'path':current_dir
 				});
+				break;
+			}
+			case('edit'):{
+				if(cmd.split(' ')[1]){
+					argv = cmd.split(' ')[1];
+					filename = argv;
+					socket.emit(
+						'markdown',
+						{
+							'type':'cmd',
+							'command':'edit',
+							'filename':filename
+						}
+					);
+					$('#title').html(current_dir+filename+'.markdown');
+				}else{
+
+					$('#client_response').html('please enter the filename as argument[1]');
+				}
 				break;
 			}
 			case('mkdir'):{
@@ -190,6 +242,7 @@
 				*/
 				break;
 			}
+			
 			case('rm'):{
 				if(cmd.split(' ')[1]){
 					argv = cmd.split(' ')[1];
@@ -203,6 +256,7 @@
 					$('#client_response').html('please enter the filename as argument[1]');
 
 				}
+				break;
 			}
 			case('new'):{
 				if(cmd.split(' ')[1]){					
@@ -248,7 +302,9 @@
     <script>
       function Editor(input, preview) {
         this.update = function () {
-          preview.innerHTML = markdown.toHTML(input.value);
+          var html_results = markdown.toHTML(input.value);
+	  var final_html = html_advance(html_results);
+	  preview.innerHTML = final_html;
 //	  console.log(preview.innerHTML);
         };
         input.editor = this;
@@ -257,12 +313,6 @@
       var $$ = function (id) { return document.getElementById(id); };
       new Editor($$("text-input"), $$("preview"));
     </script>
-    <p>cmd</p>
-<div id='path'>~/$</div>	
-    <textarea id="text" rows="1" cols="50"></textarea>
-<p>client response:</p>
-<div id='client_response'></div>	
-    <p>server response:</p>
-    <div id="div_response"></div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   </body>
 </html>
