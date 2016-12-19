@@ -16,6 +16,7 @@
 	<div class="col-lg-12 bg-warning">
 		<ul>
 			<li><a href="../ui_cmd.html">Home</a></li>
+			<li><a href="../blog/" target="_blank">Blog</a></li>
 		</ul>
 	</div>
 	<div class="col-lg-12" id="preview_link"></div>
@@ -51,7 +52,7 @@
       socket.on('markdown', function(data){
 		switch(data.command){
 			case 'link':
-				$('#preview_link').html('<a href="'+data.link+'">preview</a>');
+				$('#preview_link').html('<a href="'+data.link+'" target="_blank">preview</a>');
 				break;
 			case 'dir':
 				$('#path').text('~/'+data.dir+'$');		
@@ -81,7 +82,7 @@
 						dir_content+= '<a href="javascript:emit_edit('+'\''+each_dir.split('.')[0]+'\''+')">'+each_dir+'</a></br>';
 				
 					}else if(each_dir.split('.').length==1){//directory
-						dir_content+= '<a href="javascript:emit_directory('+'\''+each_dir+'\''+')">'+each_dir+'</a></br>';
+						dir_content+= '<a href="javascript:emit_directory('+'\''+each_dir+'\''+')">'+each_dir+'/</a></br>';
 					}else{
 //						console.log('not html');
 						dir_content+= each_dir+'</br>';

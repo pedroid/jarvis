@@ -1504,3 +1504,732 @@ blog/computer_science/bootstrap3.html
 blog/computer_science/bootstrap3.html
 blog/computer_science/bootstrap3.html
 blog/travel/index.html
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:nodejs_webservice.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/nodejs_webservice.markdown
+data#customize your web service with node.js
+
+#template your html
+
+#render 
+
+##websocket
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'MapsWithPhotos',
+  'RepeatedCodeInverse',
+  'blog',
+  'bootstrap_template.html',
+  'compiler.js',
+  'demo_jarvis.html',
+  'exec.js',
+  'express_jarvis.js',
+  'flex',
+  'form',
+  'form.html',
+  'index.html',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'public',
+  'readfile.js',
+  'run.sh',
+  'share',
+  'showdown',
+  'stop.sh',
+  'templates.erb',
+  'test.html',
+  'test.js',
+  'todo',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'views',
+  'wysiwyg.html',
+  'youtube.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+blog/images/something.jpg
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+blog/travel/index.html
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+blog/images/something.jpg
+blog/images/something.jpg
+blog/images/something.jpg
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+blog/images/.jpg
+blog/images/.jpg
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+blog/images/.jpg
+blog/images/something.jpg
+blog/images/something.jpg
+blog/images/something.jpg
+blog/images/something.jpg
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:recipe
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/recipe/
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+filename:beef_noodle.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
+path:blog/recipe/beef_noodle.markdown
+data#牛肉麵
+@u2b https://www.youtube.com/embed/cyeuDeM4UUg @u2bee
+##備料 
+
+1. 蔥(2-3)、薑(5)、蒜(5)、辣椒(2)、蕃茄(3)、白蘿蔔(3)、洋蔥(2)、紅蘿蔔(三分之二)、香菜
+2. 牛肉(牛肋條)川燙去腥味，再浸常溫水，讓肉變Q
+3. 調味料：醬油、冰糖、辣豆拌醬、蕃茄醬
+4. 香料：白胡椒、迷迭香
+##步驟
+
+1. 豬油加蔥薑蒜拌炒，加入豆拌醬3匙、醬油1杯、紅酒或米酒少許、蕃茄醬少許，冰糖三分之二匙，放入牛肉拌煮
+2. 放入壓力鍋，水蓋過肉(如使用一般鍋煮，水要再多一些)，加入白胡椒、迷迭香
+3. 壓力鍋蓋鍋，加熱直到水氣出氣發出"逼"的聲音，關小火等候20分鐘，爾後再關火等候10分鐘
+4. 開鍋試味道，若太淡，加入海鹽(不以加醬油來增醎)
+5. 加入紅蘿蔔、白蘿蔔、蕃茄
+6. 蓋壓力鍋後煮10分鐘，並等候排氣
+7. 另起一鍋煮白麵條，加少許的鹽
+8. 麵條跟牛肉湯汁合併即完成，若牛肉湯太醎可以加熱水
+9. 若沒有壓力鍋，當牛肉煮滾後轉小火40分鐘，蘿蔔放入後煮20分鐘
+
+##test
+
+test
+blog/images/something.jpg
+blog/images/something.jpg
+blog/images/something.jpg
+blog/images/something.jpg
+blog/images/something.jpg
+ls:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+blog/images/something.jpg
+blog/images/something.jpg
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:computer_science
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+blog/images/something.jpg
+blog/images/.jpg
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+blog/travel/index.html
+blog/images/.jpg
+blog/woodwork/article1.html
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:computer_science
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'MapsWithPhotos',
+  'RepeatedCodeInverse',
+  'blog',
+  'bootstrap_template.html',
+  'compiler.js',
+  'demo_jarvis.html',
+  'exec.js',
+  'express_jarvis.js',
+  'flex',
+  'form',
+  'form.html',
+  'index.html',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'public',
+  'readfile.js',
+  'run.sh',
+  'share',
+  'showdown',
+  'sqlite',
+  'stop.sh',
+  'templates.erb',
+  'test.html',
+  'test.js',
+  'todo',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'views',
+  'wysiwyg.html',
+  'youtube.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:mkdir tmp 
+compiler: lexical analyzing
+There are 0 NUM:
+There are 2 VAR:
+[ 'm', 'k', 'd', 'i', 'r' ]
+[ 't', 'm', 'p' ]
+Tokens:
+VAR
+VAR
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'MapsWithPhotos',
+  'RepeatedCodeInverse',
+  'blog',
+  'bootstrap_template.html',
+  'compiler.js',
+  'demo_jarvis.html',
+  'exec.js',
+  'express_jarvis.js',
+  'flex',
+  'form',
+  'form.html',
+  'index.html',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'public',
+  'readfile.js',
+  'run.sh',
+  'share',
+  'showdown',
+  'sqlite',
+  'stop.sh',
+  'templates.erb',
+  'test.html',
+  'test.js',
+  'todo',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'views',
+  'wysiwyg.html',
+  'youtube.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:arrow_function.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/arrow_function.markdown
+data#Arrow function
+[reference](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+##feature
+擁有更短的語法以及詞彙上綁定 this 變數，所有的箭頭函數都是無名函數 (anonymous function).
+
+##ES6
+
+##Usasge explaination with example
+在Javascript 語法上如果要定義一個function，傳統的方法是
+
+@code
+
+var adder = function(a,b){ 
+
+return a+b; 
+
+}
+
+@codee
+
+然後用adder(3,2)就可以得到5。
+如果用Arror function的描述方式就可以得到一個較精簡的寫法：
+
+@code
+var adder = (a,b)=>a+b;
+@codee
+
+只用了一行就完成了。
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:woodwork
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:..
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+blog/woodwork has been created.
+blog/woodwork/links.html
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:woodwork
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+blog/images/.jpg
+blog/woodwork/article1.html
+blog/images/.jpg
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+dir to move:..
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+filename:links.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/links.markdown
+data#[Woodarchivisit](http://woodarchivist.com/)
+blog/images/.jpg
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:JSDC_2016_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/JSDC_2016_notes.markdown
+data#JSDC 2016 筆記
+[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
+##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
+##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
+##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
+##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
+##16 Data Visualization performance optimization by Jim Chang (吉姆)
+##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
+##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
+##22 Lightning Talk
+rm /home/ubuntu/nodejs/jarvis/blog/computer_science/JSDC_2016_notes.markdown.html
+rm /home/ubuntu/nodejs/jarvis/blog/computer_science/JSDC_2016_notes.markdown.markdown
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+dir to move:computer_science
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:..
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:javascript_framework.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/javascript_framework.markdown
+dataReference: [Javascript Framework](https://medium.com/@walterwu_22843/js-2017%E5%B9%B4%E4%BD%A0%E6%9C%80%E9%9C%80%E8%A6%81%E5%AD%B8%E7%BF%92%E7%9A%84js%E6%A1%86%E6%9E%B6%E8%B7%9F%E4%B8%BB%E9%A1%8C-%E7%B4%94%E7%BF%BB%E8%AD%AF-66350840e62c#.fyb4ioeke)
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:javascript_framework.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/javascript_framework.markdown
+dataReference: [Javascript Framework](https://medium.com/@walterwu_22843/js-2017%E5%B9%B4%E4%BD%A0%E6%9C%80%E9%9C%80%E8%A6%81%E5%AD%B8%E7%BF%92%E7%9A%84js%E6%A1%86%E6%9E%B6%E8%B7%9F%E4%B8%BB%E9%A1%8C-%E7%B4%94%E7%BF%BB%E8%AD%AF-66350840e62c#.fyb4ioeke)
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:JSDC_2016_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/JSDC_2016_notes.markdown
+data#JSDC 2016 筆記
+[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
+##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
+##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
+##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
+##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
+##16 Data Visualization performance optimization by Jim Chang (吉姆)
+##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
+##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
+##22 Lightning Talk
+
+command from user:ls
+[ '.git',
+  '.gitignore',
+  'MapsWithPhotos',
+  'RepeatedCodeInverse',
+  'blog',
+  'bootstrap_template.html',
+  'compiler.js',
+  'demo_jarvis.html',
+  'exec.js',
+  'express_jarvis.js',
+  'flex',
+  'form',
+  'form.html',
+  'index.html',
+  'jarvis_socket_server.js',
+  'markdown',
+  'module_template.js',
+  'mongodb.js',
+  'nohup.out',
+  'public',
+  'readfile.js',
+  'run.sh',
+  'share',
+  'showdown',
+  'sqlite',
+  'stop.sh',
+  'templates.erb',
+  'test.html',
+  'test.js',
+  'todo',
+  'ui_cmd.html',
+  'update.sh',
+  'upgrade.sh',
+  'views',
+  'wysiwyg.html',
+  'youtube.html' ]
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'l', 's' ]
+Tokens:
+VAR
+blog/path-to-mathjax/MathJax.js
+blog/path-to-mathjax/MathJax.js
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:Qt_console_window.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/Qt_console_window.markdown
+data!code
+#ifdef GUI_VERSION_QT_WITH_CONSOLE
+//Create a Console attached to this GUI app for showing debug messages.
+AllocConsole();
+AttachConsole(GetCurrentProcessId());
+freopen("CON", "w", stdout);//Redirect stdout
+/*HWND handle = GetConsoleWindow();
+if (handle == NULL){
+
+}
+else{
+ShowWindow(handle, SW_MINIMIZE);
+}
+*/
+//End Create a Console attached to this GUI app for showing debug messages.
+#endif
+
+
+
+#ifdef GUI_VERSION_QT_WITH_CONSOLE
+FreeConsole();
+#endif​
+!codee
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:porting_application.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/porting_application.markdown
+data#移殖應用程式到新的開發環境步驟
+比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
+
+1. 在新環境中開啟一個最簡單，可以執行的程式
+2. GUI Template 複製
+3. 虛擬Server的建置
+4. 
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:..
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+ls:/home/ubuntu/nodejs/jarvis/blog/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. 
+
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/
+filename:porting_application.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/porting_application.markdown
+data#移殖應用程式到新的開發環境步驟
+比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
+
+1. 在新環境中開啟一個最簡單，可以執行的程式
+2. GUI Template 複製
+3. 虛擬Server的建置
+4. GUI rendering
+5. assets 
+6. Controller porting
+7. 按鈕行為
+
+##備分一台相同開發環境的主機
+代價就是時間
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:woodwork
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+dir to move:..
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+blog/images/jarvis.jpg
+blog/images/algorithm.jpg
+blog/images/.jpg
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:porting_application.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/porting_application.markdown
+data#移殖應用程式到新的開發環境步驟
+比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
+
+1. 在新環境中開啟一個最簡單，可以執行的程式
+2. GUI Template 複製
+3. 虛擬Server的建置
+4. 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:porting_application.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/porting_application.markdown
+data#移殖應用程式到新的開發環境步驟
+比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
+
+1. 在新環境中開啟一個最簡單，可以執行的程式
+2. GUI Template 複製
+3. 虛擬Server的建置
+4. 
+dir to move:..
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:woodwork
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+filename:woodwork_build_plan.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path:blog/woodwork/woodwork_build_plan.markdown
+data#woodwork
+
+##schedule
+## todo
+1. record
+2. publish
+3. CNC
+4. laser 
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+dir to move:..
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:porting_application.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/porting_application.markdown
+data#移殖應用程式到新的開發環境步驟
+比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
+
+1. 在新環境中開啟一個最簡單，可以執行的程式
+2. GUI Template 複製
+3. 虛擬Server的建置
+4. 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:nodejs_webservice.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/nodejs_webservice.markdown
+data#Build your web service with node.js
+
+##POST and GET operation
+
+##template your html
+
+##user ejs to render your file
+
+###ejs 是什麼
+一個將資料與網頁檔分離的platform，使用者可以專心於建構資料，而將資料嵌入網頁檔的過程叫作Render，ejs將資料作為變數。以操作流程來說明ejs：
+
+1. 使用者發出GET要求
+2. Server收到GET後，render 一個ejs檔案，同時傳入需要的資料
+
+ejs檔案是一個有html外觀，但可以使用javascript來render變數的檔案格式
+
+###這個平台上的blog並沒有採用ejs 架構
+render適合有固定相對位置、固定風格的資料，但是因為blog的內容從markdown 轉換成html時就可以被視為一個完整的、封裝後的多媒體檔案，所以在這個平台的blog系統上並沒有使用ejs。
+###那什麼時候適合用rendering ejs呢？
+當多個頁面，內含有幾個影片檔、幾個圖片檔，幾段文字，這些資訊都被完整定義，而且各別儲存時，就適合用ejs的方式來render頁面。比如一般查詢資料庫的頁面
+
+##websocket
+filename:porting_application.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/porting_application.markdown
+data#移殖應用程式到新的開發環境步驟
+比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
+
+1. 在新環境中開啟一個最簡單，可以執行的程式
+2. GUI Template 複製
+3. 虛擬Server的建置
+4. GUI render
+5. Controller 
+
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:win32_api.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/win32_api.markdown
+data#Win32 API Overview
+##why Win32 API?
+所有的Framework(.NET, Qt, MFC, ...) 都是建構在Win32 API之上，Win32 API就像是軟體端程式設計師能夠操控的最小工具單位。
+
+[reference 1](http://read.pudn.com/downloads120/ebook/512386/%E6%96%B0%E7%BC%96Windows%20API%E5%8F%82%E8%80%83%E5%A4%A7%E5%85%A8.pdf)
+
+[reference 2](http://www.functionx.com/win32/Lesson01.htm)
+
+[簡體中文資源](http://winprog.org/tutorial/zh/apivsmfc_cn.html)
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:porting_application.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/porting_application.markdown
+data#移殖應用程式到新的開發環境步驟
+比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
+
+1. 在新環境中開啟一個最簡單，可以執行的程式
+2. GUI Template 複製
+3. 虛擬Server的建置
+4. GUI render
+5. Controller 
+
+dir to move:..
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:woodwork
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+filename:woodwork_build_plan.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path:blog/woodwork/woodwork_build_plan.markdown
+data#woodwork
+
+##schedule
+## todo
+1. record
+2. publish
+3. CNC
+4. laser 

@@ -17,12 +17,48 @@ format = function() {
 };
 app.use(express.static('public'));
 app.use('/blog',express.static('blog'));
+app.use('/RepeatedCodeInverse',express.static('RepeatedCodeInverse'));
 app.get('/users/:userID/books/:bookID',function(req, res){
 	res.send(req.params)
 })
+var formidable = require('formidable');
+
+
+app.use('/gallery', require('node-gallery')({
+  staticFiles : 'resources/photos',
+  urlRoot : 'gallery', 
+  title : 'Example Gallery'
+}));
+
+
+app.get('/contest/vacation-photo', function(req, res){
+    var now = new Date();
+    res.render('contest/vacation-photo', {
+        year: now.getFullYear(), month: now.getmonth()
+    });
+});
+
+app.post('/contest/vacation-photo/:year/:month', function(req, res){
+    var form = new formidable.IncomingForm();
+    form.parse(req, function(err, fields, files){
+        if(err){
+            return res.redirect(303, '/error');
+        }
+        console.log('received fields: ');
+        console.log(fields);
+        console.log('received files: ');
+        console.log(files);
+        return res.redirect(303, '/thankyou');
+    });
+});
+
 app.get('/blog/:article/:assets',function(req, response){
+//	console.log('blog/'+req.params['article']+'/'+req.params['assets']);
+	
+
 	//response.send(req.params);
 	console.log('blog/'+req.params['article']+'/'+req.params['assets']);
+	
 	fs.readFile('blog/'+req.params['article']+'/'+req.params['assets'], function(error, data){
 
      	   if (error){
@@ -40,6 +76,11 @@ app.get('/blog/:article/:assets',function(req, response){
 app.get('/blog/:article',function(req, response){
 //	console.log('test');
 	//res.send(req.params);
+	if(req.params['assets']=='woodwork'){
+		console.log('woodwork page');
+	}else{
+		console.log('assets:'+req.params['assets']);
+	}
 	fs.readFile('blog/'+req.params['article'], function(error, data){
      	   if (error){
 		          response.writeHead(404,{'Content-Type':'text/html'});

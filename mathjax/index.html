@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Blog</title>
+
+<style type=text/css>
+    img { width: 100%; margin-right: 12px; margin-bottom:4px;}
+	
+</style>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" src="path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<div class='container'>
+<div class='row'>
+<h1>Yu-Sheng's Blog</h1>
+	<div id='nav'>
+		<ul>
+		</ul>
+	</div>
+</div>
+<p>這個blog記錄了生活中各種值得記錄下來的事情，包含料理、木工、手工作品，網頁作品等等。</p>
+<div class='row'>
+
+	<div class = 'col-lg-3 bg-warning'>
+
+		<a href="food.html">
+		<img style="width:100%" src="images/food.jpg" >
+		料理
+		</a>
+	</div>
+	<div class = 'col-lg-3 bg-warning'>
+		<a href="woodwork.html">
+		<img src="images/food.jpg" >
+		木工
+		</a>
+	</div>
+	<div class = 'col-lg-3 bg-warning'>
+		<a href="computer_science.html">
+		<img src="images/food.jpg" >
+		電腦科學
+		</a>
+	</div>
+</div>
+<div class='row'>
+<div class='col-lg-12'>
+	<h2>網站的架設</h2>
+	<p>這個網站同步更新於yushengc.twbbs.org:9090以及github 上。yushengc.twbbs.org是一個實驗性質的網站，建設在amazon ec2，在其中自行建設網站伺服器，保有了較大的彈性，可以玩一玩node.js的功能，也將blog架設在底下。blog儲存在github上，同步於Dropbox，因此blog底下的所有文件任何人都可以access 到，而任何一台電腦可以開啟Dropbox中的網頁檔進行編輯並自動同步，當完成變更後再push到github上。而在github上的網站則是為了確保不用為了有一天因為某些原因網站掛掉時的備份。 </p>
+	<p>目前網站的內容與呈現採疊代的方式進行更新，一邊增加內容，以html的格式存檔，一邊開發美觀(CSS)、以及編輯模式。
+	<h3>是否使用現行的CMS</h3>
+	<p>
+	其實這個問題不斷的困擾著我，使用現成CMS一直讓時間有限的我不時的轉換回去使用，也很快速的累積一些文章。但是因為一些主要原因帶來的優點讓我最終還是選擇了現在這個方案，並且希望這次可以維持得更久一些。
+	<ul>
+	    <li>我是一個很喜歡掌握實作細節的人，因此自己架設網站從來就是一件很吸引我的事情</li>
+	    <li>只有自己才知道自己要什麼，而一旦知道自己要什麼(從網站的外觀，到網站的行為模式)，最好自己仍保有製造的條件以及能力。當選擇商用的CMS，也少了某些自造的自由。</li>
+	    <li>雖然技術債很多，但是值得花時間學習</li>
+	</ul>
+	</p>
+</div>
+</div>
+</div>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js'></script>
+</body>
+</html>
