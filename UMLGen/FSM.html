@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<META http-equiv="Content-Type" content="text/html; charset=big5">
+<script src='jquery-1.11.2.min.js'>  </script>
+<script>
+$(document).ready(function() {
+    var max_fields      = 10; //maximum input boxes allowed
+//    var wrapper         = $(".input_fields_wrap"); //Fields wrapper
+    var wrapper         = $("#signup"); //Fields wrapper
+    var add_button      = $(".add_field_button"); //Add button ID
+    
+    var x = 1; //initlal text box count
+    $(add_button).click(function(e){ //on add input button click
+        e.preventDefault();
+        if(x < max_fields){ //max input box allowed
+            x++; //text box increment
+            $(wrapper).append('<div><input type="text" id="state'+(x)+'" name="state'+(x)+'"/><a href="#" class="remove_field">Remove</a></div>'); //add input box
+	    document.forms[0].elements["state_number"].value= x+1;
+		console.log(x);
+        }
+    });
+    
+    $(wrapper).on("click",".remove_field", function(e){ //user click on remove text
+        e.preventDefault(); $(this).parent('div').remove(); x--;
+	document.forms[0].elements["state_number"].value= x;
+    })
+});
+</script>
+</head>
+  <body> 
+<div class="input_fields_wrap">
+    <button class="add_field_button">Add More Fields</button>
+    <div><input type="text" name="mytext[]"></div>
+    <form id="signup" method="POST" action="fsm_post">
+      <input type="submit" value="送出" />
+	<h1 id="state_header">state</h1>
+	<div><input id="id_state_number" type="hidden" name="state_number" value="2"/></div>
+      <div><input type="text" id="state0" name="state0" value="ccc"/><br/></div>
+      <div><input type="text" id="state1" name="state1" value="1234567"/><br/></div>
+    </form>
+</div>
+  </body>
+</html>

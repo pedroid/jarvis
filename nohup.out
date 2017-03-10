@@ -1,1509 +1,209 @@
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-
-command from user:markdown markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 2 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-VAR
-Connection
-Connection
-Connection
-
-command from user:ls
-[ '.git',
-  '.gitignore',
-  'blog',
-  'compiler.js',
-  'exec.js',
-  'flex',
-  'index.html',
-  'jarvis_socket_server.js',
-  'markdown',
-  'module_template.js',
-  'mongodb.js',
-  'nohup.out',
-  'readfile.js',
-  'run.sh',
-  'showdown',
-  'songla',
-  'stop.sh',
-  'test.html',
-  'test.js',
-  'tmp.html',
-  'ui_cmd.html',
-  'update.sh',
-  'upgrade.sh',
-  'wysiwyg.html' ]
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'l', 's' ]
-Tokens:
-VAR
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-data:<p>Type <strong>Markdown</strong> here.</p>
-
-<h1>this is a pen</h1>
-
-<p>haha</p>
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-data:<h1>article</h1>
-
-<p>How deep is your love?</p>
-filename:test
-Connection
-Connection
-data:<h1>article</h1>
-
-<p>How deep is your love?
-very deep</p>
-filename:test
-Connection
-data:<h1>article</h1>
-
-<p>How deep is your love?
-very deep.</p>
-
-<h1>e</h1>
-
-<ol><li>hey</li><li>toto</li></ol>
-
-<h1>f</h1>
-filename:test
-Connection
-data:<h1>article</h1>
-
-<p>How deep is your love?
-very deep.</p>
-
-<h1>e</h1>
-
-<ol><li>hey</li><li>toto</li></ol>
-
-<h1>f</h1>
-
-<p><a href="https://www.google.com">I'm an inline-style link</a></p>
-filename:test
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:cmd
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'c', 'm', 'd' ]
-Tokens:
-VAR
-
-command from user:ls
-[ '.git',
-  '.gitignore',
-  'RepeatedCodeInverse',
-  'blog',
-  'compiler.js',
-  'exec.js',
-  'flex',
-  'index.html',
-  'jarvis_socket_server.js',
-  'markdown',
-  'module_template.js',
-  'mongodb.js',
-  'nohup.out',
-  'readfile.js',
-  'run.sh',
-  'showdown',
-  'songla',
-  'stop.sh',
-  'test.html',
-  'test.js',
-  'todo',
-  'ui_cmd.html',
-  'update.sh',
-  'upgrade.sh',
-  'wysiwyg.html' ]
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'l', 's' ]
-Tokens:
-VAR
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-html_data:<h1>A markdown WYSIWYG-interface blog platform based on websocket</h1>
-markdown_data:Type **Markdown** here.
-filename:markdown_WYSIWYG
-Connection
-Connection
-Connection
-Connection
-Connection
-html_data:<h1>A markdown WYSIWYG-interface blog platform based on websocket</h1>
-
-<h2>Architecture</h2>
-markdown_data:Type **Markdown** here.
-filename:markdown_WYSIWYG
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-current_path:/home/ubuntu/nodejs/jarvis/blog/
-blog/recipe has been created.
-current_path:/home/ubuntu/nodejs/jarvis/blog/
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-Connection
-current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
-blog/recipe/recipe has been created.
-current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/recipe/
-{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/recipe/recipe/']
-  errno: 34,
-  code: 'ENOENT',
-  path: '/home/ubuntu/nodejs/jarvis/blog/recipe/recipe/',
-  syscall: 'readdir' }
-{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/recipe/recipe/']
-  errno: 34,
-  code: 'ENOENT',
-  path: '/home/ubuntu/nodejs/jarvis/blog/recipe/recipe/',
-  syscall: 'readdir' }
-current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/recipe/
-Missing error handler on `socket`.
-Error: ENOENT, no such file or directory 'blog/recipe/recipe/tmp'
-    at Object.fs.mkdirSync (fs.js:647:18)
-    at Socket.<anonymous> (/home/ubuntu/nodejs/jarvis/jarvis_socket_server.js:78:9)
-    at Socket.EventEmitter.emit (events.js:95:17)
-    at Socket.onevent (/home/ubuntu/nodejs/node_modules/socket.io/lib/socket.js:335:8)
-    at Socket.onpacket (/home/ubuntu/nodejs/node_modules/socket.io/lib/socket.js:295:12)
-    at Client.ondecoded (/home/ubuntu/nodejs/node_modules/socket.io/lib/client.js:193:14)
-    at Decoder.Emitter.emit (/home/ubuntu/nodejs/node_modules/socket.io/node_modules/socket.io-parser/node_modules/component-emitter/index.js:134:20)
-    at Decoder.add (/home/ubuntu/nodejs/node_modules/socket.io/node_modules/socket.io-parser/index.js:247:12)
-    at Client.ondata (/home/ubuntu/nodejs/node_modules/socket.io/lib/client.js:175:18)
-    at Socket.EventEmitter.emit (events.js:95:17)
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
 ls:/home/ubuntu/nodejs/jarvis/blog/
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:electronics
+dir to move:woodwork
 [ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/electronics/
-ls:/home/ubuntu/nodejs/jarvis/blog/electronics/
-filename:LM317.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/electronics/
-path:blog/electronics/LM317.markdown
-data[喬治查爾斯電子電路網](http://gc.digitw.com/)
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/electronics/
-ls:/home/ubuntu/nodejs/jarvis/blog/electronics/
-dir to move:..
-pwd:/home/ubuntu/nodejs/jarvis/blog/
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:computer_science
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:markdown_blog.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/markdown_blog.markdown
-data#A Blog platform with markdown WYSIWYG interface based on websocket
-##feature
-1. based on websocket.
-2. user can use command line to do file system operation
-3. hosted on server (ex. Amazon EC2)
+pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+filename:woodwork_build_plan.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path:blog/woodwork/woodwork_build_plan.markdown
+data#woodwork
 
-##architecture
-##discussion
-##todo
-1. picture and video embeded issues.
-2. auto-save 
-Connection
-Connection
-Connection
+##schedule
+###報名時程
 
-command from user:ls
-[ '.git',
-  '.gitignore',
-  'MapsWithPhotos',
-  'RepeatedCodeInverse',
-  'blog',
-  'compiler.js',
-  'exec.js',
-  'flex',
-  'fs_rm.js',
-  'index.html',
-  'jarvis_socket_server.js',
-  'markdown',
-  'module_template.js',
-  'mongodb.js',
-  'nohup.out',
-  'readfile.js',
-  'run.sh',
-  'showdown',
-  'songla',
-  'stop.sh',
-  'test.html',
-  'test.js',
-  'todo',
-  'ui_cmd.html',
-  'update.sh',
-  'upgrade.sh',
-  'wysiwyg.html' ]
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'l', 's' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:computer_science
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-dir to move:computer_science
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-dir to move:..
-pwd:/home/ubuntu/nodejs/jarvis/blog/
-ls:/home/ubuntu/nodejs/jarvis/blog/
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:computer_science
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/
-rm /home/ubuntu/nodejs/jarvis/blog/forfun.markdown
-rm /home/ubuntu/nodejs/jarvis/blog/forfun.html
-ls:/home/ubuntu/nodejs/jarvis/blog/
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:food
-pwd:/home/ubuntu/nodejs/jarvis/blog/
-ls:/home/ubuntu/nodejs/jarvis/blog/
-Connection
-Connection
-Connection
-Connection
-dir to move:recipe
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/recipe/
-ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
-filename:beef_noodle.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
-path:blog/recipe/beef_noodle.markdown
-data#牛肉麵
-
-##備料
-
-1. 蔥(2-3)、薑(5)、蒜(5)、辣椒(2)、蕃茄(3)、白蘿蔔(3)、洋蔥(2)、紅蘿蔔(三分之二)、香菜
-2. 牛肉(牛肋條)川燙去腥味，再浸常溫水，讓肉變Q
-3. 調味料：醬油、冰糖、辣豆拌醬、蕃茄醬
-4. 香料：白胡椒、迷迭香
-##步驟
-
-1. 豬油加蔥薑蒜拌炒，加入豆拌醬3匙、醬油1杯、紅酒或米酒少許、蕃茄醬少許，冰糖三分之二匙，放入牛肉拌煮
-2. 放入壓力鍋，水蓋過肉(如使用一般鍋煮，水要再多一些)，加入白胡椒、迷迭香
-3. 壓力鍋蓋鍋，加熱直到水氣出氣發出"逼"的聲音，關小火等候20分鐘，爾後再關火等候10分鐘
-4. 開鍋試味道，若太淡，加入海鹽(不以加醬油來增醎)
-5. 加入紅蘿蔔、白蘿蔔、蕃茄
-6. 蓋壓力鍋後煮10分鐘，並等候排氣
-7. 另起一鍋煮白麵條，加少許的鹽
-8. 麵條跟牛肉湯汁合併即完成，若牛肉湯太醎可以加熱水
-9. 若沒有壓力鍋，當牛肉煮滾後轉小火40分鐘，蘿蔔放入後煮20分鐘
-
-Connection
-Connection
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
-Connection
-Connection
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
-filename:beef_noodle.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
-path:blog/recipe/beef_noodle.markdown
-data#牛肉麵
-@u2b https://www.youtube.com/embed/cyeuDeM4UUg @u2bee
-##備料
-
-1. 蔥(2-3)、薑(5)、蒜(5)、辣椒(2)、蕃茄(3)、白蘿蔔(3)、洋蔥(2)、紅蘿蔔(三分之二)、香菜
-2. 牛肉(牛肋條)川燙去腥味，再浸常溫水，讓肉變Q
-3. 調味料：醬油、冰糖、辣豆拌醬、蕃茄醬
-4. 香料：白胡椒、迷迭香
-##步驟
-
-1. 豬油加蔥薑蒜拌炒，加入豆拌醬3匙、醬油1杯、紅酒或米酒少許、蕃茄醬少許，冰糖三分之二匙，放入牛肉拌煮
-2. 放入壓力鍋，水蓋過肉(如使用一般鍋煮，水要再多一些)，加入白胡椒、迷迭香
-3. 壓力鍋蓋鍋，加熱直到水氣出氣發出"逼"的聲音，關小火等候20分鐘，爾後再關火等候10分鐘
-4. 開鍋試味道，若太淡，加入海鹽(不以加醬油來增醎)
-5. 加入紅蘿蔔、白蘿蔔、蕃茄
-6. 蓋壓力鍋後煮10分鐘，並等候排氣
-7. 另起一鍋煮白麵條，加少許的鹽
-8. 麵條跟牛肉湯汁合併即完成，若牛肉湯太醎可以加熱水
-9. 若沒有壓力鍋，當牛肉煮滾後轉小火40分鐘，蘿蔔放入後煮20分鐘
-
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
-filename:beef_noodle.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
-path:blog/recipe/beef_noodle.markdown
-data#牛肉麵
-@u2b https://www.youtube.com/embed/cyeuDeM4UUg @u2bee
-##備料 
-
-1. 蔥(2-3)、薑(5)、蒜(5)、辣椒(2)、蕃茄(3)、白蘿蔔(3)、洋蔥(2)、紅蘿蔔(三分之二)、香菜
-2. 牛肉(牛肋條)川燙去腥味，再浸常溫水，讓肉變Q
-3. 調味料：醬油、冰糖、辣豆拌醬、蕃茄醬
-4. 香料：白胡椒、迷迭香
-##步驟
-
-1. 豬油加蔥薑蒜拌炒，加入豆拌醬3匙、醬油1杯、紅酒或米酒少許、蕃茄醬少許，冰糖三分之二匙，放入牛肉拌煮
-2. 放入壓力鍋，水蓋過肉(如使用一般鍋煮，水要再多一些)，加入白胡椒、迷迭香
-3. 壓力鍋蓋鍋，加熱直到水氣出氣發出"逼"的聲音，關小火等候20分鐘，爾後再關火等候10分鐘
-4. 開鍋試味道，若太淡，加入海鹽(不以加醬油來增醎)
-5. 加入紅蘿蔔、白蘿蔔、蕃茄
-6. 蓋壓力鍋後煮10分鐘，並等候排氣
-7. 另起一鍋煮白麵條，加少許的鹽
-8. 麵條跟牛肉湯汁合併即完成，若牛肉湯太醎可以加熱水
-9. 若沒有壓力鍋，當牛肉煮滾後轉小火40分鐘，蘿蔔放入後煮20分鐘
-
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-Connection
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-Connection
-Connection
-dir to move:computer_science
-pwd:/home/ubuntu/nodejs/jarvis/blog/recipe/
-ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
-dir to move:../computer_science
-[ '/home/ubuntu/nodejs/jarvis/blog/',
-  '/home/ubuntu/nodejs/jarvis/blog/recipe/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/recipe/../computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/recipe/../computer_science/
-Connection
-Connection
-/ui_cmd.html
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-Connection
-/markdown/markdown.html
-Connection
-/markdown/markdown.js
-Connection
-/markdown/html_advance.js
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:computer_science
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:nodejs_webservice.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/nodejs_webservice.markdown
-data#從零打造一個web service
-
-Connection
-/blog/computer_science/nodejs_webservice.html
-Connection
-/blog/computer_science/nodejs_webservice.html
-Connection
-/blog/computer_science/nodejs_webservice.html
-
-module.js:340
-    throw err;
-          ^
-Error: Cannot find module '/home/ubuntu/nodejs/jarvis/express_harvis.js'
-    at Function.Module._resolveFilename (module.js:338:15)
-    at Function.Module._load (module.js:280:25)
-    at Function.Module.runMain (module.js:497:10)
-    at startup (node.js:119:16)
-    at node.js:902:3
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-dir to move:computer_science
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:bootstrap3.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/bootstrap3.markdown
-data#Bootstrap 3
-##What is Bootstrap?
-a front end framework for making responsive design easy
-###responsive design (RWD)
-當網頁由不同解析度大小的瀏覽器觀看時，頁面的Layout也有所不同。
-
-###Front-end framework
-前端framework 代表程式設計師可以專心在屬性與外觀之間的關聯，不用去煩惱要怎麼將各種屬性套用在程式碼中，深陷於屬性、程式碼與外觀之間複雜的三角關係。
-
-Framework的使用學習曲線通常都是先陡後平緩的。先是學習Framework的使用方法，然後熟練了之後就可以將心思放在更重要的事情上，比如程式的內容。
-##Install
+###準備資料
 
 
-###CDN (Content delivery network)
+## todo
+###將目前沈師傅教的整理
 
-todo
-
-
-##所謂花錢買Bootstrap template，我們到底買了什麼？
-
-command from user:ls
-[ '.git',
-  '.gitignore',
-  'MapsWithPhotos',
-  'RepeatedCodeInverse',
-  'blog',
-  'compiler.js',
-  'demo_jarvis.html',
-  'exec.js',
-  'express_jarvis.js',
-  'flex',
-  'form',
-  'form.html',
-  'index.html',
-  'jarvis_socket_server.js',
-  'markdown',
-  'module_template.js',
-  'mongodb.js',
-  'nohup.out',
-  'public',
-  'readfile.js',
-  'run.sh',
-  'share',
-  'showdown',
-  'stop.sh',
-  'templates.erb',
-  'test.html',
-  'test.js',
-  'todo',
-  'ui_cmd.html',
-  'update.sh',
-  'upgrade.sh',
-  'views',
-  'wysiwyg.html',
-  'youtube.html' ]
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'l', 's' ]
-Tokens:
-VAR
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-
-command from user:markdowm
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'm' ]
-Tokens:
-VAR
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:JSDC_2016_notes.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/JSDC_2016_notes.markdown
-data#JSDC 2016 筆記
-[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
-##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
-##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
-##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
-##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
-##16 Data Visualization performance optimization by Jim Chang (吉姆)
-##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
-##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
-##22 Lightning Talk
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-blog/computer_science/JSDC_2016_notes.html
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:JSDC_2016_notes.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/JSDC_2016_notes.markdown
-data#JSDC 2016 筆記
-[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
-##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
-##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
-##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
-##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
-##16 Data Visualization performance optimization by Jim Chang (吉姆)
-##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
-##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
-##22 Lightning Talk
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:JSDC_2016_notes.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/JSDC_2016_notes.markdown
-data#JSDC 2016 筆記
-[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
-##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
-##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
-##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
-##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
-##16 Data Visualization performance optimization by Jim Chang (吉姆)
-##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
-##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
-##22 Lightning Talk
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:JSDC_2016_notes.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/JSDC_2016_notes.markdown
-data#JSDC 2016 筆記
-[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
-##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
-##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
-##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
-##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
-##16 Data Visualization performance optimization by Jim Chang (吉姆)
-##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
-##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
-##22 Lightning Talk
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:JSDC_2016_notes.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/JSDC_2016_notes.markdown
-data#JSDC 2016 筆記
-[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
-##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
-##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
-##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
-##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
-##16 Data Visualization performance optimization by Jim Chang (吉姆)
-##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
-##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
-##22 Lightning Talk
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:JSDC_2016_notes
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/JSDC_2016_notes
-{ [Error: ENOENT, open 'blog/computer_science/JSDC_2016_notes']
-  errno: 34,
-  code: 'ENOENT',
-  path: 'blog/computer_science/JSDC_2016_notes' }
-filename:JSDC_2016_notes.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/JSDC_2016_notes.markdown
-data#JSDC 2016 筆記
-[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
-##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
-##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
-##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
-##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
-##16 Data Visualization performance optimization by Jim Chang (吉姆)
-##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
-##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
-##22 Lightning Talk
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:arrow_function.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/arrow_function.markdown
-data#Arrow function
-[reference](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-
-##feature
-擁有更短的語法以及詞彙上綁定 this 變數，所有的箭頭函數都是無名函數 (anonymous function).
-
-##ES6
-
-##Usasge explaination with example
-在Javascript 語法上如果要定義一個function，傳統的方法是
-
-@code
-
-var adder = function(a,b){ 
-
-return a+b; 
-
-}
-
-@codee
-
-然後用adder(3,2)就可以得到5。
-如果用Arror function的描述方式就可以得到一個較精簡的寫法：
-
-@code
-var adder = (a,b)=>a+b;
-@codee
-
-只用了一行就完成了。
-blog/images/food.jpg
-blog/images/something.jpg
-blog/recipe/beef_noodle.html
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:computer_science
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:bootstrap3.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/bootstrap3.markdown
-data#Bootstrap 3
-##What is Bootstrap?
-a front end framework for making responsive design easy
-###responsive design (RWD)
-當網頁由不同解析度大小的瀏覽器觀看時，頁面的Layout也有所不同。
-
-###Front-end framework
-前端framework 代表程式設計師可以專心在屬性與外觀之間的關聯，不用去煩惱要怎麼將各種屬性套用在程式碼中，深陷於屬性、程式碼與外觀之間複雜的三角關係。
-
-Framework的使用學習曲線通常都是先陡後平緩的。先是學習Framework的使用方法，然後熟練了之後就可以將心思放在更重要的事情上，比如程式的內容。
-##Install
+####三角尺
+####角度器
+####盒子
+####馬凳
+####圓凳
+####矮櫃
 
 
-###CDN (Content delivery network)
+###發表的平台
+###CNC 的研究
+###Sketchup
 
-todo
+##產品規劃
+###鳥兒時鐘
+使用者可以錄製自己的鐘點音效
+###桌墊X牙醫
+unpublish
+undefined
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+filename:top_10_woodwork_plan.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path:blog/woodwork/top_10_woodwork_plan.markdown
+data#Top 10 wood project I am interested
+
+## 
+![Alt text](https://s-media-cache-ak0.pinimg.com/564x/80/15/8b/80158baabab86ed125e7438a0f3da282.jpg)
+
+##wood hinge
+![Wood hinges](http://woodgears.ca/wood_hardware/wooden_hinge.jpg)
+
+##Open-Close Wood Gear
+
+##wood toy bricks
+![Wood bricks](https://s-media-cache-ak0.pinimg.com/564x/08/2a/90/082a901111c586eaedb530e5719f79a7.jpg)
 
 
-##所謂花錢買Bootstrap template，我們到底買了什麼？
-blog/computer_science/bootstrap3.html
-blog/computer_science/bootstrap3.markdown.html
-blog/computer_science/bootstrap3.markdown.html
-blog/images/food.jpg
+
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+filename:top_10_woodwork_plan.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path:blog/woodwork/top_10_woodwork_plan.markdown
+data#Top 10 wood project I am interested
+
+## 
+![Alt text](https://s-media-cache-ak0.pinimg.com/564x/80/15/8b/80158baabab86ed125e7438a0f3da282.jpg)
+
+##wood hinge
+![Wood hinges](http://woodgears.ca/wood_hardware/wooden_hinge.jpg)
+
+##Open-Close Wood Gear
+
+##wood toy bricks
+![Wood bricks](https://s-media-cache-ak0.pinimg.com/564x/08/2a/90/082a901111c586eaedb530e5719f79a7.jpg)
+
+
+
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+filename:top_10_woodwork_plan.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path:blog/woodwork/top_10_woodwork_plan.markdown
+data#Top 10 wood project I am interested
+
+## 
+![Alt text](https://s-media-cache-ak0.pinimg.com/564x/80/15/8b/80158baabab86ed125e7438a0f3da282.jpg)
+
+##wood hinge
+![Wood hinges](http://woodgears.ca/wood_hardware/wooden_hinge.jpg)
+
+##Open-Close Wood Gear
+
+##wood toy bricks
+![Wood bricks](https://s-media-cache-ak0.pinimg.com/564x/08/2a/90/082a901111c586eaedb530e5719f79a7.jpg)
+
+
+
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+filename:top_10_woodwork_plan.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path:blog/woodwork/top_10_woodwork_plan.markdown
+data#Top 10 wood project I am interested
+
+## 
+![Alt text](https://s-media-cache-ak0.pinimg.com/564x/80/15/8b/80158baabab86ed125e7438a0f3da282.jpg)
+
+##wood hinge
+![Wood hinges](http://woodgears.ca/wood_hardware/wooden_hinge.jpg)
+
+##Open-Close Wood Gear
+
+##wood toy bricks
+![Wood bricks](https://s-media-cache-ak0.pinimg.com/564x/08/2a/90/082a901111c586eaedb530e5719f79a7.jpg)
+
+
+
+blog/images/.jpg
+blog/images/article.jpg
 blog/images/jarvis.jpg
-blog/images/algorithm.jpg
-blog/computer_science/jarvis.html
-blog/computer_science/jarvis.html
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:bootstrap3.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/bootstrap3.markdown
-data#Bootstrap 3
-##What is Bootstrap?
-a front end framework for making responsive design easy
-###responsive design (RWD)
-當網頁由不同解析度大小的瀏覽器觀看時，頁面的Layout也有所不同。
 
-###Front-end framework
-前端framework 代表程式設計師可以專心在屬性與外觀之間的關聯，不用去煩惱要怎麼將各種屬性套用在程式碼中，深陷於屬性、程式碼與外觀之間複雜的三角關係。
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+filename:woodwork_build_plan.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path:blog/woodwork/woodwork_build_plan.markdown
+data#woodwork
 
-Framework的使用學習曲線通常都是先陡後平緩的。先是學習Framework的使用方法，然後熟練了之後就可以將心思放在更重要的事情上，比如程式的內容。
-##Install
+##schedule
+###報名時程
 
-
-###CDN (Content delivery network)
-
-todo
+###準備資料
 
 
-##所謂花錢買Bootstrap template，我們到底買了什麼？
-filename:markdown_blog.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/markdown_blog.markdown
-data#A Blog backend platform with markdown WYSIWYG interface based on websocket
-##feature
-1. based on websocket.
-2. user can use command line to do file system operation
-3. hosted on server-side (ex. Amazon EC2)
+## todo
+###將目前沈師傅教的整理
 
-##how to use
-1. git clone 
-
-##architecture
-##discussion
-
-##demo
-
-##todo
-1. picture and video embeded issues.
-2. auto-save 
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:bootstrap3
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/bootstrap3
-{ [Error: ENOENT, open 'blog/computer_science/bootstrap3']
-  errno: 34,
-  code: 'ENOENT',
-  path: 'blog/computer_science/bootstrap3' }
-filename:bootstrap3
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/bootstrap3
-{ [Error: ENOENT, open 'blog/computer_science/bootstrap3']
-  errno: 34,
-  code: 'ENOENT',
-  path: 'blog/computer_science/bootstrap3' }
-filename:bootstrap3
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/bootstrap3
-{ [Error: ENOENT, open 'blog/computer_science/bootstrap3']
-  errno: 34,
-  code: 'ENOENT',
-  path: 'blog/computer_science/bootstrap3' }
-filename:bootstrap3
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/bootstrap3
-{ [Error: ENOENT, open 'blog/computer_science/bootstrap3']
-  errno: 34,
-  code: 'ENOENT',
-  path: 'blog/computer_science/bootstrap3' }
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:bootstrap3.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/bootstrap3.markdown
-data#Bootstrap 3
-##What is Bootstrap?
-a front end framework for making responsive design easy
-###responsive design (RWD)
-當網頁由不同解析度大小的瀏覽器觀看時，頁面的Layout也有所不同。
-
-###Front-end framework
-前端framework 代表程式設計師可以專心在屬性與外觀之間的關聯，不用去煩惱要怎麼將各種屬性套用在程式碼中，深陷於屬性、程式碼與外觀之間複雜的三角關係。
-
-Framework的使用學習曲線通常都是先陡後平緩的。先是學習Framework的使用方法，然後熟練了之後就可以將心思放在更重要的事情上，比如程式的內容。
-##Install
+####三角尺
+####角度器
+####盒子
+####馬凳
+####圓凳
+####矮櫃
 
 
-###CDN (Content delivery network)
+###發表的平台
+###CNC 的研究
+###Sketchup
 
-todo
+##產品規劃
+###木工X電子
+1. 鳥兒時鐘
+使用者可以錄製自己的鐘點音效
+2. 設計圖案結合山景與野生動物與台灣圖騰
+###單純木工
+1. 夾子
+2. 相框
+3. 
+
+reference
+1. [20 Most Profitable Woodworking Business Ideas](https://99businessideas.com/20-most-profitable-woodworking-business-ideas/)
+unpublish
+undefined
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+filename:woodwork_build_plan.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path:blog/woodwork/woodwork_build_plan.markdown
+data#woodwork
+
+##schedule
+###報名時程
+
+###準備資料
 
 
-##所謂花錢買Bootstrap template，我們到底買了什麼？
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-blog/computer_science/bootstrap3.html
-blog/computer_science/bootstrap3.html
-blog/computer_science/bootstrap3.html
-blog/travel/index.html
+## todo
+###將目前沈師傅教的整理
+
+1. 三角尺
+2. 活動角尺
+3. 盒子
+4. 馬凳
+5. 圓凳
+6. 矮櫃
+
+
+###發表的平台
+###CNC 的研究
+###Sketchup
+
+##產品規劃
+###木工X電子
+1. 鳥兒時鐘
+使用者可以錄製自己的鐘點音效
+2. 設計圖案結合山景與野生動物與台灣圖騰
+###單純木工
+1. 夾子
+2. 相框
+3. 
+
+reference
+1. [20 Most Profitable Woodworking Business Ideas](https://99businessideas.com/20-most-profitable-woodworking-business-ideas/)
+unpublish
+undefined
 
 command from user:markdown
 compiler: lexical analyzing
@@ -1513,20 +213,39 @@ There are 1 VAR:
 Tokens:
 VAR
 ls:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
 dir to move:computer_science
+b
 [ '/home/ubuntu/nodejs/jarvis/blog/' ]
 pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
 ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:nodejs_webservice.markdown
+unpublish
+undefined
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:FSM_framework.markdown
 current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/nodejs_webservice.markdown
-data#customize your web service with node.js
-
-#template your html
-
-#render 
-
-##websocket
+path:blog/computer_science/FSM_framework.markdown
+data#FSM framework
+將經驗與資料框架化
 
 command from user:ls
 [ '.git',
@@ -1536,15 +255,18 @@ command from user:ls
   'blog',
   'bootstrap_template.html',
   'compiler.js',
+  'd3',
   'demo_jarvis.html',
   'exec.js',
   'express_jarvis.js',
+  'files',
   'flex',
   'form',
   'form.html',
   'index.html',
   'jarvis_socket_server.js',
   'markdown',
+  'mathjax',
   'module_template.js',
   'mongodb.js',
   'nohup.out',
@@ -1552,15 +274,19 @@ command from user:ls
   'readfile.js',
   'run.sh',
   'share',
-  'showdown',
+  'sqlite',
   'stop.sh',
+  'sysconfig.json',
   'templates.erb',
+  'test',
   'test.html',
   'test.js',
+  'testfs.js',
   'todo',
   'ui_cmd.html',
   'update.sh',
   'upgrade.sh',
+  'upload.html',
   'views',
   'wysiwyg.html',
   'youtube.html' ]
@@ -1578,34 +304,75 @@ There are 1 VAR:
 [ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
 Tokens:
 VAR
-blog/images/something.jpg
-blog/images/jarvis.jpg
-blog/images/algorithm.jpg
-blog/travel/index.html
-blog/images/jarvis.jpg
-blog/images/algorithm.jpg
-blog/images/jarvis.jpg
-blog/images/algorithm.jpg
-blog/images/something.jpg
-blog/images/something.jpg
-blog/images/something.jpg
-blog/images/jarvis.jpg
-blog/images/algorithm.jpg
-blog/images/.jpg
-blog/images/.jpg
-blog/images/jarvis.jpg
-blog/images/algorithm.jpg
-blog/images/jarvis.jpg
-blog/images/algorithm.jpg
-blog/images/.jpg
-blog/images/something.jpg
-blog/images/something.jpg
-blog/images/something.jpg
-blog/images/something.jpg
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:FSM_transition_matrix_autogenerate_diagram_code.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/FSM_transition_matrix_autogenerate_diagram_code.markdown
+data#Auto Generate FSM object with Transition Matrix Input
+!tag FSM
+!publish
+
+##Overview
+這個專案是一個自動產生程式語言實作、描述的平台。狀態機(FSM)對程式設計師而言是非常常用的一種設計模式，筆者在撰寫軟體、韌體時，已經非常習慣使用狀態機來控制程式的流程，因為這種設計模式讓程式非常的容易除錯，程式的邏輯因為狀態機控制變得比較單純。但是對筆者而言，要在不同的語言下去實作狀態機，記憶不同程式語言的語法就是一件大量重覆的工作，因為工作需要常常在不同的語言下切換(Javascript, Verilog, C++等)，常常要回去翻過去專案的原始碼，才會記起相關的實作細節。因此使用自動化產生程式碼的目的，就是要減少程式設計師的工作量，系統化一些重覆的工作，藉此減低撰寫程式上的負擔。這篇文章介紹如何建構一個自動產生FSM物件的工具，有了這個工具，程式設計師可以專心在程式的架構上，而實作細節不再需要粍掉程式設計師大量的時間以及心力。我希望能將這部份的工作標準化，同樣且重要的工作認真的作一次，往後就可以安心的在框架下作業，如此增加工作完成的效率以及準確度，是這個專案的核心目的。
+
+##output language
+因為筆者工作主要的語言是C++, Verilog次之，所以會先產生C++的版本，再來是Verilog
+
+##transition matrix 
+作為使用者輸入的方式，我選用了Transition Matrix，讓使用者描述狀態機，而格式則是採用Markdown。用Markdown的優點是有利於筆者文件化，以及文件的可讀性。用Markdown可以讓使用者(人類)容易理解，也可以透過相關的library解析後為電腦所處理。
+
+以紅緣燈為例
+| STATE/event()        | 30seconds()         |5seconds()|  60seconds()  |
+|: -------------------: |:------------------- :| :------------:|  :---------------:|
+| GREEN                  | YELLOW             | X               |    X
+| YELLOW                | X                         |  RED         |    X
+|RED                        | X                         |   X             |     GREEN
+  
+
+##轉換流程
+介紹轉換流程的同時，也是介紹技術上的細節。筆者希望程式設計師能夠將時間節省在設計這一個步驟。所以在這個平台使用者的輸入介面就是狀態轉換的列表，除此之外沒有了！而平台的輸出呢就是自動化產生的C++ object class。
+
+我們已經知道最終我們要的輸出是什麼，以及使用者輸入，剩下的就是我們應該自動化的部份了。條列一下逐步需要做的事情。
+
+1. 使用者輸入Transition Matrix，用Markdown的格式
+2. Markdown 格式的表格經由特定的[函式庫]轉換成HTML(參考[showdown](https://github.com/showdownjs/showdown))
+3. 自定一個函式庫，將HTML格式的table 解析出有多少state, event等資訊
+4. 有了state, event這些資料就足以產一一個FSM的框架了。
+
+##C++ class architecture
+###state abstract class
+1. 命名：[project name]StateAbstract.[cpp|h]
+2. 定義各個event()的行為，預設在各state不作工作
+
+###state class
+1. 命名：[project name]State[state name].[cpp|h]
+example: f
+2. 繼承自state abstract class，有幾個state就有幾個class
+3. 若event()在該state有觸發行為，則該event()在該state要實作。 
+
+###controller abstract class
+###controller class
+####"event" member function 
+
+
+##references
+1. [State Transition Table Wiki](https://en.wikipedia.org/wiki/State_transition_table)
+2. [GoJS](http://gojs.net/latest/index.html)
+3. [Markdown to HTML javascript library](https://github.com/showdownjs/showdown)
+
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
 ls:/home/ubuntu/nodejs/jarvis/blog/
 dir to move:recipe
+b
 [ '/home/ubuntu/nodejs/jarvis/blog/' ]
 pwd:/home/ubuntu/nodejs/jarvis/blog/recipe/
+path: 
 ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
 filename:beef_noodle.markdown
 current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
@@ -1633,387 +400,314 @@ data#牛肉麵
 ##test
 
 test
-blog/images/something.jpg
-blog/images/something.jpg
-blog/images/something.jpg
-blog/images/something.jpg
-blog/images/something.jpg
-ls:/home/ubuntu/nodejs/jarvis/blog/
-ls:/home/ubuntu/nodejs/jarvis/blog/
-blog/images/jarvis.jpg
-blog/images/algorithm.jpg
-blog/images/jarvis.jpg
-blog/images/algorithm.jpg
-blog/images/something.jpg
-blog/images/something.jpg
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:computer_science
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-dir to move:computer_science
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-blog/images/something.jpg
-blog/images/.jpg
-blog/images/jarvis.jpg
-blog/images/algorithm.jpg
-blog/travel/index.html
-blog/images/.jpg
-blog/woodwork/article1.html
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-dir to move:computer_science
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-
-command from user:ls
-[ '.git',
-  '.gitignore',
-  'MapsWithPhotos',
-  'RepeatedCodeInverse',
-  'blog',
-  'bootstrap_template.html',
-  'compiler.js',
-  'demo_jarvis.html',
-  'exec.js',
-  'express_jarvis.js',
-  'flex',
-  'form',
-  'form.html',
-  'index.html',
-  'jarvis_socket_server.js',
-  'markdown',
-  'module_template.js',
-  'mongodb.js',
-  'nohup.out',
-  'public',
-  'readfile.js',
-  'run.sh',
-  'share',
-  'showdown',
-  'sqlite',
-  'stop.sh',
-  'templates.erb',
-  'test.html',
-  'test.js',
-  'todo',
-  'ui_cmd.html',
-  'update.sh',
-  'upgrade.sh',
-  'views',
-  'wysiwyg.html',
-  'youtube.html' ]
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'l', 's' ]
-Tokens:
-VAR
-
-command from user:mkdir tmp 
-compiler: lexical analyzing
-There are 0 NUM:
-There are 2 VAR:
-[ 'm', 'k', 'd', 'i', 'r' ]
-[ 't', 'm', 'p' ]
-Tokens:
-VAR
-VAR
-
-command from user:ls
-[ '.git',
-  '.gitignore',
-  'MapsWithPhotos',
-  'RepeatedCodeInverse',
-  'blog',
-  'bootstrap_template.html',
-  'compiler.js',
-  'demo_jarvis.html',
-  'exec.js',
-  'express_jarvis.js',
-  'flex',
-  'form',
-  'form.html',
-  'index.html',
-  'jarvis_socket_server.js',
-  'markdown',
-  'module_template.js',
-  'mongodb.js',
-  'nohup.out',
-  'public',
-  'readfile.js',
-  'run.sh',
-  'share',
-  'showdown',
-  'sqlite',
-  'stop.sh',
-  'templates.erb',
-  'test.html',
-  'test.js',
-  'todo',
-  'ui_cmd.html',
-  'update.sh',
-  'upgrade.sh',
-  'views',
-  'wysiwyg.html',
-  'youtube.html' ]
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'l', 's' ]
-Tokens:
-VAR
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:arrow_function.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/arrow_function.markdown
-data#Arrow function
-[reference](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-
-##feature
-擁有更短的語法以及詞彙上綁定 this 變數，所有的箭頭函數都是無名函數 (anonymous function).
-
-##ES6
-
-##Usasge explaination with example
-在Javascript 語法上如果要定義一個function，傳統的方法是
-
-@code
-
-var adder = function(a,b){ 
-
-return a+b; 
-
-}
-
-@codee
-
-然後用adder(3,2)就可以得到5。
-如果用Arror function的描述方式就可以得到一個較精簡的寫法：
-
-@code
-var adder = (a,b)=>a+b;
-@codee
-
-只用了一行就完成了。
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-dir to move:woodwork
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+unpublish
+undefined
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
 dir to move:..
+a
 pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
 ls:/home/ubuntu/nodejs/jarvis/blog/
-blog/woodwork has been created.
-blog/woodwork/links.html
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:woodwork
+dir to move:javascripts
+b
 [ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-blog/images/.jpg
-blog/woodwork/article1.html
-blog/images/.jpg
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+pwd:/home/ubuntu/nodejs/jarvis/blog/javascripts/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/javascripts/
 dir to move:..
+a
 pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
 ls:/home/ubuntu/nodejs/jarvis/blog/
-filename:links.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/
-path:blog/links.markdown
-data#[Woodarchivisit](http://woodarchivist.com/)
-blog/images/.jpg
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:computer_science
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:JSDC_2016_notes.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/JSDC_2016_notes.markdown
-data#JSDC 2016 筆記
-[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
-##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
-##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
-##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
-##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
-##16 Data Visualization performance optimization by Jim Chang (吉姆)
-##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
-##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
-##22 Lightning Talk
-rm /home/ubuntu/nodejs/jarvis/blog/computer_science/JSDC_2016_notes.markdown.html
-rm /home/ubuntu/nodejs/jarvis/blog/computer_science/JSDC_2016_notes.markdown.markdown
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-
-command from user:markdown
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
-Tokens:
-VAR
-dir to move:computer_science
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-dir to move:..
-pwd:/home/ubuntu/nodejs/jarvis/blog/
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:computer_science
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:javascript_framework.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/javascript_framework.markdown
-dataReference: [Javascript Framework](https://medium.com/@walterwu_22843/js-2017%E5%B9%B4%E4%BD%A0%E6%9C%80%E9%9C%80%E8%A6%81%E5%AD%B8%E7%BF%92%E7%9A%84js%E6%A1%86%E6%9E%B6%E8%B7%9F%E4%B8%BB%E9%A1%8C-%E7%B4%94%E7%BF%BB%E8%AD%AF-66350840e62c#.fyb4ioeke)
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:javascript_framework.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/javascript_framework.markdown
-dataReference: [Javascript Framework](https://medium.com/@walterwu_22843/js-2017%E5%B9%B4%E4%BD%A0%E6%9C%80%E9%9C%80%E8%A6%81%E5%AD%B8%E7%BF%92%E7%9A%84js%E6%A1%86%E6%9E%B6%E8%B7%9F%E4%B8%BB%E9%A1%8C-%E7%B4%94%E7%BF%BB%E8%AD%AF-66350840e62c#.fyb4ioeke)
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:JSDC_2016_notes.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/JSDC_2016_notes.markdown
-data#JSDC 2016 筆記
-[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
-##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
-##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
-##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
-##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
-##16 Data Visualization performance optimization by Jim Chang (吉姆)
-##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
-##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
-##22 Lightning Talk
-
-command from user:ls
-[ '.git',
-  '.gitignore',
-  'MapsWithPhotos',
-  'RepeatedCodeInverse',
-  'blog',
-  'bootstrap_template.html',
-  'compiler.js',
-  'demo_jarvis.html',
-  'exec.js',
-  'express_jarvis.js',
-  'flex',
-  'form',
-  'form.html',
-  'index.html',
-  'jarvis_socket_server.js',
-  'markdown',
-  'module_template.js',
-  'mongodb.js',
-  'nohup.out',
-  'public',
-  'readfile.js',
-  'run.sh',
-  'share',
-  'showdown',
-  'sqlite',
-  'stop.sh',
-  'templates.erb',
-  'test.html',
-  'test.js',
-  'todo',
-  'ui_cmd.html',
-  'update.sh',
-  'upgrade.sh',
-  'views',
-  'wysiwyg.html',
-  'youtube.html' ]
-compiler: lexical analyzing
-There are 0 NUM:
-There are 1 VAR:
-[ 'l', 's' ]
-Tokens:
-VAR
-blog/path-to-mathjax/MathJax.js
-blog/path-to-mathjax/MathJax.js
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:Qt_console_window.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/Qt_console_window.markdown
-data!code
-#ifdef GUI_VERSION_QT_WITH_CONSOLE
-//Create a Console attached to this GUI app for showing debug messages.
-AllocConsole();
-AttachConsole(GetCurrentProcessId());
-freopen("CON", "w", stdout);//Redirect stdout
-/*HWND handle = GetConsoleWindow();
-if (handle == NULL){
-
-}
-else{
-ShowWindow(handle, SW_MINIMIZE);
-}
-*/
-//End Create a Console attached to this GUI app for showing debug messages.
-#endif
-
-
-
-#ifdef GUI_VERSION_QT_WITH_CONSOLE
-FreeConsole();
-#endif​
-!codee
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
 filename:porting_application.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/porting_application.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/porting_application.markdown
 data#移殖應用程式到新的開發環境步驟
+
+!tag visual studio, forfun
+!publish   
+
+#test
 比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
 
 1. 在新環境中開啟一個最簡單，可以執行的程式
 2. GUI Template 複製
 3. 虛擬Server的建置
-4. 
+4. GUI rendering
+5. assets 
+6. Controller porting
+7. 按鈕行為
+
+##備分一台相同開發環境的主機
+代價就是時間
+dir to move:electronics
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/electronics/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/electronics/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:..
+a
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:recipe
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/recipe/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+filename:beef_noodle.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/recipe/
+path:blog/recipe/beef_noodle.markdown
+data#牛肉麵
+@u2b https://www.youtube.com/embed/cyeuDeM4UUg @u2bee 
+##備料 
+
+1. 蔥(2-3)、薑(5)、蒜(5)、辣椒(2)、蕃茄(3)、白蘿蔔(3)、洋蔥(2)、紅蘿蔔(三分之二)、香菜
+2. 牛肉(牛肋條)川燙去腥味，再浸常溫水，讓肉變Q
+3. 調味料：醬油、冰糖、辣豆拌醬、蕃茄醬
+4. 香料：白胡椒、迷迭香
+##步驟
+
+1. 豬油加蔥薑蒜拌炒，加入豆拌醬3匙、醬油1杯、紅酒或米酒少許、蕃茄醬少許，冰糖三分之二匙，放入牛肉拌煮
+2. 放入壓力鍋，水蓋過肉(如使用一般鍋煮，水要再多一些)，加入白胡椒、迷迭香
+3. 壓力鍋蓋鍋，加熱直到水氣出氣發出"逼"的聲音，關小火等候20分鐘，爾後再關火等候10分鐘
+4. 開鍋試味道，若太淡，加入海鹽(不以加醬油來增醎)
+5. 加入紅蘿蔔、白蘿蔔、蕃茄
+6. 蓋壓力鍋後煮10分鐘，並等候排氣
+7. 另起一鍋煮白麵條，加少許的鹽
+8. 麵條跟牛肉湯汁合併即完成，若牛肉湯太醎可以加熱水
+9. 若沒有壓力鍋，當牛肉煮滾後轉小火40分鐘，蘿蔔放入後煮20分鐘
+
+##test
+
+test
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+Uploading: IMAG1483_1.jpg
+
+Uploading: IMAG1483_1.jpg
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:..
+a
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:WYSIWYG_blog_platform.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/WYSIWYG_blog_platform.markdown
+data#Build your  WYSIWYG blog platform based on node.js, express.js, and socket.io
+##feature
+1. using Console to operate file system operation
+2. host your own image server
+3. 跟文件相關的屬性，也在文件當中，比如tag, 是否公開
+##Architecture
+
+filename:JSDC_2016_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/JSDC_2016_notes.markdown
+data#JSDC 2016 筆記
+[youtube影片來源](https://www.youtube.com/playlist?list=PL8dIIwCMF-SNmECoq8sF4onoxMqhRz9WT)
+##03 JavaScript 的 SEO 奧義 by Jose & Wildcat
+##05 使用 Angular 2 與 Firebase 實現 Serverless 網站架構 by Will 保哥
+##08 fbreactions.io - 用AWS Lambda 爬數據視覺化 by 劉俊彥(Vincent)
+##13 NIME: 使用 nodejs 快快樂樂開發輸入法 by Lee
+##16 Data Visualization performance optimization by Jim Chang (吉姆)
+##20 親愛的，我們來土炮一個 Google Docs 吧！ by Fred Chien
+##21 Vue.js 實戰分享 - 使用 Vue.js 打造產品服務的 dashboard by Cyril Yu
+##22 Lightning Talk
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:woodwork
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+filename:woodwork_build_plan.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path:blog/woodwork/woodwork_build_plan.markdown
+data#woodwork
+
+##schedule
+###報名時程
+
+###準備資料
+
+
+## todo
+###將目前沈師傅教的整理
+
+1. 三角尺
+2. 活動角尺
+3. 盒子
+4. 馬凳
+5. 圓凳
+6. 矮櫃
+
+
+###發表的平台
+###CNC 的研究
+###Sketchup
+
+##產品規劃
+###木工X電子
+1. 鳥兒時鐘
+使用者可以錄製自己的鐘點音效
+2. 設計圖案結合山景與野生動物與台灣圖騰
+###木工X機構
+###單純木工
+1. 夾子
+2. 相框
+3. 
+
+reference
+1. [20 Most Profitable Woodworking Business Ideas](https://99businessideas.com/20-most-profitable-woodworking-business-ideas/)
+unpublish
+undefined
+unpublish
+undefined
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+blog/woodwork/100woodprojects has been created.
+dir to move:100woodprojects
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/',
+  '/home/ubuntu/nodejs/jarvis/blog/woodwork/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/100woodprojects/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/100woodprojects/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/100woodprojects/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:FSM_transition_matrix_autogenerate_diagram_code.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/FSM_transition_matrix_autogenerate_diagram_code.markdown
+data#Auto Generate FSM object with Transition Matrix Input
+!tag FSM
+!publish
+
+##Overview
+這個專案是一個自動產生程式語言實作、描述的平台。狀態機(FSM)對程式設計師而言是非常常用的一種設計模式，筆者在撰寫軟體、韌體時，已經非常習慣使用狀態機來控制程式的流程，因為這種設計模式讓程式非常的容易除錯，程式的邏輯因為狀態機控制變得比較單純。但是對筆者而言，要在不同的語言下去實作狀態機，記憶不同程式語言的語法就是一件大量重覆的工作，因為工作需要常常在不同的語言下切換(Javascript, Verilog, C++等)，常常要回去翻過去專案的原始碼，才會記起相關的實作細節。因此使用自動化產生程式碼的目的，就是要減少程式設計師的工作量，系統化一些重覆的工作，藉此減低撰寫程式上的負擔。這篇文章介紹如何建構一個自動產生FSM物件的工具，有了這個工具，程式設計師可以專心在程式的架構上，而實作細節不再需要粍掉程式設計師大量的時間以及心力。我希望能將這部份的工作標準化，同樣且重要的工作認真的作一次，往後就可以安心的在框架下作業，如此增加工作完成的效率以及準確度，是這個專案的核心目的。
+
+##output language
+因為筆者工作主要的語言是C++, Verilog次之，所以會先產生C++的版本，再來是Verilog
+
+##transition matrix 
+作為使用者輸入的方式，我選用了Transition Matrix，讓使用者描述狀態機，而格式則是採用Markdown。用Markdown的優點是有利於筆者文件化，以及文件的可讀性。用Markdown可以讓使用者(人類)容易理解，也可以透過相關的library解析後為電腦所處理。
+
+以紅緣燈為例
+| STATE/event()        | 30seconds()         |5seconds()|  60seconds()  |
+|: -------------------: |:------------------- :| :------------:|  :---------------:|
+| GREEN                  | YELLOW             | X               |    X
+| YELLOW                | X                         |  RED         |    X
+|RED                        | X                         |   X             |     GREEN
+  
+
+##轉換流程
+介紹轉換流程的同時，也是介紹技術上的細節。筆者希望程式設計師能夠將時間節省在設計這一個步驟。所以在這個平台使用者的輸入介面就是狀態轉換的列表，除此之外沒有了！而平台的輸出呢就是自動化產生的C++ object class。
+
+我們已經知道最終我們要的輸出是什麼，以及使用者輸入，剩下的就是我們應該自動化的部份了。條列一下逐步需要做的事情。
+
+1. 使用者輸入Transition Matrix，用Markdown的格式
+2. Markdown 格式的表格經由特定的[函式庫]轉換成HTML(參考[showdown](https://github.com/showdownjs/showdown))
+3. 自定一個函式庫，將HTML格式的table 解析出有多少state, event等資訊
+4. 有了state, event這些資料就足以產一一個FSM的框架了。
+
+##C++ class architecture
+###state abstract class
+1. 命名：[project name]StateAbstract.[cpp|h]
+2. 定義各個event()的行為，預設在各state不作工作
+
+###state class
+1. 命名：[project name]State[state name].[cpp|h]
+example: f
+2. 繼承自state abstract class，有幾個state就有幾個class
+3. 若event()在該state有觸發行為，則該event()在該state要實作。 
+
+###controller abstract class
+###controller class
+####"event" member function 
+
+
+##references
+1. [State Transition Table Wiki](https://en.wikipedia.org/wiki/State_transition_table)
+2. [GoJS](http://gojs.net/latest/index.html)
+3. [Markdown to HTML javascript library](https://github.com/showdownjs/showdown)
+
+publish!
+[ ' UML' ]
+start save
+obj:[object Object]
+filename:autogenerate_UML
+
+/home/ubuntu/nodejs/jarvis/express_jarvis.js:347
+							obj[data.filename].publish = true;
+							                           ^
+TypeError: Cannot set property 'publish' of undefined
+    at readFileCallBack (/home/ubuntu/nodejs/jarvis/express_jarvis.js:347:35)
+    at fs.js:268:14
+    at Object.oncomplete (fs.js:107:15)
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
 
 command from user:markdown
 compiler: lexical analyzing
@@ -2022,13 +716,22 @@ There are 1 VAR:
 [ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
 Tokens:
 VAR
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:OODL.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/OODL.markdown
+data#Object-Oriented Description Language (OODL)
+
+##Pattern Description
+unpublish
+undefined
+path: 
 ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
 dir to move:..
+a
 pwd:/home/ubuntu/nodejs/jarvis/blog/
-ls:/home/ubuntu/nodejs/jarvis/blog/
-ls:/home/ubuntu/nodejs/jarvis/blog/
-blog/images/jarvis.jpg
-blog/images/algorithm.jpg
+path: 
 ls:/home/ubuntu/nodejs/jarvis/blog/
 filename:todo.markdown
 current_path:/home/ubuntu/nodejs/jarvis/blog/
@@ -2043,6 +746,266 @@ data#TODO
 [reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
 5. 
 
+unpublish
+undefined
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:compiler
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/',
+  '/home/ubuntu/nodejs/jarvis/blog/computer_science/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/compiler/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/compiler/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:OODL.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/OODL.markdown
+data#Object-Oriented Description Language (OODL)
+
+OODL is a computer language to describe object and relation between objects with plain text formatting syntax.
+
+##Pattern Description
+unpublish
+undefined
+unpublish
+undefined
+_csrf:{{ csrf }}
+dir_name:/forfun
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: EISDIR, open '/home/ubuntu/nodejs/jarvis/blog/resources/photos/'
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+
+
+##projects
+1. drag and match game (3days)
+2. parser, OODL (3 days)
+3. 書架 (3 days)
+4. 古今相照 加入
+
+
+
+
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:..
+a
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+unpublish
+undefined
+unpublish
+undefined
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:woodwork
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+filename:woodwork_build_plan.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+path:blog/woodwork/woodwork_build_plan.markdown
+data#woodwork
+
+##schedule
+###報名時程
+
+###準備資料
+
+
+## todo
+###將目前沈師傅教的整理
+
+1. 三角尺
+2. 活動角尺
+3. 盒子
+4. 馬凳
+5. 圓凳
+6. 矮櫃
+
+
+###發表的平台
+###CNC 的研究
+###Sketchup (done)
+[Tutorial@woodgears](http://woodgears.ca/sketchup/)
+
+##產品規劃
+###木工X電子
+1. 鳥兒時鐘
+使用者可以錄製自己的鐘點音效
+2. 設計圖案結合山景與野生動物與台灣圖騰
+###木工X機構
+###單純木工
+1. 夾子
+2. 相框
+3. 
+
+reference
+1. [20 Most Profitable Woodworking Business Ideas](https://99businessideas.com/20-most-profitable-woodworking-business-ideas/)
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+
+
+##projects
+1. drag and match game (3days)
+2. parser, OODL (3 days)
+3. 書架 (3 days)
+4. 古今相照 加入
+
+
+
+
+
+/home/ubuntu/nodejs/jarvis/express_jarvis.js:242
+app.post('/form/signup_post', function(request, response){
+^^^
+SyntaxError: Unexpected identifier
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+
+/home/ubuntu/nodejs/jarvis/express_jarvis.js:242
+app.post('/form/signup_post', function(request, response){
+^^^
+SyntaxError: Unexpected identifier
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:electronics
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/electronics/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/electronics/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/electronics/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+filename:autogenerate_UML.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/autogenerate_UML.markdown
+data#Auto Generate UML
+!tag UML
+
+
+
+dir to move:javascripts
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/javascripts/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/javascripts/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:..
+a
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:d3
+b
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+blog/d3 has been created.
+dir to move:d3
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/d3/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/d3/
+unpublish
+undefined
 
 command from user:markdown
 compiler: lexical analyzing
@@ -2051,11 +1014,141 @@ There are 1 VAR:
 [ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
 Tokens:
 VAR
+blog/images/something.jpg
+
+child_process.js:935
+    throw errnoException(process._errno, 'spawn');
+          ^
+Error: spawn ENOMEM
+    at errnoException (child_process.js:988:11)
+    at ChildProcess.spawn (child_process.js:935:11)
+    at exports.spawn (child_process.js:723:9)
+    at ReaDuplexer.ImageMagick.spawn (/home/ubuntu/nodejs/node_modules/node-gallery/node_modules/imagemagick-stream/index.js:216:16)
+    at processImmediate [as _immediateCallback] (timers.js:330:15)
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:d3
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/d3/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/d3/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/d3/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/d3/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+blog/computer_science/algorithm has been created.
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+blog/computer_science/d3 has been created.
+dir to move:d3
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/',
+  '/home/ubuntu/nodejs/jarvis/blog/computer_science/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/d3/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/d3/
+dir to move:d3
+b
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/d3/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/d3/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:d3
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/',
+  '/home/ubuntu/nodejs/jarvis/blog/computer_science/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/d3/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/d3/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:d3
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/',
+  '/home/ubuntu/nodejs/jarvis/blog/computer_science/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/d3/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:algorithm
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/',
+  '/home/ubuntu/nodejs/jarvis/blog/computer_science/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/algorithm/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/algorithm/
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+blog/computer_science/MachineLearning has been created.
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:MachineLearning
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/',
+  '/home/ubuntu/nodejs/jarvis/blog/computer_science/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/MachineLearning/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/MachineLearning/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
 ls:/home/ubuntu/nodejs/jarvis/blog/
 filename:porting_application.markdown
 current_path:/home/ubuntu/nodejs/jarvis/blog/
 path:blog/porting_application.markdown
 data#移殖應用程式到新的開發環境步驟
+
+!tag visual studio, forfun
+!publish   
+
+#test
 比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
 
 1. 在新環境中開啟一個最簡單，可以執行的程式
@@ -2068,119 +1161,31 @@ data#移殖應用程式到新的開發環境步驟
 
 ##備分一台相同開發環境的主機
 代價就是時間
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:woodwork
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-dir to move:..
-pwd:/home/ubuntu/nodejs/jarvis/blog/
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:computer_science
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-blog/images/jarvis.jpg
-blog/images/algorithm.jpg
-blog/images/jarvis.jpg
-blog/images/algorithm.jpg
-blog/images/.jpg
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:porting_application.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/porting_application.markdown
-data#移殖應用程式到新的開發環境步驟
-比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
 
-1. 在新環境中開啟一個最簡單，可以執行的程式
-2. GUI Template 複製
-3. 虛擬Server的建置
-4. 
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:porting_application.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/porting_application.markdown
-data#移殖應用程式到新的開發環境步驟
-比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
 
-1. 在新環境中開啟一個最簡單，可以執行的程式
-2. GUI Template 複製
-3. 虛擬Server的建置
-4. 
-dir to move:..
-pwd:/home/ubuntu/nodejs/jarvis/blog/
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:woodwork
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-filename:woodwork_build_plan.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-path:blog/woodwork/woodwork_build_plan.markdown
-data#woodwork
 
-##schedule
-## todo
-1. record
-2. publish
-3. CNC
-4. laser 
-ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-dir to move:..
-pwd:/home/ubuntu/nodejs/jarvis/blog/
-ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:computer_science
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:porting_application.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/porting_application.markdown
-data#移殖應用程式到新的開發環境步驟
-比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
+##projects
+1. drag and match game (3days)
+2. parser, OODL (3 days)
+3. 書架 (3 days)
+4. 古今相照 加入
 
-1. 在新環境中開啟一個最簡單，可以執行的程式
-2. GUI Template 複製
-3. 虛擬Server的建置
-4. 
-ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:nodejs_webservice.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/nodejs_webservice.markdown
-data#Build your web service with node.js
 
-##POST and GET operation
 
-##template your html
 
-##user ejs to render your file
-
-###ejs 是什麼
-一個將資料與網頁檔分離的platform，使用者可以專心於建構資料，而將資料嵌入網頁檔的過程叫作Render，ejs將資料作為變數。以操作流程來說明ejs：
-
-1. 使用者發出GET要求
-2. Server收到GET後，render 一個ejs檔案，同時傳入需要的資料
-
-ejs檔案是一個有html外觀，但可以使用javascript來render變數的檔案格式
-
-###這個平台上的blog並沒有採用ejs 架構
-render適合有固定相對位置、固定風格的資料，但是因為blog的內容從markdown 轉換成html時就可以被視為一個完整的、封裝後的多媒體檔案，所以在這個平台的blog系統上並沒有使用ejs。
-###那什麼時候適合用rendering ejs呢？
-當多個頁面，內含有幾個影片檔、幾個圖片檔，幾段文字，這些資訊都被完整定義，而且各別儲存時，就適合用ejs的方式來render頁面。比如一般查詢資料庫的頁面
-
-##websocket
-filename:porting_application.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/porting_application.markdown
-data#移殖應用程式到新的開發環境步驟
-比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
-
-1. 在新環境中開啟一個最簡單，可以執行的程式
-2. GUI Template 複製
-3. 虛擬Server的建置
-4. GUI render
-5. Controller 
-
+unpublish
+undefined
 
 command from user:markdown
 compiler: lexical analyzing
@@ -2189,47 +1194,736 @@ There are 1 VAR:
 [ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
 Tokens:
 VAR
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+6. d3, machine learning, algorithm
+
+##projects
+1. drag and match game (3days)
+2. parser, OODL (3 days)
+3. 書架 (3 days)
+4. 古今相照 加入
+
+
+
+
+filename:example.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/example.markdown
+data#Examples
+##tables
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+6. d3, machine learning, algorithm
+
+##projects
+1. drag and match game (3days)
+2. parser, OODL (3 days)
+3. 書架 (3 days)
+4. 古今相照 加入
+
+
+
+
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
 ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:win32_api.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/win32_api.markdown
-data#Win32 API Overview
-##why Win32 API?
-所有的Framework(.NET, Qt, MFC, ...) 都是建構在Win32 API之上，Win32 API就像是軟體端程式設計師能夠操控的最小工具單位。
-
-[reference 1](http://read.pudn.com/downloads120/ebook/512386/%E6%96%B0%E7%BC%96Windows%20API%E5%8F%82%E8%80%83%E5%A4%A7%E5%85%A8.pdf)
-
-[reference 2](http://www.functionx.com/win32/Lesson01.htm)
-
-[簡體中文資源](http://winprog.org/tutorial/zh/apivsmfc_cn.html)
+path: 
 ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-filename:porting_application.markdown
+filename:todo
 current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
-path:blog/computer_science/porting_application.markdown
-data#移殖應用程式到新的開發環境步驟
-比如說從Qt 5.4 到 5.7 , Visual Studio 2013 到 2015 或者是新增一個類似的應用
-
-1. 在新環境中開啟一個最簡單，可以執行的程式
-2. GUI Template 複製
-3. 虛擬Server的建置
-4. GUI render
-5. Controller 
-
+path:blog/computer_science/todo
+{ [Error: ENOENT, open 'blog/computer_science/todo'] errno: 34, code: 'ENOENT', path: 'blog/computer_science/todo' }
 dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+filename:todo
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo
+{ [Error: ENOENT, open 'blog/todo'] errno: 34, code: 'ENOENT', path: 'blog/todo' }
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+6. d3, machine learning, algorithm
+
+##projects
+1. drag and match game (3days)
+2. parser, OODL (3 days)
+3. 書架 (3 days)
+4. 古今相照 加入
+
+
+
+
+unpublish
+undefined
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:OODL.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/OODL.markdown
+data#Object-Oriented Description Language (OODL)
+
+OODL is a computer language to describe object and relation between objects using plain text formatting syntax.
+
+##syntax 語法
+###eamples
+[Square]
+
+-length: double
+
++display()
+
+[TrafficSignalStateGreen]->[TrafficSignalStateAbstract]
+
++
+
+[TrafficSignalStateYellow]->[TrafficSignalStateAbstract]
+
+
+###object name
+###public/protected/private
+###properties
+###member function
+
+##Pattern Description
+filename:FSM_transition_matrix_autogenerate_diagram_code.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/FSM_transition_matrix_autogenerate_diagram_code.markdown
+data#Auto Generate FSM object with Transition Matrix Input
+!tag FSM
+!publish
+
+##Overview
+這個專案是一個自動產生程式語言實作、描述的平台。狀態機(FSM)對程式設計師而言是非常常用的一種設計模式，筆者在撰寫軟體、韌體時，已經非常習慣使用狀態機來控制程式的流程，因為這種設計模式讓程式非常的容易除錯，程式的邏輯因為狀態機控制變得比較單純。但是對筆者而言，要在不同的語言下去實作狀態機，記憶不同程式語言的語法就是一件大量重覆的工作，因為工作需要常常在不同的語言下切換(Javascript, Verilog, C++等)，常常要回去翻過去專案的原始碼，才會記起相關的實作細節。因此使用自動化產生程式碼的目的，就是要減少程式設計師的工作量，系統化一些重覆的工作，藉此減低撰寫程式上的負擔。這篇文章介紹如何建構一個自動產生FSM物件的工具，有了這個工具，程式設計師可以專心在程式的架構上，而實作細節不再需要粍掉程式設計師大量的時間以及心力。我希望能將這部份的工作標準化，同樣且重要的工作認真的作一次，往後就可以安心的在框架下作業，如此增加工作完成的效率以及準確度，是這個專案的核心目的。
+
+##output language
+因為筆者工作主要的語言是C++, Verilog次之，所以會先產生C++的版本，再來是Verilog
+
+##transition matrix 
+作為使用者輸入的方式，我選用了Transition Matrix，讓使用者描述狀態機，而格式則是採用Markdown。用Markdown的優點是有利於筆者文件化，以及文件的可讀性。用Markdown可以讓使用者(人類)容易理解，也可以透過相關的library解析後為電腦所處理。
+
+以紅緣燈為例
+| STATE/event()        | 30seconds()         |5seconds()|  60seconds()  |
+|: -------------------: |:------------------- :| :------------:|  :---------------:|
+| GREEN                  | YELLOW             | X               |    X
+| YELLOW                | X                         |  RED         |    X
+|RED                        | X                         |   X             |     GREEN
+  
+
+##轉換流程
+介紹轉換流程的同時，也是介紹技術上的細節。筆者希望程式設計師能夠將時間節省在設計這一個步驟。所以在這個平台使用者的輸入介面就是狀態轉換的列表，除此之外沒有了！而平台的輸出呢就是自動化產生的C++ object class。
+
+我們已經知道最終我們要的輸出是什麼，以及使用者輸入，剩下的就是我們應該自動化的部份了。條列一下逐步需要做的事情。
+
+1. 使用者輸入Transition Matrix，用Markdown的格式
+2. Markdown 格式的表格經由特定的[函式庫]轉換成HTML(參考[showdown](https://github.com/showdownjs/showdown))
+3. 自定一個函式庫，將HTML格式的table 解析出有多少state, event等資訊
+4. 有了state, event這些資料就足以產一一個FSM的框架了。
+
+##C++ class architecture
+###state abstract class
+1. 命名：[project name]StateAbstract.[cpp|h]
+2. 定義各個event()的行為，預設在各state不作工作
+
+###state class
+1. 命名：[project name]State[state name].[cpp|h]
+example: f
+2. 繼承自state abstract class，有幾個state就有幾個class
+3. 若event()在該state有觸發行為，則該event()在該state要實作。 
+
+###controller abstract class
+###controller class
+####"event" member function 
+
+
+##references
+1. [State Transition Table Wiki](https://en.wikipedia.org/wiki/State_transition_table)
+2. [GoJS](http://gojs.net/latest/index.html)
+3. [Markdown to HTML javascript library](https://github.com/showdownjs/showdown)
+
+publish!
+[ ' FSM' ]
+start save
+obj:[object Object]
+filename:FSM_transition_matrix_autogenerate_diagram_code
+
+/home/ubuntu/nodejs/jarvis/express_jarvis.js:371
+							obj[data.filename].publish = true;
+							                           ^
+TypeError: Cannot set property 'publish' of undefined
+    at readFileCallBack (/home/ubuntu/nodejs/jarvis/express_jarvis.js:371:35)
+    at fs.js:268:14
+    at Object.oncomplete (fs.js:107:15)
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:FSM_transition_matrix_autogenerate_diagram_code.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/FSM_transition_matrix_autogenerate_diagram_code.markdown
+data#Auto Generate FSM object with Transition Matrix Input
+!tag FSM
+!publish
+
+##Overview
+這個專案是一個自動產生程式語言實作、描述的平台。狀態機(FSM)對程式設計師而言是非常常用的一種設計模式，筆者在撰寫軟體、韌體時，已經非常習慣使用狀態機來控制程式的流程，因為這種設計模式讓程式非常的容易除錯，程式的邏輯因為狀態機控制變得比較單純。但是對筆者而言，要在不同的語言下去實作狀態機，記憶不同程式語言的語法就是一件大量重覆的工作，因為工作需要常常在不同的語言下切換(Javascript, Verilog, C++等)，常常要回去翻過去專案的原始碼，才會記起相關的實作細節。因此使用自動化產生程式碼的目的，就是要減少程式設計師的工作量，系統化一些重覆的工作，藉此減低撰寫程式上的負擔。這篇文章介紹如何建構一個自動產生FSM物件的工具，有了這個工具，程式設計師可以專心在程式的架構上，而實作細節不再需要粍掉程式設計師大量的時間以及心力。我希望能將這部份的工作標準化，同樣且重要的工作認真的作一次，往後就可以安心的在框架下作業，如此增加工作完成的效率以及準確度，是這個專案的核心目的。
+
+##output language
+因為筆者工作主要的語言是C++, Verilog次之，所以會先產生C++的版本，再來是Verilog
+
+##transition matrix described by FSM Markup Language
+作為使用者輸入的方式，我選用了Transition Matrix，讓使用者描述狀態機，而格式則是採用Markdown。用Markdown的優點是有利於筆者文件化，以及文件的可讀性。用Markdown可以讓使用者(人類)容易理解，也可以透過相關的library解析後為電腦所處理。
+
+以紅緣燈為例 
+| STATE/event()        | 30seconds()         |5seconds()|  60seconds()  |
+|: -------------------: |:------------------- :| :------------:|  :---------------:|
+| GREEN                  | YELLOW             | X               |    X
+| YELLOW                | X                         |  RED         |    X
+|RED                        | X                         |   X             |     GREEN
+  
+
+##轉換流程
+介紹轉換流程的同時，也是介紹技術上的細節。筆者希望程式設計師能夠將時間節省在設計這一個步驟。所以在這個平台使用者的輸入介面就是狀態轉換的列表，除此之外沒有了！而平台的輸出呢就是自動化產生的C++ object class。
+
+我們已經知道最終我們要的輸出是什麼，以及使用者輸入，剩下的就是我們應該自動化的部份了。條列一下逐步需要做的事情。
+
+1. 使用者輸入Transition Matrix，用Markdown的格式
+2. Markdown 格式的表格經由特定的[函式庫]轉換成HTML(參考[showdown](https://github.com/showdownjs/showdown))
+3. 自定一個函式庫，將HTML格式的table 解析出有多少state, event等資訊
+4. 有了state, event這些資料就足以產一一個FSM的框架了。
+
+##C++ class architecture
+###state abstract class
+1. 命名：[project name]StateAbstract.[cpp|h]
+2. 定義各個event()的行為，預設在各state不作工作
+
+###state class
+1. 命名：[project name]State[state name].[cpp|h]
+example: f
+2. 繼承自state abstract class，有幾個state就有幾個class
+3. 若event()在該state有觸發行為，則該event()在該state要實作。 
+
+###controller abstract class
+###controller class
+####"event" member function 
+
+
+##references
+1. [State Transition Table Wiki](https://en.wikipedia.org/wiki/State_transition_table)
+2. [GoJS](http://gojs.net/latest/index.html)
+3. [Markdown to HTML javascript library](https://github.com/showdownjs/showdown)
+
+unpublish
+undefined
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at Server.listen (net.js:1135:5)
+    at Object.<anonymous> (/home/ubuntu/nodejs/jarvis/express_jarvis.js:296:8)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at Server.listen (net.js:1135:5)
+    at Object.<anonymous> (/home/ubuntu/nodejs/jarvis/express_jarvis.js:296:8)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+[ 'ccc', '1234567', undefined ]
+[ 'ccc', '1234567', '', '' ]
+[ 'ccc', '1234567', '', '' ]
+[ 'ccc', '1234567', '', undefined ]
+[ 'ccc',
+  '1234567',
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined ]
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/
+dir to move:computer_science
+b
+[ '/home/ubuntu/nodejs/jarvis/blog/' ]
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:Qt_thread_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/Qt_thread_notes.markdown
+data#QT Thread 使用筆記
+
+!tag qt, thread 
+!publish
+
+
+## Notes
+1. 物件在哪一個thread中被實例化，則該物件(包含旗下的property)存在於該thread
+2. 物件實例化後的member function是在哪一個thread中執行就需要去釐清。
+3. 當想要存取別的thread中的資料時，使用signal/slots
+
+##架構
+1. main thread實例一個繼承自QThread (newThread)的物件，該物件存在於 main thread
+2. newThread run() 中的statement會在新的thread中執行
+3. 在run() 中宣告一個toolbox，並connect signal/slots
+
+##Usage範例
+###使用情境
+我們希望在main thread之外，能有一個thread (i.e. newThread class) 幫我們處理一些事務，這些事務通常是影像處理、控制器如狀態機等)，而toolbox class是我們會在newThead中使用到的工具箱函式。我們會在新的thread中實例化toolbox，因此toolbox會存在於新的thread中。所以當main thread想要得知toolbox中的特別參數時，我們使用signal/slots的方式來作thread之間的溝通。
+
+####在新的thread中實例化toolbox
+必須在newThread底下的run()之中宣告，該toolbox才會存在於新的thread，若是在其他地方宣告，如Initialize()之前，則仍會存在於main thread之中
+
+####在run()之中執行，並不一定先或後執行
+在run()中執行thread_property =1，但是main thread中執行get_property()取得thread_property值，因為在不同的thread中運行，所以會讀取到0(初始值)或1(修改值)並不一定。
+
+####用signal/slots的方式取得不同thread中的值
+newThread包含一個SIGNAL(getparametersignal())，當main thread欲取得toolbox中資料的時候，trigger這個SIGNAL，而對應的slot是toolbox中的SLOT(getparameter())
+
+main.cpp
+
+	pnewThread = new newThread();
+	pnewThread->start(); // run() 這個function 在新的thread中開始執行
+	pnewThread->state(); // @main thread
+	pnewThread->get_property(); //取得newThread中的property 
+	pnewThread->accessToolbox(); //在此member function中emit signal 通知toolbox 
+
+newThread.h
+
+	#include <qthread.h>
+	#include <QDebug>
+	#include "toolbox.h"
+	class newThread: public QThread
+	{
+		Q_OBJECT
+	public:
+		newThread();
+		~newThread();
+		int Initialize(void);
+		int executing(int input);
+		void accessToolbox();
+		void get_property();
+	private:
+		toolbox *ptoolbox;
+		int thread_property =0;
+	protected:
+		void run();
+	signals:
+		void getparametersignal();
+	};
+
+newThread.cpp
+
+	#include "newThread.h"
+
+
+	newThread::newThread()
+	{
+		this->Initialize();
+	}
+
+
+	newThread::~newThread()
+	{
+	}
+
+	int newThread::Initialize(void){	
+		return 0;
+	}
+
+	int newThread::executing(int input){
+		qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;	
+		ptoolbox = new toolbox();
+		ptoolbox->image_processing(input);
+		connect(this, SIGNAL(getparametersignal()), ptoolbox, SLOT(getparameter()));
+		return 0;
+	}
+
+	void newThread::run(void){
+		//qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;
+		this->executing(5);
+		this->thread_property = 1;
+
+	}
+
+	void newThread::accessToolbox(){
+		emit getparametersignal();
+	}
+
+	void newThread::get_property(){
+		qDebug() << __FUNCTION__ << thread_property << endl;
+	};
+
+toolbox.h
+
+	#include <qdebug.h>
+	#include <qthread.h>
+	class toolbox: public QThread
+	{	
+		Q_OBJECT
+	public:
+		toolbox();
+		~toolbox();
+		int image_processing(int input);
+	private:
+		int parameter;
+	private slots:
+		int getparameter();
+	};
+
+toolbox.cpp
+
+	#include "toolbox.h"
+	toolbox::toolbox()
+	{
+	}
+
+
+	toolbox::~toolbox()
+	{
+	}
+
+	int toolbox::image_processing(int input){
+		parameter = input;
+		qDebug() << __FUNCTION__ << "image_processing:" << this->currentThreadId() << ", parameter:" << parameter << endl;	
+		return 0;
+	}
+
+	int toolbox::getparameter(){
+		qDebug() << __FUNCTION__ << parameter << endl;
+		return 0;
+	};
+
+##Application
+1. image processing 
+2. FSM
+
+##references
+1. [Qt event system](http://doc.qt.io/qt-5/eventsandfilters.html)
+filename:WYSIWYG_blog_platform.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/WYSIWYG_blog_platform.markdown
+data#Build your  WYSIWYG blog platform based on node.js, express.js, and socket.io
+##feature
+1. using Console to operate file system operation
+2. host your own image server
+3. 跟文件相關的屬性，也在文件當中，比如tag, 是否公開
+##Architecture
+
+path: 
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+filename:Qt_thread_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/Qt_thread_notes.markdown
+data#QT Thread 使用筆記
+
+!tag qt, thread 
+!publish
+
+
+## Notes
+1. 物件在哪一個thread中被實例化，則該物件(包含旗下的property)存在於該thread
+2. 物件實例化後的member function是在哪一個thread中執行就需要去釐清。
+3. 當想要存取別的thread中的資料時，使用signal/slots
+
+##架構
+1. main thread實例一個繼承自QThread (newThread)的物件，該物件存在於 main thread
+2. newThread run() 中的statement會在新的thread中執行
+3. 在run() 中宣告一個toolbox，並connect signal/slots
+
+##Usage範例
+###使用情境
+我們希望在main thread之外，能有一個thread (i.e. newThread class) 幫我們處理一些事務，這些事務通常是影像處理、控制器如狀態機等)，而toolbox class是我們會在newThead中使用到的工具箱函式。我們會在新的thread中實例化toolbox，因此toolbox會存在於新的thread中。所以當main thread想要得知toolbox中的特別參數時，我們使用signal/slots的方式來作thread之間的溝通。
+
+####在新的thread中實例化toolbox
+必須在newThread底下的run()之中宣告，該toolbox才會存在於新的thread，若是在其他地方宣告，如Initialize()之前，則仍會存在於main thread之中
+
+####在run()之中執行，並不一定先或後執行
+在run()中執行thread_property =1，但是main thread中執行get_property()取得thread_property值，因為在不同的thread中運行，所以會讀取到0(初始值)或1(修改值)並不一定。
+
+####用signal/slots的方式取得不同thread中的值
+newThread包含一個SIGNAL(getparametersignal())，當main thread欲取得toolbox中資料的時候，trigger這個SIGNAL，而對應的slot是toolbox中的SLOT(getparameter())
+
+main.cpp
+
+	pnewThread = new newThread();
+	pnewThread->start(); // run() 這個function 在新的thread中開始執行
+	pnewThread->state(); // @main thread
+	pnewThread->get_property(); //取得newThread中的property 
+	pnewThread->accessToolbox(); //在此member function中emit signal 通知toolbox 
+
+newThread.h
+
+	#include <qthread.h>
+	#include <QDebug>
+	#include "toolbox.h"
+	class newThread: public QThread
+	{
+		Q_OBJECT
+	public:
+		newThread();
+		~newThread();
+		int Initialize(void);
+		int executing(int input);
+		void accessToolbox();
+		void get_property();
+	private:
+		toolbox *ptoolbox;
+		int thread_property =0;
+	protected:
+		void run();
+	signals:
+		void getparametersignal();
+	};
+
+newThread.cpp
+
+	#include "newThread.h"
+
+
+	newThread::newThread()
+	{
+		this->Initialize();
+	}
+
+
+	newThread::~newThread()
+	{
+	}
+
+	int newThread::Initialize(void){	
+		return 0;
+	}
+
+	int newThread::executing(int input){
+		qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;	
+		ptoolbox = new toolbox();
+		ptoolbox->image_processing(input);
+		connect(this, SIGNAL(getparametersignal()), ptoolbox, SLOT(getparameter()));
+		return 0;
+	}
+
+	void newThread::run(void){
+		//qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;
+		this->executing(5);
+		this->thread_property = 1;
+
+	}
+
+	void newThread::accessToolbox(){
+		emit getparametersignal();
+	}
+
+	void newThread::get_property(){
+		qDebug() << __FUNCTION__ << thread_property << endl;
+	};
+
+toolbox.h
+
+	#include <qdebug.h>
+	#include <qthread.h>
+	class toolbox: public QThread
+	{	
+		Q_OBJECT
+	public:
+		toolbox();
+		~toolbox();
+		int image_processing(int input);
+	private:
+		int parameter;
+	private slots:
+		int getparameter();
+	};
+
+toolbox.cpp
+
+	#include "toolbox.h"
+	toolbox::toolbox()
+	{
+	}
+
+
+	toolbox::~toolbox()
+	{
+	}
+
+	int toolbox::image_processing(int input){
+		parameter = input;
+		qDebug() << __FUNCTION__ << "image_processing:" << this->currentThreadId() << ", parameter:" << parameter << endl;	
+		return 0;
+	}
+
+	int toolbox::getparameter(){
+		qDebug() << __FUNCTION__ << parameter << endl;
+		return 0;
+	};
+
+##Application
+1. image processing 
+2. FSM
+
+##references
+1. [Qt event system](http://doc.qt.io/qt-5/eventsandfilters.html)
+unpublish
+undefined
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+relative_path:
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+relative_path:
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+cd cmd dir to move:computer_science
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+files:dandelion.jpg,trolltunga.jpg
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+files:dandelion.jpg,trolltunga.jpg
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+files:dandelion.jpg,trolltunga.jpg
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+ls:/home/ubuntu/nodejs/jarvis/blog/
+cd cmd dir to move:computer_science
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+files:dandelion.jpg,trolltunga.jpg
+cd cmd dir to move:..
+a
 pwd:/home/ubuntu/nodejs/jarvis/blog/
 ls:/home/ubuntu/nodejs/jarvis/blog/
-dir to move:woodwork
-[ '/home/ubuntu/nodejs/jarvis/blog/' ]
-pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-filename:woodwork_build_plan.markdown
-current_path:/home/ubuntu/nodejs/jarvis/blog/woodwork/
-path:blog/woodwork/woodwork_build_plan.markdown
-data#woodwork
-
-##schedule
-## todo
-1. record
-2. publish
-3. CNC
-4. laser 
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+cd cmd dir to move:computer_science
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+files:dandelion.jpg,trolltunga.jpg
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+relative_path:
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,IMAG1512.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,IMAG1512.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+cd cmd dir to move:electronics
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/electronics/
+ls:/home/ubuntu/nodejs/jarvis/blog/electronics/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/electronics/
+files:20160905_144047.jpg
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,IMAG1512.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork

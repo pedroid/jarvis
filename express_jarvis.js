@@ -1,3 +1,5 @@
+var im = require('imagemagick')
+var busboy = require('connect-busboy')
 var express = require('express')
 var http = require('http')
 var url = require('url')
@@ -10,12 +12,18 @@ var app = express();
 var server = http.createServer(app);
 var qs = require('querystring');
 var util = require('util');
+
+app.use(busboy());
 app.use(express.static(__dirname+'/public'));
 app.set('view engine', 'ejs');
 format = function() {
     return util.format.apply(null, arguments);
 };
 app.use(express.static('public'));
+app.use('/d3/',express.static('d3'));
+app.use('/markdown/',express.static('markdown'));
+app.use('/UMLGen/',express.static('UMLGen'));
+app.use('/test/',express.static('test'));
 app.use('/blog',express.static('blog'));
 app.use('/RepeatedCodeInverse',express.static('RepeatedCodeInverse'));
 app.get('/users/:userID/books/:bookID',function(req, res){
@@ -25,10 +33,24 @@ var formidable = require('formidable');
 
 
 app.use('/gallery', require('node-gallery')({
-  staticFiles : 'resources/photos',
+  staticFiles : 'blog/resources/photos',
   urlRoot : 'gallery', 
-  title : 'Example Gallery'
+  title : 'Photo Gallery'
 }));
+
+app.get('/upload.html', function(req, response){
+
+	fs.readFile('upload.html', function(error, data) {
+     	   if (error){
+		          response.writeHead(404,{'Content-Type':'text/html'});
+	        	  response.write("opps this doesn't exist - 404");
+           } else {
+		          response.writeHead(200, {"Content-Type": "text/html"});
+		          response.write(data, "utf8");
+       	   }
+        response.end();
+	});
+});
 
 
 app.get('/contest/vacation-photo', function(req, res){
@@ -38,19 +60,6 @@ app.get('/contest/vacation-photo', function(req, res){
     });
 });
 
-app.post('/contest/vacation-photo/:year/:month', function(req, res){
-    var form = new formidable.IncomingForm();
-    form.parse(req, function(err, fields, files){
-        if(err){
-            return res.redirect(303, '/error');
-        }
-        console.log('received fields: ');
-        console.log(fields);
-        console.log('received files: ');
-        console.log(files);
-        return res.redirect(303, '/thankyou');
-    });
-});
 
 app.get('/blog/:article/:assets',function(req, response){
 //	console.log('blog/'+req.params['article']+'/'+req.params['assets']);
@@ -196,6 +205,7 @@ app.get('/form/signup_get', function(request, response){
 
 app.get('/songla.html',function(req, res){
 	relative_path = current_path.slice(root.length);
+	relative_path = relative_path.slice(5);
 	fs.readFile(relative_path+'test.data', 'utf8', function (err, data){
 		if(err){
 			return console.log(err);
@@ -212,6 +222,38 @@ app.get('/forfun.html',function(req, res){
 		{quotes: 111}
 	);
 });
+var state_grp = [];
+app.post('/UMLGen/fsm_post', function(request, response){
+
+	formData='';
+	request.on("data", function(data){
+		//var post = qs.parse(data);
+		formData+= data;
+		//console.log(post);
+//		return formData+= data;
+	});
+	request.on("end", function(){
+		state_grp = [];
+		response.writeHead(200, {"Content-Type":"text/html"});
+		post = qs.parse(formData);
+		state_number = post.state_number;
+		response.write("state number="+state_number+"<br/>");
+//		state0 = post.state0;
+//		state1 = post.state1;
+		for(var i =0; i<state_number;i++){
+			eval('state_grp.push(post.state'+i+');');
+		}
+		for(var i=0;i<state_number;i++){
+			response.write("state"+i+"="+state_grp[i]+'<br/>');
+		}
+		console.log(state_grp);
+//		response.write("state0="+state0+"<br/>");
+//		response.write("state1="+state1+"<br/>");
+		
+		response.end();
+	});
+});
+
 app.post('/form/signup_post', function(request, response){
 	
 	//response.render('pages/test');
@@ -245,8 +287,10 @@ app.post('/form/forfun', function(request, response){
 	request.on("end", function(){
 		response.writeHead(200, {"Content-Type":"text/html"});
 		post = qs.parse(formData);
-		user = post.user;
-		response.write("user="+user+"<br/>");
+		state = post.state;
+		state2 = post.state2;
+		response.write("state="+state+"<br/>");
+		response.write("state2="+state2+"<br/>");
 		response.end();
 	});
 
@@ -263,6 +307,61 @@ var current_path = markdown_root;
 var last_path;
 var path_stack=[];
 //console.log(current_path);
+
+app.post('/file_upload', function(req, res){
+		var fstream;
+		req.pipe(req.busboy);
+		var curr_file;
+//		console.log('forfun:'+req.busboy.name);
+		req.busboy.on('field', function(fieldname, val, fieldTruncated, valTruncated, encoding, mimetype){
+			//console.log(fieldname + ':' + val);
+	/*		console.log("fieldname:" + fieldname);
+			console.log("val:"+val);
+			console.log("fieldTruncated:"+fieldTruncated);
+			console.log("valTruncated:"+valTruncated);
+			console.log("encoding:"+encoding);
+			console.log("mimetype:"+mimetype);
+
+	*/
+		});
+		req.busboy.on('file', function(fieldname, file, filename){			
+			curr_file = filename;
+			relative_path = current_path.slice(root.length);
+			relative_path = relative_path.slice(5);
+			console.log('relative_path:'+relative_path);
+			//console.log("Uploading:: " + filename); 
+			var file_path = __dirname + '/blog/resources/photos/' + relative_path + filename;
+			var filename_small = filename.split('.')[0]+'.small.'+filename.split('.')[1];
+			var file_small_path = __dirname + '/blog/resources/photos/' + relative_path + filename_small; 
+//      		fstream = fs.createWriteStream(__dirname + '/blog/resources/photos/' +relative_path + filename);
+	      		fstream = fs.createWriteStream(file_path);
+        		file.pipe(fstream);
+        		fstream.on('close', function () {
+            		res.redirect('back');
+			});
+			console.log('file_path:'+file_path);
+			console.log('file_small_path:' + file_small_path);
+		});
+		req.busboy.on('finish', function(req, res){
+			console.log('end upload');
+			relative_path = current_path.slice(root.length);
+			relative_path = relative_path.slice(5);
+			var file_path = __dirname + '/blog/resources/photos/' + relative_path + curr_file;
+			var filename_small = curr_file.split('.')[0]+'.small.'+curr_file.split('.')[1];
+			var file_small_path = __dirname + '/blog/resources/photos/' + relative_path + filename_small; 
+			
+			im.resize({
+				  srcPath: file_path,
+				  dstPath: file_small_path,
+				  width:   256
+				}, function(err, stdout, stderr){
+			//	console.log(err + stdout + stderr);
+			})
+			console.log('resized image generated');
+		});
+
+});
+
 servo_io.sockets.on('connection', function(socket) {
   Clients.push(socket);
 
@@ -285,6 +384,50 @@ servo_io.sockets.on('connection', function(socket) {
 				break;
 			}
 			if(data.command == 'save'){
+				/*
+				if(data.publish){
+					console.log('data published');
+					fs.readFile('./sysconfig.json','utf8',function readFileCallBack(err, data){
+
+						if(err){
+							console.log(err);
+						}else{
+							console.log('start save');
+							obj = JSON.parse(data);
+							console.log('obj:'+obj);
+							obj.publish = true;
+							json = JSON.stringify(obj);
+							fs.writeFile('sysconfig.json', json, 'utf8', callback);
+						}
+
+					});
+				}
+				*/
+
+				if(data.publish){
+					console.log('publish!');
+					fs.readFile('./sysconfig.json','utf8',function readFileCallBack(err, sysdata){
+
+						if(err){
+							console.log(err);
+						}else{
+							console.log('start save');
+							obj = JSON.parse(sysdata);
+							console.log('obj:'+obj);
+							console.log('filename:'+data.filename);
+							obj[data.filename].publish = true;
+							//obj.test = true;
+							json = JSON.stringify(obj);
+							fs.writeFile('sysconfig.json', json, 'utf8');
+						}
+
+					});
+				}else{
+					console.log('unpublish');
+				}
+
+				var tags = data.tag;
+				console.log(tags);
 				relative_pwd = current_path.slice(markdown_root.length);
 				var public_html_content = "<!DOCTYPE html>";
 				public_html_content += "<html>\n";
@@ -315,14 +458,29 @@ servo_io.sockets.on('connection', function(socket) {
 				//console.log('mkdir path:'+data.path);	
 //				console.log('current_path:'+current_path.slice(root.length));
 				var dir_to_create = current_path.slice(root.length)+data.path;
-//				console.log('dir_to_create:'+dir_to_create);
+        		//fstream = fs.createWriteStream(__dirname + '/blog/resources/photos/' +relative_path + filename);
+				
+				var photo_dir_to_create = 'blog/resources/photos/'+ dir_to_create.slice(5)+'/';
+				console.log('dir_to_create:'+dir_to_create);
+				console.log('photo_dir_to_create:'+photo_dir_to_create);
 				if(!fs.existsSync(dir_to_create)){
 					fs.mkdirSync(dir_to_create);
 					console.log(dir_to_create+' has been created.');
 					socket.emit('server_response',{'response_content':dir_to_create+' has been created.'});
 				}else{
+					console.log('the directory is already existed.');
 					socket.emit('server_response',{'response_content':'the directory is already existed.'});
 				}
+				
+				if(!fs.existsSync(photo_dir_to_create)){
+					fs.mkdirSync(photo_dir_to_create);
+					console.log(photo_dir_to_create+' has been created.');
+					socket.emit('server_response',{'response_content':photo_dir_to_create+' has been created.'});
+				}else{
+					console.log('the directory is already existed.');
+					socket.emit('server_response',{'response_content':'the directory is already existed.'});
+				}
+				
 				break;
 			}
 			
@@ -361,8 +519,33 @@ servo_io.sockets.on('connection', function(socket) {
 				}
 			}
 			*/
+			if(data.command == 'ls_photo'){
+//				console.log('path: '+data.path);
+//				var tmp = fs.
+				var path = 'blog/';
+				relative_pwd = current_path.slice(markdown_root.length);
+        			var album_pwd = __dirname + '/blog/resources/photos/' +relative_pwd;
+				console.log('album_pwd:'+album_pwd);
+				if(data.path){
+					path+= data.path;
+				}
+				try{
+					var tmp = fs.readdirSync(album_pwd);
+					//console.log('files:'+tmp);
+					
+					socket.emit('server_response',{
+						'cmd':'ls_photo',
+						'response_content':tmp,
+						'path':'http://yushengc.twbbs.org:9090/blog/'+relative_pwd});				
+					
+				}catch(err){
+					console.log(err);
+					socket.emit('server_response',{'response_content':err});
+				}
+				break;
+			}
 			if(data.command == 'ls'){
-			//	console.log('path: '+data.path);
+//				console.log('path: '+data.path);
 //				var tmp = fs.
 				var path = 'blog/';
 				relative_pwd = current_path.slice(markdown_root.length);
@@ -386,8 +569,9 @@ servo_io.sockets.on('connection', function(socket) {
 			if(data.command == 'cd'){
 				//console.log('path: '+data.path);
 				var dir = data.path;
-				console.log('dir to move:'+dir);
+				console.log('cd cmd dir to move:'+dir);
 				if(dir=='..'){
+					console.log('a');
 					current_path = path_stack.pop();
 					if(current_path){
 						//console.log(path_stack);
@@ -413,7 +597,7 @@ servo_io.sockets.on('connection', function(socket) {
 					}else{
 						//last_path = current_path;
 						path_stack.push(current_path);
-						console.log(path_stack);
+						console.log("paths in stack:"+path_stack);
 						current_path = new_path;
 						socket.emit('markdown',{
 							'command':'dir',

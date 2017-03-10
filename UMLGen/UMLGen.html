@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="compiler.js"></script>
+	<script src = "text2UML_in_JSON.js"></script>
+	<script src = "UML_in_JSON2UML_in_HTML.js"></script>
+	<script src = "html_preprocessing.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	</head>
+  <body>    
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 bg-warning">
+		<ul>
+			<li><a href="../ui_cmd.html">Home</a></li>
+			<li><a href="../blog/" target="_blank">Blog</a></li>
+			<li><a href="../gallery/" target="_blank">Gallery</a></li>
+		</ul>
+	</div>
+	<div class="col-lg-12" id="preview_link"></div>
+	<div class="col-lg-12" id="title">[Filename]</div>
+	<div class="col-lg-6" id="title">
+	    <textarea class="AutoHeight" id="text-input" oninput="this.editor.update()"
+               style="width:100%" rows="30">[Square]
+-length: double
++display()</textarea>
+	</div>
+    	<div class="col-lg-6" id="preview"> </div>
+</div>
+
+
+
+
+    
+    <script src="showdown.min.js"></script>
+    <script>
+	var converter = new showdown.Converter();
+	converter.setOption('tables',true);
+	converter.setOption('tasklists',true);
+      function Editor(input, preview) {
+        this.update = function () {
+		content = input.value;
+	
+		[preprocessed_content, parse_result] = html_preprocessing(content);
+//		var html_results = converter.makeHtml(preprocessed_content);
+	//          var html_results = markdown.toHTML(input.value);
+		var UML_content_in_JSON = text2UML_in_JSON(preprocessed_content);
+		var final_html = UML_in_JSON2UML_in_HTML(UML_content_in_JSON);
+		  preview.innerHTML = final_html;
+	//	  console.log(preview.innerHTML);
+        };
+        input.editor = this;
+//	$("#text-input").height($("#preview").height());
+//	input.height(preview.height());
+        this.update();
+      }
+      var $$ = function (id) { return document.getElementById(id); };
+      new Editor($$("text-input"), $$("preview"));
+    </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
