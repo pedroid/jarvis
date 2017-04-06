@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Scale</title>
+	<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+<style>
+	div.bar{
+		display: inline-block;
+		width: 20px;
+		height: 75px;
+		background-color: teal;
+		margin-right: 2px;
+	}	
+</style>	
+</head>
+<body>
+<div class="description">
+	<h1>尺度Scale</h1>
+	<p>
+		input domain 對應到 output range
+	</p>
+	<p>
+		<code>
+			var scale = d3.scale.linear();
+		</code>
+	</p>
+	
+</div>
+	<script type="text/javascript">
+		var dataset=[1,2,3];
+		var scale = d3.scaleLinear();
+		scale.domain([0,10]);
+		scale.range([0, 100]);
+		
+		var bar_height = 20;
+		w = 500;
+		h = 100;		
+		var svg2 = d3.select("body").append("svg")
+		.attr("width", w)
+		.attr("height", h);
+		
+		svg2.selectAll("rect")
+		.data(dataset)
+		.enter()
+		.append("rect")
+		.attr("x", function(d, i){
+			return i*25;
+		})
+		.attr("y", function(d){
+			return h-10*d
+		})
+		.attr("width", 20)
+		.attr("height", function(d){
+			return scale(d);
+		});
+	</script>
+
+
+<div class="footer">
+	<p>
+		Next: <a href="">Bar Chart in SVG</a>
+	</p>
+</div>
+<p></p>
+</body>
+</html>

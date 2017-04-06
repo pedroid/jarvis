@@ -1,4 +1,4 @@
-var im = require('imagemagick')
+im = require('imagemagick')
 var busboy = require('connect-busboy')
 var express = require('express')
 var http = require('http')
@@ -12,6 +12,56 @@ var app = express();
 var server = http.createServer(app);
 var qs = require('querystring');
 var util = require('util');
+var design_pattern = require('./design_pattern_engine.js');
+var Passport = require('passport')
+var LocalStrategy = require('passport-local').Strategy;
+var BodyParser = require('body-parser');
+var users = {
+	yushengc:{
+		username:'yushengc',
+		password:'1234',
+		id:1,	
+	},
+	guest:{
+		username:'guest',
+		password:'5678',
+		id:2,
+	},
+}
+
+var localStrategy = new LocalStrategy({
+      usernameField: 'username',
+      passwordField: 'password',
+    },
+    function(username, password, done) {
+      user = users[ username ];
+ 
+      if ( user == null ) {
+        return done( null, false, { message: 'Invalid user' } );
+      };
+ 
+      if ( user.password !== password ) {
+        return done( null, false, { message: 'Invalid password' } );
+      };
+ 
+      done( null, user );
+    }
+  )
+ 
+Passport.use( 'local', localStrategy );
+
+app.use( BodyParser.urlencoded( { extended: false } ) );
+app.use( BodyParser.json() );
+app.use( Passport.initialize() );
+
+app.post(
+  '/login',
+  Passport.authenticate( 'local', { session: false } ),
+  function( req, res ) {
+
+	    res.send( '<br/>User ID<br/> ' + req.user.id );
+  }
+);
 
 app.use(busboy());
 app.use(express.static(__dirname+'/public'));
@@ -247,6 +297,7 @@ app.post('/UMLGen/fsm_post', function(request, response){
 			response.write("state"+i+"="+state_grp[i]+'<br/>');
 		}
 		console.log(state_grp);
+		design_pattern.fsm(state_grp);
 //		response.write("state0="+state0+"<br/>");
 //		response.write("state1="+state1+"<br/>");
 		

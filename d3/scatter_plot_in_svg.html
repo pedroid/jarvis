@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>ScatterPlot</title>
+	<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+<style>
+</style>	
+</head>
+<body>
+<div class="description">
+	<h1>散佈圖ScatterPlot</h1>
+	
+</div>
+	<script type="text/javascript">
+		var dataset=[[5,20], [480, 90], [250, 50], [100,33], [330, 95], [410,12], [475, 44], [25,67], [85, 21], [220, 88]];
+		var w = 500;
+		var h = 100;
+		var svg = d3.select("body")
+			.append("svg")
+			.attr("width", w)
+			.attr("height", h);
+	
+		svg.selectAll("circle")
+			.data(dataset)
+			.enter()
+			.append("circle")
+			.attr("cx", function(d){
+				return d[0]
+			})
+			.style("cy", function(d){
+				return d[1]
+			})
+			.attr("r", function(d){
+				return Math.sqrt(h-d[1])
+			});
+		var xAxis = d3.axisBottom();
+		var xScale = d3.scaleLinear();
+		xScale.domain([0, d3.max(dataset, function(d){return d[0];})]);
+		xScale.range([0,w]);
+		
+		xAxis.scale(xScale);
+		var g = svg.append("g");
+	//	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var svg = d3.select("svg"),
+    margin = {top: 40, left: 40, bottom: 40, right: 40},
+    width = +svg.attr("width") - margin.left - margin.right,
+    height = +svg.attr("height") - margin.top - margin.bottom;
+
+		var x0 = d3.scaleQuantize()
+		    .domain([0, 1])
+		    .range(["#8e0152", "#c51b7d", "#de77ae", "#f1b6da", "#fde0ef", "#f7f7f7", "#e6f5d0", "#b8e186", "#7fbc41", "#4d9221", "#276419"]); // PiYG
+		var x1 = d3.scalePoint()
+		    .domain(x0.range())
+		    .range([0, width]);
+		g.append("g")
+		    .attr("class", "axis axis--x")
+		    .call(d3.axisTop(x1).tickPadding(18));
+	</script>
+<div class="footer">
+	<p>
+		Home: <a href="index.html"> Index </a>
+		Prev: <a href="bar_charts_in_svg.html">Bar Chart in SVG</a>
+		Next: <a href=""></a>
+	</p>
+</div>
+<p></p>
+</body>
+</html>

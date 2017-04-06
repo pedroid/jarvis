@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>D3</title>
+	<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+<style>
+	div.bar{
+		display: inline-block;
+		width: 20px;
+		height: 75px;
+		background-color: teal;
+		margin-right: 2px;
+	}	
+	.pumpkin{
+		fill: yellow;
+		stroke: orange;
+		stroke-width: 5;
+	}
+</style>	
+</head>
+<body>
+<div class="description">
+	<h1>長條圖Bar Chart in SVG</h1>
+	<p>
+		使用divs 來畫圖是可行的，但是不是很容易去操作，要用比較底層的方式去刻，而且會發生不同瀏覽器行為不一致的現象，也就是說無法精準的掌握使用者會看到什麼樣的效果。使用SVG比較標準化，而且更快。
+	</p>
+	<h2> SVG Basics</h2>
+	<h3> circle</h3>
+	<svg width="50" height="50">
+		<circle class="pumpkin" cx="25" cy="25" r="22" fill="blue" stroke="gray" stroke-width="2"/>
+	</svg>
+	<h3> rect </h3>
+	<svg width="50" height="50">
+		<rect class="pumpkin" x="0" y="0" width="50" height="50" />
+	</svg>
+	<h3> ellipse </h3>
+	<svg width="50" height="50">
+		<ellipse cx="25" cy="25" rx="5" ry="10" />
+	</svg>
+	<h3> line </h3>
+	<svg width="50" height="50">
+		<line x1="0" y1="0" x2="50" y2="50" stroke="black" />
+	</svg>
+	<h3> text </h3>
+	<svg width="50" height="50">
+		<text x="5" y="15"> forfun</text>
+		<text x="5" y="35" font-family="serif" font-size="22" fill="gray"> forfun</text>
+	</svg>
+	
+	<h3>透明度</h3>
+	<svg width="150" height="150">
+		<circle cx="25" cy="25" r="20" fill="rgba(128, 0,128,1.0)"/>
+		<circle cx="50" cy="25" r="20" fill="rgba(0, 0,255,0.7)"/>
+		<circle cx="75" cy="25" r="20" fill="rgba(0, 255,0,0.5)"/>
+		<circle cx="100" cy="25" r="20" fill="rgba(255, 255,0,0.25)"/>
+		<circle cx="125" cy="25" r="20" fill="rgba(255, 0,0,0.1)"/>
+	</svg>
+	
+</div>
+	<script type="text/javascript">
+
+//		d3.select("body").append("p").text("new paragraph!");		
+		var dataset=[1,2,3,4,5];
+		var bar_height = 20;
+		var w = 500;
+		var h = 100;
+		var svg = d3.select("body").append("svg")
+			.attr("width", w)
+			.attr("height", h);
+		var circles = svg.selectAll("circle")
+			.data(dataset)
+			.enter()
+			.append("circle");
+		circles.attr("cx", function(d,i){
+			return(i*50)+25;
+		})
+		.attr("cy", h/2)
+		.attr("stroke","black")
+		.attr("cy", h/2)
+		.attr("r", function(d){
+			return d;
+		});
+			
+		var svg2 = d3.select("body").append("svg")
+		.attr("width", w)
+		.attr("height", h);
+		
+		svg2.selectAll("rect")
+		.data(dataset)
+		.enter()
+		.append("rect")
+		.attr("x", function(d, i){
+			return i*(w/dataset.length);
+		})
+		.attr("y", function(d){
+			return h-10*d
+		})
+		.attr("width", 20)
+		.attr("height", function(d){
+			return 10*d;
+		});
+		
+		svg2.selectAll("text")
+		.data(dataset)
+		.enter()
+		.append("text")
+		.text(function(d){
+			return d
+		})
+		.attr("x", function(d,i){
+			return i*(w/dataset.length);
+		})
+		.attr("y", function(d,i){
+			return h-(d*10);
+		})
+		.attr("font-family", "sans-serif")
+		.attr("font-size", "11px")
+		.attr("fill", "red");
+	</script>
+<div class="footer">
+	<p>
+		Prev: <a href="bar_charts.html">Bar Charts</a>
+		Next: <a href="scatter_plot_in_svg.html">Scatterplot in SVG</a>
+	</p>
+</div>
+<p></p>
+</body>
+</html>

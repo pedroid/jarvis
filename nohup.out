@@ -1927,3 +1927,1876 @@ pwd:/home/ubuntu/nodejs/jarvis/blog/
 ls:/home/ubuntu/nodejs/jarvis/blog/
 album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
 files:20160819_081634.jpg,20160905_144047.jpg,2017-01-17.png,IMAG1483_1.jpg,IMAG1506.jpg,IMAG1512.jpg,computer_science,electronics,quickshot.png,tmp3,woodwork
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+blog/images/something.jpg
+blog/images/article.jpg
+blog/images/jarvis.jpg
+blog/images/.jpg
+blog/images/.jpg
+blog/images/.jpg
+blog/images/article.jpg
+blog/images/jarvis.jpg
+blog/images/article.jpg
+blog/images/jarvis.jpg
+blog/images/article.jpg
+blog/images/jarvis.jpg
+assets:undefined
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:computer_science
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:..
+a
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:computer_science
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+unpublish
+undefined
+unpublish
+undefined
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:woodwork
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+ls:/home/ubuntu/nodejs/jarvis/blog/woodwork/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/woodwork/
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+cd cmd dir to move:electronic
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+cd cmd dir to move:electronics
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/electronics/
+ls:/home/ubuntu/nodejs/jarvis/blog/electronics/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/electronics/
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:computer_science
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+cd cmd dir to move:compiler
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/,/home/ubuntu/nodejs/jarvis/blog/computer_science/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/compiler/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/compiler/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/compiler/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/compiler/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/compiler/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/compiler/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/compiler/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/compiler/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/compiler/',
+  syscall: 'readdir' }
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+blog/images/something.jpg
+blog/images/something.jpg
+blog/images/something.jpg
+blog/images/.jpg
+blog/woodwork/article1.html
+blog/images/.jpg
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:computer_science
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+filename:Qt_thread_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/Qt_thread_notes.markdown
+data#QT Thread 使用筆記
+
+!tag qt, thread 
+!publish
+
+
+## Notes
+1. 物件在哪一個thread中被實例化，則該物件(包含旗下的property)存在於該thread
+2. 物件實例化後的member function是在哪一個thread中執行就需要去釐清。
+3. 當想要存取別的thread中的資料時，使用signal/slots
+
+##架構
+1. main thread實例一個繼承自QThread (newThread)的物件，該物件存在於 main thread
+2. newThread run() 中的statement會在新的thread中執行
+3. 在run() 中宣告一個toolbox，並connect signal/slots
+
+##Usage範例
+###使用情境
+我們希望在main thread之外，能有一個thread (i.e. newThread class) 幫我們處理一些事務，這些事務通常是影像處理、控制器如狀態機等)，而toolbox class是我們會在newThead中使用到的工具箱函式。我們會在新的thread中實例化toolbox，因此toolbox會存在於新的thread中。所以當main thread想要得知toolbox中的特別參數時，我們使用signal/slots的方式來作thread之間的溝通。
+
+####在新的thread中實例化toolbox
+必須在newThread底下的run()之中宣告，該toolbox才會存在於新的thread，若是在其他地方宣告，如Initialize()之前，則仍會存在於main thread之中
+
+####在run()之中執行，並不一定先或後執行
+在run()中執行thread_property =1，但是main thread中執行get_property()取得thread_property值，因為在不同的thread中運行，所以會讀取到0(初始值)或1(修改值)並不一定。
+
+####用signal/slots的方式取得不同thread中的值
+newThread包含一個SIGNAL(getparametersignal())，當main thread欲取得toolbox中資料的時候，trigger這個SIGNAL，而對應的slot是toolbox中的SLOT(getparameter())
+
+main.cpp
+
+	pnewThread = new newThread();
+	pnewThread->start(); // run() 這個function 在新的thread中開始執行
+	pnewThread->state(); // @main thread
+	pnewThread->get_property(); //取得newThread中的property 
+	pnewThread->accessToolbox(); //在此member function中emit signal 通知toolbox 
+
+newThread.h
+
+	#include <qthread.h>
+	#include <QDebug>
+	#include "toolbox.h"
+	class newThread: public QThread
+	{
+		Q_OBJECT
+	public:
+		newThread();
+		~newThread();
+		int Initialize(void);
+		int executing(int input);
+		void accessToolbox();
+		void get_property();
+	private:
+		toolbox *ptoolbox;
+		int thread_property =0;
+	protected:
+		void run();
+	signals:
+		void getparametersignal();
+	};
+
+newThread.cpp
+
+	#include "newThread.h"
+
+
+	newThread::newThread()
+	{
+		this->Initialize();
+	}
+
+
+	newThread::~newThread()
+	{
+	}
+
+	int newThread::Initialize(void){	
+		return 0;
+	}
+
+	int newThread::executing(int input){
+		qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;	
+		ptoolbox = new toolbox();
+		ptoolbox->image_processing(input);
+		connect(this, SIGNAL(getparametersignal()), ptoolbox, SLOT(getparameter()));
+		return 0;
+	}
+
+	void newThread::run(void){
+		//qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;
+		this->executing(5);
+		this->thread_property = 1;
+
+	}
+
+	void newThread::accessToolbox(){
+		emit getparametersignal();
+	}
+
+	void newThread::get_property(){
+		qDebug() << __FUNCTION__ << thread_property << endl;
+	};
+
+toolbox.h
+
+	#include <qdebug.h>
+	#include <qthread.h>
+	class toolbox: public QThread
+	{	
+		Q_OBJECT
+	public:
+		toolbox();
+		~toolbox();
+		int image_processing(int input);
+	private:
+		int parameter;
+	private slots:
+		int getparameter();
+	};
+
+toolbox.cpp
+
+	#include "toolbox.h"
+	toolbox::toolbox()
+	{
+	}
+
+
+	toolbox::~toolbox()
+	{
+	}
+
+	int toolbox::image_processing(int input){
+		parameter = input;
+		qDebug() << __FUNCTION__ << "image_processing:" << this->currentThreadId() << ", parameter:" << parameter << endl;	
+		return 0;
+	}
+
+	int toolbox::getparameter(){
+		qDebug() << __FUNCTION__ << parameter << endl;
+		return 0;
+	};
+
+##Application
+1. image processing 
+2. FSM
+
+##references
+1. [Qt event system](http://doc.qt.io/qt-5/eventsandfilters.html)
+filename:Qt_console_window.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/Qt_console_window.markdown
+data!code
+#ifdef GUI_VERSION_QT_WITH_CONSOLE
+//Create a Console attached to this GUI app for showing debug messages.
+AllocConsole();
+AttachConsole(GetCurrentProcessId());
+freopen("CON", "w", stdout);//Redirect stdout
+/*HWND handle = GetConsoleWindow();
+if (handle == NULL){
+
+}
+else{
+ShowWindow(handle, SW_MINIMIZE);
+}
+*/
+//End Create a Console attached to this GUI app for showing debug messages.
+#endif
+
+
+
+#ifdef GUI_VERSION_QT_WITH_CONSOLE
+FreeConsole();
+#endif​
+!codee
+filename:Qt_thread_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/Qt_thread_notes.markdown
+data#QT Thread 使用筆記
+
+!tag qt, thread 
+!publish
+
+
+## Notes
+1. 物件在哪一個thread中被實例化，則該物件(包含旗下的property)存在於該thread
+2. 物件實例化後的member function是在哪一個thread中執行就需要去釐清。
+3. 當想要存取別的thread中的資料時，使用signal/slots
+
+##架構
+1. main thread實例一個繼承自QThread (newThread)的物件，該物件存在於 main thread
+2. newThread run() 中的statement會在新的thread中執行
+3. 在run() 中宣告一個toolbox，並connect signal/slots
+
+##Usage範例
+###使用情境
+我們希望在main thread之外，能有一個thread (i.e. newThread class) 幫我們處理一些事務，這些事務通常是影像處理、控制器如狀態機等)，而toolbox class是我們會在newThead中使用到的工具箱函式。我們會在新的thread中實例化toolbox，因此toolbox會存在於新的thread中。所以當main thread想要得知toolbox中的特別參數時，我們使用signal/slots的方式來作thread之間的溝通。
+
+####在新的thread中實例化toolbox
+必須在newThread底下的run()之中宣告，該toolbox才會存在於新的thread，若是在其他地方宣告，如Initialize()之前，則仍會存在於main thread之中
+
+####在run()之中執行，並不一定先或後執行
+在run()中執行thread_property =1，但是main thread中執行get_property()取得thread_property值，因為在不同的thread中運行，所以會讀取到0(初始值)或1(修改值)並不一定。
+
+####用signal/slots的方式取得不同thread中的值
+newThread包含一個SIGNAL(getparametersignal())，當main thread欲取得toolbox中資料的時候，trigger這個SIGNAL，而對應的slot是toolbox中的SLOT(getparameter())
+
+main.cpp
+
+	pnewThread = new newThread();
+	pnewThread->start(); // run() 這個function 在新的thread中開始執行
+	pnewThread->state(); // @main thread
+	pnewThread->get_property(); //取得newThread中的property 
+	pnewThread->accessToolbox(); //在此member function中emit signal 通知toolbox 
+
+newThread.h
+
+	#include <qthread.h>
+	#include <QDebug>
+	#include "toolbox.h"
+	class newThread: public QThread
+	{
+		Q_OBJECT
+	public:
+		newThread();
+		~newThread();
+		int Initialize(void);
+		int executing(int input);
+		void accessToolbox();
+		void get_property();
+	private:
+		toolbox *ptoolbox;
+		int thread_property =0;
+	protected:
+		void run();
+	signals:
+		void getparametersignal();
+	};
+
+newThread.cpp
+
+	#include "newThread.h"
+
+
+	newThread::newThread()
+	{
+		this->Initialize();
+	}
+
+
+	newThread::~newThread()
+	{
+	}
+
+	int newThread::Initialize(void){	
+		return 0;
+	}
+
+	int newThread::executing(int input){
+		qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;	
+		ptoolbox = new toolbox();
+		ptoolbox->image_processing(input);
+		connect(this, SIGNAL(getparametersignal()), ptoolbox, SLOT(getparameter()));
+		return 0;
+	}
+
+	void newThread::run(void){
+		//qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;
+		this->executing(5);
+		this->thread_property = 1;
+
+	}
+
+	void newThread::accessToolbox(){
+		emit getparametersignal();
+	}
+
+	void newThread::get_property(){
+		qDebug() << __FUNCTION__ << thread_property << endl;
+	};
+
+toolbox.h
+
+	#include <qdebug.h>
+	#include <qthread.h>
+	class toolbox: public QThread
+	{	
+		Q_OBJECT
+	public:
+		toolbox();
+		~toolbox();
+		int image_processing(int input);
+	private:
+		int parameter;
+	private slots:
+		int getparameter();
+	};
+
+toolbox.cpp
+
+	#include "toolbox.h"
+	toolbox::toolbox()
+	{
+	}
+
+
+	toolbox::~toolbox()
+	{
+	}
+
+	int toolbox::image_processing(int input){
+		parameter = input;
+		qDebug() << __FUNCTION__ << "image_processing:" << this->currentThreadId() << ", parameter:" << parameter << endl;	
+		return 0;
+	}
+
+	int toolbox::getparameter(){
+		qDebug() << __FUNCTION__ << parameter << endl;
+		return 0;
+	};
+
+##Application
+1. image processing 
+2. FSM
+
+##references
+1. [Qt event system](http://doc.qt.io/qt-5/eventsandfilters.html)
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+blog/images/something.jpg
+blog/images/something.jpg
+blog/images/article.jpg
+blog/images/jarvis.jpg
+blog/images/article.jpg
+blog/images/jarvis.jpg
+[ 'ccc', '1234567' ]
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+6. d3, machine learning, algorithm
+
+##projects
+1. drag and match game (3days)
+2. parser, OODL (3 days)
+3. 書架 (3 days)
+4. 古今相照 加入
+5. multi-purpose and convertible furniture
+
+
+
+unpublish
+undefined
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+6. d3, machine learning, algorithm
+7. TCP/IP back information
+8. 3D printer driver
+
+##projects
+1. drag and match game (3days)
+2. parser, OODL (3 days)
+3. 書架 (3 days)
+4. 古今相照 加入
+5. multi-purpose and convertible furniture
+
+
+
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+6. d3, machine learning, algorithm
+7. TCP/IP back information
+8. 3D printer driver
+
+##projects
+1. drag and match game (3days)
+2. parser, OODL (3 days)
+3. 書架 (3 days)
+4. 古今相照 加入
+5. multi-purpose and convertible furniture
+
+
+
+unpublish
+undefined
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:VillageAI
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:..
+a
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+dir_to_create:blog/villageAI
+photo_dir_to_create:blog/resources/photos/villageAI/
+blog/villageAI has been created.
+blog/resources/photos/villageAI/ has been created.
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:villageAI
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/villageAI/
+ls:/home/ubuntu/nodejs/jarvis/blog/villageAI/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/villageAI/
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/villageAI/
+unpublish
+undefined
+unpublish
+undefined
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+filename:todo
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo
+{ [Error: ENOENT, open 'blog/todo'] errno: 34, code: 'ENOENT', path: 'blog/todo' }
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+6. d3, machine learning, algorithm
+7. TCP/IP back information
+8. 3D printer driver
+9. [leetcode](https://leetcode.com/)
+
+
+##projects
+1. drag and match game (3days)
+2. parser, OODL (3 days)
+3. 書架 (3 days)
+4. 古今相照 加入
+5. multi-purpose and convertible furniture
+
+
+
+unpublish
+undefined
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:villageAI
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/villageAI/
+ls:/home/ubuntu/nodejs/jarvis/blog/villageAI/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/villageAI/
+filename:540_Single_Element_in_a_Sorted_Array.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/villageAI/
+path:blog/villageAI/540_Single_Element_in_a_Sorted_Array.markdown
+data#540. Single Element in a Sorted Array
+
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/villageAI/
+ls:/home/ubuntu/nodejs/jarvis/blog/villageAI/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/villageAI/
+filename:002_Add_Two_Numbers.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/villageAI/
+path:blog/villageAI/002_Add_Two_Numbers.markdown
+data#002 Add Two Numbers
+##description
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+###Example:
+Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+Output: 7 -> 0 -> 8
+
+
+##Solution
+    ListNode* Solution::addTwoNumbers(ListNode* l1, ListNode* l2) {
+    	ListNode *currNode_l1 = l1;
+    	ListNode *currNode_l2 = l2;
+    	ListNode *ResultListNode;
+    	ListNode *currResultListNode;// = &ResultListNode;
+    	int l1_number;
+    	int l2_number;
+    	bool overflow = false;	
+    	bool flag_first = true;
+    	ListNode NewListNode(NULL);
+    	while (true){		
+    		if (currNode_l1 == NULL) l1_number = 0; else l1_number = currNode_l1->val;
+    		if (currNode_l2 == NULL) l2_number = 0; else l2_number = currNode_l2->val;		
+		
+		ListNode *NewListNode = new ListNode(NULL);
+		if (flag_first) {
+			ResultListNode = NewListNode;
+			flag_first = false;
+			NewListNode->val = l1_number + l2_number;
+			if (NewListNode->val >= 10){
+				overflow = true;
+				NewListNode->val = NewListNode->val % 10;
+			}
+
+		}else{
+			currResultListNode->next = NewListNode;
+			if (overflow) NewListNode->val = l1_number + l2_number + 1;
+			else NewListNode->val = l1_number + l2_number;
+			overflow = false;
+			if (NewListNode->val >= 10){
+				overflow = true;
+				NewListNode->val = NewListNode->val % 10;
+			}
+			else{
+				overflow = false;
+				NewListNode->val = NewListNode->val;
+			}
+		}
+
+		currResultListNode = NewListNode;
+
+		if (currNode_l1 != NULL){
+			if (currNode_l1->next!=NULL) currNode_l1 = currNode_l1->next;
+			else currNode_l1 = NULL;
+		}
+		if (currNode_l2 != NULL){
+			if (currNode_l2->next != NULL)currNode_l2 = currNode_l2->next;
+			else currNode_l2 = NULL;
+		}
+		
+		if (currNode_l1 == NULL && currNode_l2 == NULL){
+			if (overflow){
+				ListNode *NewListNode = new ListNode(NULL);
+				NewListNode->val = 1;				
+				currResultListNode->next = NewListNode;
+				break; 
+			}else{ break; }
+		}
+	}
+
+
+	return ResultListNode;
+}
+
+##Other Solution
+    public class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode c1 = l1;
+        ListNode c2 = l2;
+        ListNode sentinel = new ListNode(0);
+        ListNode d = sentinel;
+        int sum = 0;
+        while (c1 != null || c2 != null) {
+            sum /= 10;
+            if (c1 != null) {
+                sum += c1.val;
+                c1 = c1.next;
+            }
+            if (c2 != null) {
+                sum += c2.val;
+                c2 = c2.next;
+            }
+            d.next = new ListNode(sum % 10);
+            d = d.next;
+        }
+        if (sum / 10 == 1)
+            d.next = new ListNode(1);
+        return sentinel.next;
+    }
+    }
+
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/villageAI/
+assets:undefined
+unpublish
+undefined
+unpublish
+undefined
+unpublish
+undefined
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/villageAI/
+ls:/home/ubuntu/nodejs/jarvis/blog/villageAI/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/villageAI/
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:computer_science
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+filename:Qt_thread_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/Qt_thread_notes.markdown
+data#QT Thread 使用筆記
+
+!tag qt, thread 
+!publish
+
+
+## Notes
+1. 物件在哪一個thread中被實例化，則該物件(包含旗下的property)存在於該thread
+2. 物件實例化後的member function是在哪一個thread中執行就需要去釐清。
+3. 當想要存取別的thread中的資料時，使用signal/slots
+
+##架構
+1. main thread實例一個繼承自QThread (newThread)的物件，該物件存在於 main thread
+2. newThread run() 中的statement會在新的thread中執行
+3. 在run() 中宣告一個toolbox，並connect signal/slots
+
+##Usage範例
+###使用情境
+我們希望在main thread之外，能有一個thread (i.e. newThread class) 幫我們處理一些事務，這些事務通常是影像處理、控制器如狀態機等)，而toolbox class是我們會在newThead中使用到的工具箱函式。我們會在新的thread中實例化toolbox，因此toolbox會存在於新的thread中。所以當main thread想要得知toolbox中的特別參數時，我們使用signal/slots的方式來作thread之間的溝通。
+
+####在新的thread中實例化toolbox
+必須在newThread底下的run()之中宣告，該toolbox才會存在於新的thread，若是在其他地方宣告，如Initialize()之前，則仍會存在於main thread之中
+
+####在run()之中執行，並不一定先或後執行
+在run()中執行thread_property =1，但是main thread中執行get_property()取得thread_property值，因為在不同的thread中運行，所以會讀取到0(初始值)或1(修改值)並不一定。
+
+####用signal/slots的方式取得不同thread中的值
+newThread包含一個SIGNAL(getparametersignal())，當main thread欲取得toolbox中資料的時候，trigger這個SIGNAL，而對應的slot是toolbox中的SLOT(getparameter())
+
+main.cpp
+
+	pnewThread = new newThread();
+	pnewThread->start(); // run() 這個function 在新的thread中開始執行
+	pnewThread->state(); // @main thread
+	pnewThread->get_property(); //取得newThread中的property 
+	pnewThread->accessToolbox(); //在此member function中emit signal 通知toolbox 
+
+newThread.h
+
+	#include <qthread.h>
+	#include <QDebug>
+	#include "toolbox.h"
+	class newThread: public QThread
+	{
+		Q_OBJECT
+	public:
+		newThread();
+		~newThread();
+		int Initialize(void);
+		int executing(int input);
+		void accessToolbox();
+		void get_property();
+	private:
+		toolbox *ptoolbox;
+		int thread_property =0;
+	protected:
+		void run();
+	signals:
+		void getparametersignal();
+	};
+
+newThread.cpp
+
+	#include "newThread.h"
+
+
+	newThread::newThread()
+	{
+		this->Initialize();
+	}
+
+
+	newThread::~newThread()
+	{
+	}
+
+	int newThread::Initialize(void){	
+		return 0;
+	}
+
+	int newThread::executing(int input){
+		qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;	
+		ptoolbox = new toolbox();
+		ptoolbox->image_processing(input);
+		connect(this, SIGNAL(getparametersignal()), ptoolbox, SLOT(getparameter()));
+		return 0;
+	}
+
+	void newThread::run(void){
+		//qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;
+		this->executing(5);
+		this->thread_property = 1;
+
+	}
+
+	void newThread::accessToolbox(){
+		emit getparametersignal();
+	}
+
+	void newThread::get_property(){
+		qDebug() << __FUNCTION__ << thread_property << endl;
+	};
+
+toolbox.h
+
+	#include <qdebug.h>
+	#include <qthread.h>
+	class toolbox: public QThread
+	{	
+		Q_OBJECT
+	public:
+		toolbox();
+		~toolbox();
+		int image_processing(int input);
+	private:
+		int parameter;
+	private slots:
+		int getparameter();
+	};
+
+toolbox.cpp
+
+	#include "toolbox.h"
+	toolbox::toolbox()
+	{
+	}
+
+
+	toolbox::~toolbox()
+	{
+	}
+
+	int toolbox::image_processing(int input){
+		parameter = input;
+		qDebug() << __FUNCTION__ << "image_processing:" << this->currentThreadId() << ", parameter:" << parameter << endl;	
+		return 0;
+	}
+
+	int toolbox::getparameter(){
+		qDebug() << __FUNCTION__ << parameter << endl;
+		return 0;
+	};
+
+##Application
+1. image processing 
+2. FSM
+
+##references
+1. [Qt event system](http://doc.qt.io/qt-5/eventsandfilters.html)
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+filename:Qt_thread_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/Qt_thread_notes.markdown
+data#QT Thread 使用筆記
+
+!tag qt, thread 
+!publish
+
+
+## Notes
+1. 物件在哪一個thread中被實例化，則該物件(包含旗下的property)存在於該thread
+2. 物件實例化後的member function是在哪一個thread中執行就需要去釐清。
+3. 當想要存取別的thread中的資料時，使用signal/slots
+
+##架構
+1. main thread實例一個繼承自QThread (newThread)的物件，該物件存在於 main thread
+2. newThread run() 中的statement會在新的thread中執行
+3. 在run() 中宣告一個toolbox，並connect signal/slots
+
+##Usage範例
+###使用情境
+我們希望在main thread之外，能有一個thread (i.e. newThread class) 幫我們處理一些事務，這些事務通常是影像處理、控制器如狀態機等)，而toolbox class是我們會在newThead中使用到的工具箱函式。我們會在新的thread中實例化toolbox，因此toolbox會存在於新的thread中。所以當main thread想要得知toolbox中的特別參數時，我們使用signal/slots的方式來作thread之間的溝通。
+
+####在新的thread中實例化toolbox
+必須在newThread底下的run()之中宣告，該toolbox才會存在於新的thread，若是在其他地方宣告，如Initialize()之前，則仍會存在於main thread之中
+
+####在run()之中執行，並不一定先或後執行
+在run()中執行thread_property =1，但是main thread中執行get_property()取得thread_property值，因為在不同的thread中運行，所以會讀取到0(初始值)或1(修改值)並不一定。
+
+####用signal/slots的方式取得不同thread中的值
+newThread包含一個SIGNAL(getparametersignal())，當main thread欲取得toolbox中資料的時候，trigger這個SIGNAL，而對應的slot是toolbox中的SLOT(getparameter())
+
+main.cpp
+
+	pnewThread = new newThread();
+	pnewThread->start(); // run() 這個function 在新的thread中開始執行
+	pnewThread->state(); // @main thread
+	pnewThread->get_property(); //取得newThread中的property 
+	pnewThread->accessToolbox(); //在此member function中emit signal 通知toolbox 
+
+newThread.h
+
+	#include <qthread.h>
+	#include <QDebug>
+	#include "toolbox.h"
+	class newThread: public QThread
+	{
+		Q_OBJECT
+	public:
+		newThread();
+		~newThread();
+		int Initialize(void);
+		int executing(int input);
+		void accessToolbox();
+		void get_property();
+	private:
+		toolbox *ptoolbox;
+		int thread_property =0;
+	protected:
+		void run();
+	signals:
+		void getparametersignal();
+	};
+
+newThread.cpp
+
+	#include "newThread.h"
+
+
+	newThread::newThread()
+	{
+		this->Initialize();
+	}
+
+
+	newThread::~newThread()
+	{
+	}
+
+	int newThread::Initialize(void){	
+		return 0;
+	}
+
+	int newThread::executing(int input){
+		qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;	
+		ptoolbox = new toolbox();
+		ptoolbox->image_processing(input);
+		connect(this, SIGNAL(getparametersignal()), ptoolbox, SLOT(getparameter()));
+		return 0;
+	}
+
+	void newThread::run(void){
+		//qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;
+		this->executing(5);
+		this->thread_property = 1;
+
+	}
+
+	void newThread::accessToolbox(){
+		emit getparametersignal();
+	}
+
+	void newThread::get_property(){
+		qDebug() << __FUNCTION__ << thread_property << endl;
+	};
+
+toolbox.h
+
+	#include <qdebug.h>
+	#include <qthread.h>
+	class toolbox: public QThread
+	{	
+		Q_OBJECT
+	public:
+		toolbox();
+		~toolbox();
+		int image_processing(int input);
+	private:
+		int parameter;
+	private slots:
+		int getparameter();
+	};
+
+toolbox.cpp
+
+	#include "toolbox.h"
+	toolbox::toolbox()
+	{
+	}
+
+
+	toolbox::~toolbox()
+	{
+	}
+
+	int toolbox::image_processing(int input){
+		parameter = input;
+		qDebug() << __FUNCTION__ << "image_processing:" << this->currentThreadId() << ", parameter:" << parameter << endl;	
+		return 0;
+	}
+
+	int toolbox::getparameter(){
+		qDebug() << __FUNCTION__ << parameter << endl;
+		return 0;
+	};
+
+##Application
+1. image processing 
+2. FSM
+
+##references
+1. [Qt event system](http://doc.qt.io/qt-5/eventsandfilters.html)
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+6. d3, machine learning, algorithm
+7. TCP/IP back information
+8. 3D printer driver
+9. [leetcode](https://leetcode.com/)
+10. [CSS3 Patterns Gallery](http://lea.verou.me/css3patterns/)
+
+
+##projects
+1. drag and match game (3days)
+2. parser, OODL (3 days)
+3. 書架 (3 days)
+4. 古今相照 加入
+5. multi-purpose and convertible furniture
+
+
+
+unpublish
+undefined
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+6. d3, machine learning, algorithm
+7. TCP/IP back information
+8. 3D printer driver
+9. [leetcode](https://leetcode.com/)
+10. [CSS3 Patterns Gallery](http://lea.verou.me/css3patterns/)
+11. [Vue.js 使用svg製作互動動畫](https://www.facebook.com/bosscodingplease/?hc_ref=NEWSFEED)
+12. d 
+
+
+##projects
+1. drag and match game (3days)
+2. parser, OODL (3 days)
+3. 書架 (3 days)
+4. 古今相照 加入
+5. multi-purpose and convertible furniture
+
+
+
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+unpublish
+undefined
+unpublish
+undefined
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+unpublish
+undefined
+unpublish
+undefined
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:computer_science
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+filename:Qt_thread_notes.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/Qt_thread_notes.markdown
+data#QT Thread 使用筆記
+
+!tag qt, thread 
+!publish
+
+
+## Notes
+1. 物件在哪一個thread中被實例化，則該物件(包含旗下的property)存在於該thread
+2. 物件實例化後的member function是在哪一個thread中執行就需要去釐清。
+3. 當想要存取別的thread中的資料時，使用signal/slots
+
+##架構
+1. main thread實例一個繼承自QThread (newThread)的物件，該物件存在於 main thread
+2. newThread run() 中的statement會在新的thread中執行
+3. 在run() 中宣告一個toolbox，並connect signal/slots
+
+##Usage範例
+###使用情境
+我們希望在main thread之外，能有一個thread (i.e. newThread class) 幫我們處理一些事務，這些事務通常是影像處理、控制器如狀態機等)，而toolbox class是我們會在newThead中使用到的工具箱函式。我們會在新的thread中實例化toolbox，因此toolbox會存在於新的thread中。所以當main thread想要得知toolbox中的特別參數時，我們使用signal/slots的方式來作thread之間的溝通。
+
+####在新的thread中實例化toolbox
+必須在newThread底下的run()之中宣告，該toolbox才會存在於新的thread，若是在其他地方宣告，如Initialize()之前，則仍會存在於main thread之中
+
+####在run()之中執行，並不一定先或後執行
+在run()中執行thread_property =1，但是main thread中執行get_property()取得thread_property值，因為在不同的thread中運行，所以會讀取到0(初始值)或1(修改值)並不一定。
+
+####用signal/slots的方式取得不同thread中的值
+newThread包含一個SIGNAL(getparametersignal())，當main thread欲取得toolbox中資料的時候，trigger這個SIGNAL，而對應的slot是toolbox中的SLOT(getparameter())
+
+main.cpp
+
+	pnewThread = new newThread();
+	pnewThread->start(); // run() 這個function 在新的thread中開始執行
+	pnewThread->state(); // @main thread
+	pnewThread->get_property(); //取得newThread中的property 
+	pnewThread->accessToolbox(); //在此member function中emit signal 通知toolbox 
+
+newThread.h
+
+	#include <qthread.h>
+	#include <QDebug>
+	#include "toolbox.h"
+	class newThread: public QThread
+	{
+		Q_OBJECT
+	public:
+		newThread();
+		~newThread();
+		int Initialize(void);
+		int executing(int input);
+		void accessToolbox();
+		void get_property();
+	private:
+		toolbox *ptoolbox;
+		int thread_property =0;
+	protected:
+		void run();
+	signals:
+		void getparametersignal();
+	};
+
+newThread.cpp
+
+	#include "newThread.h"
+
+
+	newThread::newThread()
+	{
+		this->Initialize();
+	}
+
+
+	newThread::~newThread()
+	{
+	}
+
+	int newThread::Initialize(void){	
+		return 0;
+	}
+
+	int newThread::executing(int input){
+		qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;	
+		ptoolbox = new toolbox();
+		ptoolbox->image_processing(input);
+		connect(this, SIGNAL(getparametersignal()), ptoolbox, SLOT(getparameter()));
+		return 0;
+	}
+
+	void newThread::run(void){
+		//qDebug() << __FUNCTION__ << "newThread function:" << this->currentThreadId() << endl;
+		this->executing(5);
+		this->thread_property = 1;
+
+	}
+
+	void newThread::accessToolbox(){
+		emit getparametersignal();
+	}
+
+	void newThread::get_property(){
+		qDebug() << __FUNCTION__ << thread_property << endl;
+	};
+
+toolbox.h
+
+	#include <qdebug.h>
+	#include <qthread.h>
+	class toolbox: public QThread
+	{	
+		Q_OBJECT
+	public:
+		toolbox();
+		~toolbox();
+		int image_processing(int input);
+	private:
+		int parameter;
+	private slots:
+		int getparameter();
+	};
+
+toolbox.cpp
+
+	#include "toolbox.h"
+	toolbox::toolbox()
+	{
+	}
+
+
+	toolbox::~toolbox()
+	{
+	}
+
+	int toolbox::image_processing(int input){
+		parameter = input;
+		qDebug() << __FUNCTION__ << "image_processing:" << this->currentThreadId() << ", parameter:" << parameter << endl;	
+		return 0;
+	}
+
+	int toolbox::getparameter(){
+		qDebug() << __FUNCTION__ << parameter << endl;
+		return 0;
+	};
+
+##Application
+1. image processing 
+2. FSM
+
+##references
+1. [Qt event system](http://doc.qt.io/qt-5/eventsandfilters.html)
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+6. d3, machine learning, algorithm
+7. TCP/IP back information
+8. 3D printer driver
+9. [leetcode](https://leetcode.com/)
+10. [CSS3 Patterns Gallery](http://lea.verou.me/css3patterns/)
+11. [Vue.js 使用svg製作互動動畫](https://www.facebook.com/bosscodingplease/?hc_ref=NEWSFEED)
+12. vue angular react d3 bootstrap
+vue: simpler than angular
+13. bootstrap
+14. [AI for robotics](https://classroom.udacity.com/courses/cs373-old/lessons/48752102/concepts/484393860923#)
+15. [網頁切版](https://goo.gl/wFSDrL)
+16. drag and match game (3days)
+17. parser, OODL (3 days)
+18. 書架 (3 days)
+19. 古今相照 加入
+20. multi-purpose and convertible furniture
+
+##projects
+
+
+
+
+
+cd cmd dir to move:computer_science
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+cd cmd dir to move:MachineLearning
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/,/home/ubuntu/nodejs/jarvis/blog/computer_science/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/MachineLearning/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/MachineLearning/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/MachineLearning/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/MachineLearning/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/',
+  syscall: 'readdir' }
+cd cmd dir to move:d3
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/MachineLearning/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/MachineLearning/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/MachineLearning/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/MachineLearning/',
+  syscall: 'readdir' }
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+6. d3, machine learning, algorithm
+7. TCP/IP back information
+8. 3D printer driver
+9. [leetcode](https://leetcode.com/)
+10. [CSS3 Patterns Gallery](http://lea.verou.me/css3patterns/)
+11. [Vue.js 使用svg製作互動動畫](https://www.facebook.com/bosscodingplease/?hc_ref=NEWSFEED)
+12. vue angular react d3 bootstrap
+vue: simpler than angular
+13. bootstrap
+14. [AI for robotics](https://classroom.udacity.com/courses/cs373-old/lessons/48752102/concepts/484393860923#)
+15. [網頁切版](https://goo.gl/wFSDrL)
+16. drag and match game (3days)
+17. parser, OODL (3 days)
+18. 書架 (3 days)
+19. 古今相照 加入
+20. multi-purpose and convertible furniture
+
+##projects
+
+
+
+
+
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+
+command from user:markdown
+compiler: lexical analyzing
+There are 0 NUM:
+There are 1 VAR:
+[ 'm', 'a', 'r', 'k', 'd', 'o', 'w', 'n' ]
+Tokens:
+VAR
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:computer_science
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+filename:FSM_transition_matrix_autogenerate_diagram_code.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+path:blog/computer_science/FSM_transition_matrix_autogenerate_diagram_code.markdown
+data#Auto Generate FSM object with Transition Matrix Input
+!tag FSM
+!publish
+
+##Overview
+這個專案是一個自動產生程式語言實作、描述的平台。狀態機(FSM)對程式設計師而言是非常常用的一種設計模式，筆者在撰寫軟體、韌體時，已經非常習慣使用狀態機來控制程式的流程，因為這種設計模式讓程式非常的容易除錯，程式的邏輯因為狀態機控制變得比較單純。但是對筆者而言，要在不同的語言下去實作狀態機，記憶不同程式語言的語法就是一件大量重覆的工作，因為工作需要常常在不同的語言下切換(Javascript, Verilog, C++等)，常常要回去翻過去專案的原始碼，才會記起相關的實作細節。因此使用自動化產生程式碼的目的，就是要減少程式設計師的工作量，系統化一些重覆的工作，藉此減低撰寫程式上的負擔。這篇文章介紹如何建構一個自動產生FSM物件的工具，有了這個工具，程式設計師可以專心在程式的架構上，而實作細節不再需要粍掉程式設計師大量的時間以及心力。我希望能將這部份的工作標準化，同樣且重要的工作認真的作一次，往後就可以安心的在框架下作業，如此增加工作完成的效率以及準確度，是這個專案的核心目的。
+
+##output language
+因為筆者工作主要的語言是C++, Verilog次之，所以會先產生C++的版本，再來是Verilog
+
+##transition matrix described by FSM Markup Language
+作為使用者輸入的方式，我選用了Transition Matrix，讓使用者描述狀態機，而格式則是採用Markdown。用Markdown的優點是有利於筆者文件化，以及文件的可讀性。用Markdown可以讓使用者(人類)容易理解，也可以透過相關的library解析後為電腦所處理。
+
+以紅緣燈為例 
+| STATE/event()        | 30seconds()         |5seconds()|  60seconds()  |
+|: -------------------: |:------------------- :| :------------:|  :---------------:|
+| GREEN                  | YELLOW             | X               |    X
+| YELLOW                | X                         |  RED         |    X
+|RED                        | X                         |   X             |     GREEN
+  
+
+##轉換流程
+介紹轉換流程的同時，也是介紹技術上的細節。筆者希望程式設計師能夠將時間節省在設計這一個步驟。所以在這個平台使用者的輸入介面就是狀態轉換的列表，除此之外沒有了！而平台的輸出呢就是自動化產生的C++ object class。
+
+我們已經知道最終我們要的輸出是什麼，以及使用者輸入，剩下的就是我們應該自動化的部份了。條列一下逐步需要做的事情。
+
+1. 使用者輸入Transition Matrix，用Markdown的格式
+2. Markdown 格式的表格經由特定的[函式庫]轉換成HTML(參考[showdown](https://github.com/showdownjs/showdown))
+3. 自定一個函式庫，將HTML格式的table 解析出有多少state, event等資訊
+4. 有了state, event這些資料就足以產一一個FSM的框架了。
+
+##C++ class architecture
+###state abstract class
+1. 命名：[project name]StateAbstract.[cpp|h]
+2. 定義各個event()的行為，預設在各state不作工作
+
+###state class
+1. 命名：[project name]State[state name].[cpp|h]
+example: f
+2. 繼承自state abstract class，有幾個state就有幾個class
+3. 若event()在該state有觸發行為，則該event()在該state要實作。 
+
+###controller abstract class
+###controller class
+####"event" member function 
+
+
+##references
+1. [State Transition Table Wiki](https://en.wikipedia.org/wiki/State_transition_table)
+2. [GoJS](http://gojs.net/latest/index.html)
+3. [Markdown to HTML javascript library](https://github.com/showdownjs/showdown)
+
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+ls:/home/ubuntu/nodejs/jarvis/blog/computer_science/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/computer_science/
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:recipe
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/recipe/
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+unpublish
+undefined
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:recipe
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/recipe/
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+unpublish
+undefined
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/recipe/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/recipe/',
+  syscall: 'readdir' }
+cd cmd dir to move:..
+a
+pwd:/home/ubuntu/nodejs/jarvis/blog/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+cd cmd dir to move:javascripts
+paths in stack:/home/ubuntu/nodejs/jarvis/blog/
+pwd:/home/ubuntu/nodejs/jarvis/blog/javascripts/
+ls:/home/ubuntu/nodejs/jarvis/blog/javascripts/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/javascripts/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/javascripts/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/javascripts/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/javascripts/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/javascripts/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/javascripts/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/javascripts/',
+  syscall: 'readdir' }
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/javascripts/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/javascripts/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/javascripts/',
+  syscall: 'readdir' }
+ls:/home/ubuntu/nodejs/jarvis/blog/javascripts/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/javascripts/
+{ [Error: ENOENT, no such file or directory '/home/ubuntu/nodejs/jarvis/blog/resources/photos/javascripts/']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/ubuntu/nodejs/jarvis/blog/resources/photos/javascripts/',
+  syscall: 'readdir' }
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+ls:/home/ubuntu/nodejs/jarvis/blog/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+filename:todo.markdown
+current_path:/home/ubuntu/nodejs/jarvis/blog/
+path:blog/todo.markdown
+data#TODO
+
+1. image server on node.js
+2. issue: 首頁的資料夾
+3. copy and paste image on jarvis
+[reference](https://codepen.io/netsi1964/pen/IoJbg)
+4. 加入latex, equation (mathjax)
+[reference](https://blog.gtwang.org/web-development/mathjax-latex-mathml/)
+5. reseme
+6. d3, machine learning, algorithm
+7. TCP/IP back information
+8. 3D printer driver
+9. [leetcode](https://leetcode.com/)
+10. [CSS3 Patterns Gallery](http://lea.verou.me/css3patterns/)
+11. [Vue.js 使用svg製作互動動畫](https://www.facebook.com/bosscodingplease/?hc_ref=NEWSFEED)
+12. vue angular react d3 bootstrap
+vue: simpler than angular
+13. bootstrap
+14. [AI for robotics](https://classroom.udacity.com/courses/cs373-old/lessons/48752102/concepts/484393860923#)
+15. [網頁切版](https://goo.gl/wFSDrL)
+16. drag and match game (3days)
+17. parser, OODL (3 days)
+18. 書架 (3 days)
+19. 古今相照 加入
+20. multi-purpose and convertible furniture
+
+##projects
+
+
+
+
+
+unpublish
+undefined
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+album_pwd:/home/ubuntu/nodejs/jarvis/blog/resources/photos/
+SyntaxError: Unexpected string
+    at Object.parse (native)
+    at parse (/home/ubuntu/nodejs/node_modules/body-parser/lib/types/json.js:88:17)
+    at /home/ubuntu/nodejs/node_modules/body-parser/lib/read.js:116:18
+    at invokeCallback (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:262:16)
+    at done (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:307:7)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+SyntaxError: Unexpected string
+    at Object.parse (native)
+    at parse (/home/ubuntu/nodejs/node_modules/body-parser/lib/types/json.js:88:17)
+    at /home/ubuntu/nodejs/node_modules/body-parser/lib/read.js:116:18
+    at invokeCallback (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:262:16)
+    at done (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:307:7)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+SyntaxError: Unexpected number
+    at Object.parse (native)
+    at parse (/home/ubuntu/nodejs/node_modules/body-parser/lib/types/json.js:88:17)
+    at /home/ubuntu/nodejs/node_modules/body-parser/lib/read.js:116:18
+    at invokeCallback (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:262:16)
+    at done (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:307:7)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+SyntaxError: Unexpected number
+    at Object.parse (native)
+    at parse (/home/ubuntu/nodejs/node_modules/body-parser/lib/types/json.js:88:17)
+    at /home/ubuntu/nodejs/node_modules/body-parser/lib/read.js:116:18
+    at invokeCallback (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:262:16)
+    at done (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:307:7)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+SyntaxError: Unexpected number
+    at Object.parse (native)
+    at parse (/home/ubuntu/nodejs/node_modules/body-parser/lib/types/json.js:88:17)
+    at /home/ubuntu/nodejs/node_modules/body-parser/lib/read.js:116:18
+    at invokeCallback (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:262:16)
+    at done (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/home/ubuntu/nodejs/node_modules/body-parser/node_modules/raw-body/index.js:307:7)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)
+
+/home/ubuntu/nodejs/jarvis/express_jarvis.js:60
+console.log('login');
+                    ^
+SyntaxError: Unexpected token ;
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+login
+1
+login
+1
