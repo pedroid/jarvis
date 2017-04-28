@@ -1,4 +1,4 @@
-im = require('imagemagick')
+var im = require('imagemagick')
 var busboy = require('connect-busboy')
 var express = require('express')
 var http = require('http')
@@ -16,6 +16,7 @@ var design_pattern = require('./design_pattern_engine.js');
 var Passport = require('passport')
 var LocalStrategy = require('passport-local').Strategy;
 var BodyParser = require('body-parser');
+var obj2html = require('./obj2html.js');
 var users = {
 	yushengc:{
 		username:'yushengc',
@@ -46,7 +47,7 @@ var localStrategy = new LocalStrategy({
  
       done( null, user );
     }
-  )
+)
  
 Passport.use( 'local', localStrategy );
 
@@ -54,14 +55,22 @@ app.use( BodyParser.urlencoded( { extended: false } ) );
 app.use( BodyParser.json() );
 app.use( Passport.initialize() );
 
-app.post(
-  '/login',
-  Passport.authenticate( 'local', { session: false } ),
-  function( req, res ) {
 
-	    res.send( '<br/>User ID<br/> ' + req.user.id );
-  }
-);
+app.get('/login.html', function(req, response, next) {
+
+	fs.readFile('login.html', function(error, data) {
+     	   if (error){
+		          response.writeHead(404,{'Content-Type':'text/html'});
+	        	  response.write("opps this doesn't exist - 404");
+           } else {
+		          response.writeHead(200, {"Content-Type": "text/html"})
+		          response.write(data, "utf8");
+       	   }
+        response.end();
+
+	});
+});
+
 
 app.use(busboy());
 app.use(express.static(__dirname+'/public'));
@@ -71,6 +80,7 @@ format = function() {
 };
 app.use(express.static('public'));
 app.use('/d3/',express.static('d3'));
+app.use('/react/',express.static('d3'));
 app.use('/markdown/',express.static('markdown'));
 app.use('/UMLGen/',express.static('UMLGen'));
 app.use('/test/',express.static('test'));
@@ -153,8 +163,19 @@ app.get('/blog/:article',function(req, response){
 	});
 });
 app.get('/', function(req, res){
-	res.send('Hello World!');
-})
+//	res.send('Hello World!');
+	fs.readFile('index.html', function(error, data){
+     	   	if (error){
+		          res.writeHead(404,{'Content-Type':'text/html'});
+	        	  res.write("opps this doesn't exist - 404");
+	        } else {
+		          res.writeHead(200, {"Content-Type": "text/html"});
+		          res.write(data, "utf8");
+       		}
+		res.end();
+	});
+});
+
 app.get('/ui_cmd.html', function(request, response){
 
 	fs.readFile('ui_cmd.html', function(error, data) {
@@ -167,7 +188,6 @@ app.get('/ui_cmd.html', function(request, response){
        	   }
         response.end();
      });
-
 
 });
 
@@ -185,6 +205,7 @@ app.get('/youtube.html', function(request, response){
 		response.end();
 	});
 });
+
 app.get('/markdown/markdown.html', function(request, response){
 	fs.readFile('markdown/markdown.html', function(error, data){
 		if(error){
@@ -272,26 +293,23 @@ app.get('/forfun.html',function(req, res){
 		{quotes: 111}
 	);
 });
-var state_grp = [];
-app.post('/UMLGen/fsm_post', function(request, response){
 
+
+app.post('/UMLGen/fsm_post', function(request, response){
+	var state_grp = [];
 	formData='';
-	request.on("data", function(data){
-		//var post = qs.parse(data);
-		formData+= data;
-		//console.log(post);
-//		return formData+= data;
-	});
-	request.on("end", function(){
+//	console.log(request.body.state0);
+	
+
 		state_grp = [];
+		
 		response.writeHead(200, {"Content-Type":"text/html"});
-		post = qs.parse(formData);
-		state_number = post.state_number;
+		state_number = request.body.state_number;
 		response.write("state number="+state_number+"<br/>");
 //		state0 = post.state0;
 //		state1 = post.state1;
 		for(var i =0; i<state_number;i++){
-			eval('state_grp.push(post.state'+i+');');
+			eval('state_grp.push(request.body.state'+i+');');
 		}
 		for(var i=0;i<state_number;i++){
 			response.write("state"+i+"="+state_grp[i]+'<br/>');
@@ -301,30 +319,9 @@ app.post('/UMLGen/fsm_post', function(request, response){
 //		response.write("state0="+state0+"<br/>");
 //		response.write("state1="+state1+"<br/>");
 		
-		response.end();
-	});
+	response.end();
 });
 
-app.post('/form/signup_post', function(request, response){
-	
-	//response.render('pages/test');
-	
-	formData='';
-	request.on("data", function(data){
-		//var post = qs.parse(data);
-		formData+= data;
-		//console.log(post);
-//		return formData+= data;
-	});
-	request.on("end", function(){
-		response.writeHead(200, {"Content-Type":"text/html"});
-		post = qs.parse(formData);
-		user = post.user;
-		response.write("user="+user+"<br/>");
-		response.end();
-	});
-	
-});
 app.post('/form/forfun', function(request, response){
 	console.log('form/forfun');
 	formData='';
@@ -400,15 +397,15 @@ app.post('/file_upload', function(req, res){
 			var file_path = __dirname + '/blog/resources/photos/' + relative_path + curr_file;
 			var filename_small = curr_file.split('.')[0]+'.small.'+curr_file.split('.')[1];
 			var file_small_path = __dirname + '/blog/resources/photos/' + relative_path + filename_small; 
-			
+			var filename = curr_file.split('.')[1];	
 			im.resize({
 				  srcPath: file_path,
 				  dstPath: file_small_path,
-				  width:   256
+				  width:   600
 				}, function(err, stdout, stderr){
 			//	console.log(err + stdout + stderr);
+				console.log('resized image generated');
 			})
-			console.log('resized image generated');
 		});
 
 });
@@ -497,6 +494,9 @@ servo_io.sockets.on('connection', function(socket) {
 				public_html_content += "<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js'></script>\n"
 				public_html_content += "</body>\n";
 				public_html_content += "</html>\n";
+				console.log(data.html_content);	
+				public_html_content = obj2html.gen_main_html(data.html_content);
+
 				fs.writeFile('blog/'+ relative_pwd +data.filename+'.html', public_html_content, function(err){}	);
 				fs.writeFile('blog/'+ relative_pwd +data.filename+'.markdown', data.markdown_content, function(err){}	);
 				socket.emit('server_response',{'response_content':'blog/'+relative_pwd + data.filename+' .html/markdown has been created.'});
