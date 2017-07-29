@@ -17,24 +17,35 @@ var Passport = require('passport')
 var LocalStrategy = require('passport-local').Strategy;
 var BodyParser = require('body-parser');
 var obj2html = require('./obj2html.js');
+var render_user = require('./user_template.js');
+var session = require('express-session');
+
+var file = "./test.db";
+//載入 sqlite3
+var sqlite3 = require("sqlite3").verbose();
+//新增一個sqlite3的資料庫test.db
+var db = new sqlite3.Database(file);
+
+//db.close();
 var users = {
 	yushengc:{
-		username:'yushengc',
+		user:'yushengc',
 		password:'1234',
 		id:1,	
 	},
 	guest:{
-		username:'guest',
+		user:'guest',
 		password:'5678',
 		id:2,
 	},
 }
 
 var localStrategy = new LocalStrategy({
-      usernameField: 'username',
+      usernameField: 'user',
       passwordField: 'password',
     },
     function(username, password, done) {
+//	console.log('username:'+username);
       user = users[ username ];
  
       if ( user == null ) {
@@ -50,11 +61,48 @@ var localStrategy = new LocalStrategy({
 )
  
 Passport.use( 'local', localStrategy );
+Passport.serializeUser(function(user, done){
+	done(null, user);
+});
 
+Passport.deserializeUser(function(user, done){
+	done(null, user);
+});
 app.use( BodyParser.urlencoded( { extended: false } ) );
 app.use( BodyParser.json() );
-app.use( Passport.initialize() );
 
+app.use(session({
+	secret:'ilovekiro',
+	cookie:{
+		maxAge:30*1000
+	},
+	resave:true,
+	saveUninitialized: true
+}));
+
+app.use( Passport.initialize() );
+app.get('/logout', function(req, res){
+	req.logOut();
+	req.session.destroy(function(err){
+		res.redirect("/login.html");
+	});
+//	res.redirect("/login.html");
+});
+app.get('/session', function(req, res, next) {
+	console.log(req.session);
+	if(req.session.isvisit) {
+		console.log(req.session.id);
+		console.log(req.session);
+		req.session.count += 1;
+		res.send("这是你第"+req.session.count+"来访");
+	} else {
+		req.session.user = "kiro";
+		console.log(req.session.user);
+		req.session.count = 1;	//第几次访问
+		req.session.isvisit = true;
+		res.send('first time');
+	}		
+});
 
 app.get('/login.html', function(req, response, next) {
 
@@ -70,7 +118,113 @@ app.get('/login.html', function(req, response, next) {
 
 	});
 });
+app.get('/user',
+	function(req, res){
+		//req.session.user = user.user;
+		console.log('user:'+req.session.user);
+		if(req.session.user){
+		
+			db.serialize(function() {
+			  //如果表格test01不存在，就新增test01
+			  db.run("CREATE TABLE IF NOT EXISTS  table01 (name TEXT,remark TEXT)");
+    
+			  //新增資料
+			  var sql01 = "INSERT INTO table01(name,remark) VALUES (?,?)";
+			  db.run(sql01,[req.session.user,"ddd"]);  
+  
+  			//如果表格test01不存在，就新增test01
+			  db.run("CREATE TABLE IF NOT EXISTS  table01 (name TEXT,remark TEXT)");
+  
+			  //查詢資料
+			  var sql02 = "SELECT rowid AS id, name,remark FROM table01"; 
+			  db.each(sql02, function(err, row) {
+			    console.log(row.id + ": " + row.name);
+			  });
+    
+			});
 
+		if(req.session.isvisit){
+		//console.log(req.session.id);
+		//console.log(req.session);
+		req.session.count += 1;
+		//res.send("hi "+ req.session.user  +",这是你第"+req.session.count+"来访");
+		res.render(
+			'index.ejs',
+			{quotes: req.session.user});
+
+		}else{//first
+			
+		//req.session.user = "kiro";
+		console.log(req.session.user);
+		req.session.count = 1;	//第几次访问
+		req.session.isvisit = true;
+		//res.send('hi '+ req.session.user +',first time');
+		res.render(
+			'index.ejs',
+			{quotes: req.session.user});
+		}
+		/*
+		res.render(
+			'index.ejs',
+			{quotes: req.session.user});
+		*/
+		//res.end();
+		}else{
+
+			console.log("user undefined, redirect to login page");
+			res.redirect('/login.html');
+		}
+	}
+)
+
+app.get('/user/:id', 
+	
+	
+	function(req, res){
+	console.log('req.user:'+req.params['id']);
+	res.render(
+		'index.ejs', 
+		{quotes: req.params['id']}
+	);
+	}
+	
+
+);
+
+app.post('/login', 
+	
+	function(req, res){
+	//	console.log(req.body);
+	//	console.log(req.body.user);
+	req.session.user = req.body.user;
+	res.redirect('/user/');
+//	res.redirect('/user/'+req.body.user);
+	/*
+		Passport.authenticate('local', {
+			successRedirect: '/user',
+			failureRedirect: '/'
+			}
+		);
+		//res.end();
+	*/
+	}
+	
+/*
+	Passport.authenticate('local', 
+		
+		{
+		successRedirect: '/user', 
+		failureRedirect: '/'		
+		}
+		
+	)
+*/
+//	Passport.authenticate('local')
+);
+
+//app.use(express.cookieParser());
+app.use(Passport.initialize());
+app.use(Passport.session());
 
 app.use(busboy());
 app.use(express.static(__dirname+'/public'));
